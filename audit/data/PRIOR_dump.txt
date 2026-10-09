@@ -1,0 +1,745 @@
+
+### Read Me: 88 rows
+1: Meta Ads Audit: Beguile (act 480225648142941)
+3: Account | Beguile · act 480225648142941
+4: Period | 2025-10-07 to 2026-10-06 · 12 months (365 days)
+5: Partial period? | No. Ends on the last complete day; today (2026-10-07) excluded
+6: Currency | NGN (₦) throughout; Shopify orders also NGN; no conversion applied
+7: Timezone | Africa/Lagos
+8: Attribution window | 7-day click, 1-day view (account default)
+9: Data basis | Meta-attributed Purchases and Purchase value. Blended figures (Shopify revenue ÷ Meta spend) are labelled where used.
+10: Optimisation event | Purchase (pixel 1015068333591306) on 1,376 of 1,412 ads (pixel attached to 1,381)
+11: Source | Meta Ads via Windsor.ai connector, ad level, daily; Shopify orders via Windsor.ai; pulled 2026-10-07
+12: Live ads | 112 ads · 55 ad sets · 54 campaigns with effective status ACTIVE
+13: Prepared | 2026-10-07
+15: Start here: what the audit found
+16: Over 12 months the account spent ₦189.2M for 9,607 Meta-attributed purchases worth ₦1.19B (ROAS 6.28, CPA ₦19,695). The money is not the problem. The structure is.
+17: • The account never leaves the learning phase. 476 campaigns were launched in 12 months, with a median life of 8 days. Of 2,742 ad-set-weeks, none reached 50 purchases.
+18: • Proven winners get paused. 27 Sales ad sets that returned at least 9× are now paused. Examples: CEO Passion NG at 22.45, Passion & Seduction at 15.26, NG Catalogue at 12.05. Each was replaced by a fresh ad set that starts learning from zero.
+19: • International spend is the largest drag. The UK, Canada and the US took 48.9% of spend (₦92.6M) at ROAS 3.58 and CPA ₦38,875. Nigeria returned 8.86 at CPA ₦13,364. Of the 149 Sales-objective ad sets that spent past the threshold with zero purchases, 145 were international.
+20: Single primary bottleneck: fragmentation. Budget is spread across dozens of short-lived ad sets on ₦10,000–₦15,000 a day, none of which can gather the roughly 50 purchases a week that Meta needs.
+21: Most critical recommendation: consolidate Nigeria into one or two long-running Sales campaigns, with a budget that can clear 50 purchases a week (about ₦95,000 a day per ad set at Nigeria's observed CPA). Feed new creative in as ads inside those campaigns, not as new campaigns.
+22: Treat every efficiency figure below as an upper bound. In September 2026, Meta reported more purchases (861) than Shopify recorded in total (804).
+24: Headline figures (formulas over the Monthly tab)
+25: Amount spent | ₦189,206,408.59
+26: Purchases (Meta-attributed) | 9,607
+27: Purchase value (Meta-attributed) | ₦1,187,617,526.03
+28: ROAS | 6.28
+29: CPA | ₦19,694.64
+31: By market, 12 months (formulas over the Monthly tab)
+32: Market | Amount spent | ROAS | CPA
+33: NG | ₦96,570,647 | 8.86 | ₦13,364
+34: CA | ₦42,520,227 | 3.39 | ₦39,009
+35: UK | ₦38,928,440 | 3.88 | ₦36,690
+36: US | ₦11,113,694 | 3.28 | ₦48,320
+37: Markets with under ₦100,000 of spend (UK+NG) are left out of this table.
+39: Prioritised actions (detail in Findings, section 9)
+40: Priority | Action | Worth | Where to look
+41: High priority 1 | Consolidate Nigeria into long-running campaigns that can exit learning | At September's Nigeria spend (₦14.05M, 696 purchases), a 15% cut in CPA (₦20,183 → ₦17,156) would mean about 123 more purchases a month, roughly ₦15.2M of attributed value at ₦123,620 each. This is an illustrative estimate; the real effect is what the measure decides. | Live Ad Sets tab
+42: High priority 2 | Re-test the market split with a measured shift from international to Nigeria | Up to about 112 more purchases a month at 12-month rates, roughly ₦13.8M of attributed value. Treat it as an upper bound. | Live Ad Sets tab
+43: High priority 3 | Stop pausing winners; refresh their creative instead | The 28 paused Z12 ad sets returned ₦24.2M of spend at 9.4–22.5 ROAS, which shows these structures could be kept running. | Live Ad Sets tab
+44: Medium priority | Fix the Awareness targeting and question the international Awareness spend | About ₦600,000 a month of Reach spend. | Live Ad Sets tab
+45: Medium priority | Launch a measured retargeting test | Unknown. Retargeting has never been tested here (₦161,000 in 12 months), so the size of the opportunity can't be estimated yet. | Findings, section 9
+46: Creative or testing | Fund the formats that return: Catalogue and Static in Nigeria | NG Catalogue alone returned ₦27.1M on ₦2.25M. | Live Ad Sets tab
+47: Measurement before scaling anything | Reconcile Meta to Shopify | It determines whether the ₦189M budget is valued correctly. | Findings, section 9
+48: Nothing in the ad account has been changed. Every action is a recommendation to test.
+50: Tabs in this sheet
+51: Monthly | Monthly rollup by Funnel Stage, Audience, Ad Format and Market. ROAS and CPA are formulas.
+52: Zingers | Waste found by fixed thresholds: one summary row per zinger and scope, then every live-ad instance.
+53: Tracking | Whether the account can measure itself. Read before trusting any ROAS figure.
+54: Findings | The full report: live ads first (Part A), then other ads and the 12-month view (Part B).
+55: Live Ad Sets | One row per live ad set with a verdict, the reason and the figures.
+56: Data, Lookup, Weekly | The ad-by-day fact table (26,584 rows), the per-ad lookup (1,413 rows) and the weekly rollup are in the .xlsx export of this audit. In Google Sheets: File > Import > Upload, choose "Insert new sheet(s)".
+58: Definitions
+59: Live | Ad effective status ACTIVE (its ad set and campaign are therefore also active).
+60: Funnel Stage / Audience / Ad Format | Taken from Meta's own metadata, not names (names matched 0% of the default patterns). Audience and Funnel from each ad set's targeting (custom audiences, lookalikes, interests); Format from creative type, carousel cards and product set. Column '<level> tier' in Data shows the source of every value.
+61: Market | Countries in the ad set's targeting, including countries of targeted cities and regions (GB shown as UK).
+62: Interest vs Broad | Advantage+ audience is on for every ad, so configured interests are suggestions Meta can go beyond. Treat the split as indicative.
+63: Derived metrics | Recomputed from raw fields: CPM = spend ÷ impressions × 1000; CPC = spend ÷ link clicks; CTR = link clicks ÷ impressions; CVR = purchases ÷ link clicks; CPA = spend ÷ purchases; ROAS = purchase value ÷ spend. Blank where the denominator is zero.
+64: Active ad set | An ad set with spend in the last 7 days (2026-09-30 to 2026-10-06).
+66: Data quality
+67: Rows read | 26584
+68: Rows written | 26584
+69: Duplicate rows removed (Date + Ad ID) | 0
+70: Rows dropped for unparseable dates | 0
+71: Rows with null spend | 0
+72: Rows with null impressions | 0
+73: Rows with null clicks_all | 0
+74: Rows with null link_clicks | 0
+75: Rows with null purchases | 0
+76: Rows with null purchase_value | 0
+77: Rows with zero spend (kept; excluded from efficiency pivots) | 1458
+78: Rows with negative spend | 0
+79: Labels with whitespace trimmed or collapsed | 616
+80: Date range | 2025-10-07 to 2026-10-06
+81: Days in range | 365 | days with data: 365 | missing days: 0
+82: Span in months | 12.0
+83: Partial period | no (range ends 2026-10-06, before 2026-10-07)
+84: Total amount spent | 189,206,408.59
+85: Uncategorized by spend (names / final) | Funnel Stage 97.7% / 0.0% · Audience 100.0% / 0.0% · Ad Format 99.3% / 0.1%
+86: Naming match rate (top 50 by spend, default / extended) | Campaign 0% / 2% · Ad set 0% / 0% · Ad 0% / 6% (extended matches were false positives, so metadata was preferred)
+87: Nulls vs zeros | The connector returns 0 rather than null for missing actions, so a true zero cannot be told apart from a missing value.
+88: Reconciliation | Ad-level spend ₦189,206,408.59 vs account-level ₦189,206,408.23 (daily rounding). Purchases 9,607 at both levels.
+
+### Monthly: 226 rows
+1: Period | Funnel Stage | Audience | Ad Format | Market | Amount spent | Impressions | Link clicks | Purchases | Purchase value | ROAS | CPA
+2: 2025-10 | Prospecting | Broad | Carousel | NG | ₦75,557.01 | 9,982 | 89 | 5 | ₦375,500.00 | 4.97 | ₦15,111.40
+3: 2025-10 | Prospecting | Broad | Video | NG | ₦789,222.32 | 188,837 | 2,189 | 79 | ₦7,666,626.46 | 9.71 | ₦9,990.16
+4: 2025-10 | Prospecting | Interest | Carousel | CA | ₦257,227.48 | 16,822 | 241 | 14 | ₦1,578,842.30 | 6.14 | ₦18,373.39
+5: 2025-10 | Prospecting | Interest | Carousel | NG | ₦353,727.93 | 72,499 | 893 | 31 | ₦2,976,500.00 | 8.41 | ₦11,410.58
+6: 2025-10 | Prospecting | Interest | Carousel | UK | ₦157,214.34 | 10,500 | 166 | 6 | ₦767,208.06 | 4.88 | ₦26,202.39
+7: 2025-10 | Prospecting | Interest | Static | CA | ₦410,688.53 | 24,862 | 241 | 25 | ₦3,583,972.39 | 8.73 | ₦16,427.54
+8: 2025-10 | Prospecting | Interest | Static | NG | ₦617,951.98 | 127,112 | 988 | 93 | ₦8,210,989.61 | 13.29 | ₦6,644.64
+9: 2025-10 | Prospecting | Interest | Static | UK | ₦34,833.57 | 2,368 | 32 | 2 | ₦170,653.17 | 4.90 | ₦17,416.79
+10: 2025-10 | Prospecting | Interest | Video | CA | ₦3,283,235.92 | 189,930 | 4,746 | 215 | ₦24,730,488.49 | 7.53 | ₦15,270.86
+11: 2025-10 | Prospecting | Interest | Video | NG | ₦3,755,839.11 | 734,847 | 8,267 | 518 | ₦52,668,048.46 | 14.02 | ₦7,250.65
+12: 2025-10 | Prospecting | Interest | Video | UK | ₦896,102.76 | 58,712 | 1,550 | 77 | ₦10,141,926.22 | 11.32 | ₦11,637.70
+13: 2025-10 | Uncategorized | Uncategorized | Uncategorized | Data not available | ₦0.00 | 0 | 0 | 0 | ₦0.00
+14: 2025-11 | Prospecting | Broad | Carousel | CA | ₦141,807.62 | 8,893 | 124 | 8 | ₦953,953.28 | 6.73 | ₦17,725.95
+15: 2025-11 | Prospecting | Broad | Video | CA | ₦143,863.76 | 10,045 | 106 | 2 | ₦246,728.75 | 1.72 | ₦71,931.88
+16: 2025-11 | Prospecting | Broad | Video | NG | ₦218,574.76 | 61,870 | 380 | 36 | ₦3,265,000.00 | 14.94 | ₦6,071.52
+17: 2025-11 | Prospecting | Interest | Carousel | CA | ₦1,374,474.00 | 86,885 | 1,031 | 47 | ₦5,240,067.18 | 3.81 | ₦29,244.13
+18: 2025-11 | Prospecting | Interest | Carousel | NG | ₦169,356.64 | 35,859 | 285 | 27 | ₦2,257,000.00 | 13.33 | ₦6,272.47
+19: 2025-11 | Prospecting | Interest | Carousel | UK | ₦143,353.01 | 10,049 | 272 | 8 | ₦1,069,885.54 | 7.46 | ₦17,919.13
+20: 2025-11 | Prospecting | Interest | Static | CA | ₦482,056.22 | 35,035 | 320 | 17 | ₦1,788,907.31 | 3.71 | ₦28,356.25
+21: 2025-11 | Prospecting | Interest | Static | NG | ₦442,600.81 | 149,065 | 695 | 69 | ₦6,496,500.00 | 14.68 | ₦6,414.50
+22: 2025-11 | Prospecting | Interest | Static | UK | ₦64,905.56 | 4,341 | 60 | 3 | ₦317,834.56 | 4.90 | ₦21,635.19
+23: 2025-11 | Prospecting | Interest | Video | CA | ₦2,387,006.71 | 135,911 | 2,312 | 72 | ₦8,318,700.03 | 3.48 | ₦33,152.87
+24: 2025-11 | Prospecting | Interest | Video | NG | ₦1,733,102.30 | 460,293 | 4,088 | 350 | ₦32,633,842.75 | 18.83 | ₦4,951.72
+25: 2025-11 | Prospecting | Interest | Video | UK | ₦1,329,946.63 | 83,863 | 2,134 | 105 | ₦12,518,306.53 | 9.41 | ₦12,666.16
+26: 2025-12 | Prospecting | Broad | Video | NG | ₦9,044.07 | 3,213 | 29 | 4 | ₦416,000.00 | 46.00 | ₦2,261.02
+27: 2025-12 | Prospecting | Interest | Carousel | CA | ₦106,836.59 | 6,533 | 57 | 0 | ₦0.00 | 0.00
+28: 2025-12 | Prospecting | Interest | Carousel | NG | ₦208,988.59 | 51,167 | 436 | 55 | ₦6,107,834.44 | 29.23 | ₦3,799.79
+29: 2025-12 | Prospecting | Interest | Static | CA | ₦114,798.12 | 11,313 | 74 | 11 | ₦1,192,881.56 | 10.39 | ₦10,436.19
+30: 2025-12 | Prospecting | Interest | Static | NG | ₦215,434.34 | 69,638 | 346 | 89 | ₦9,512,537.09 | 44.16 | ₦2,420.61
+31: 2025-12 | Prospecting | Interest | Static | UK | ₦0.00 | 0 | 0 | 0 | ₦0.00
+32: 2025-12 | Prospecting | Interest | Video | CA | ₦1,658,263.33 | 122,983 | 986 | 81 | ₦10,739,445.93 | 6.48 | ₦20,472.39
+33: 2025-12 | Prospecting | Interest | Video | NG | ₦974,889.94 | 271,589 | 1,915 | 308 | ₦31,922,770.25 | 32.74 | ₦3,165.23
+34: 2025-12 | Prospecting | Interest | Video | UK | ₦1,544,743.28 | 107,235 | 1,157 | 74 | ₦10,268,538.62 | 6.65 | ₦20,874.91
+35: 2026-01 | Prospecting | Broad | Video | NG | ₦522,233.49 | 124,124 | 1,971 | 68 | ₦8,212,250.00 | 15.73 | ₦7,679.90
+36: 2026-01 | Prospecting | Interest | Carousel | CA | ₦1,004,521.13 | 75,497 | 586 | 12 | ₦1,520,243.31 | 1.51 | ₦83,710.09
+37: 2026-01 | Prospecting | Interest | Carousel | NG | ₦111,107.74 | 22,361 | 170 | 11 | ₦1,279,250.00 | 11.51 | ₦10,100.70
+38: 2026-01 | Prospecting | Interest | Carousel | UK | ₦90,103.23 | 5,089 | 43 | 2 | ₦215,765.17 | 2.39 | ₦45,051.62
+39: 2026-01 | Prospecting | Interest | Catalogue | CA | ₦41,246.50 | 3,490 | 36 | 1 | ₦94,085.11 | 2.28 | ₦41,246.50
+40: 2026-01 | Prospecting | Interest | Catalogue | NG | ₦180,889.87 | 59,442 | 1,048 | 28 | ₦3,330,500.00 | 18.41 | ₦6,460.35
+41: 2026-01 | Prospecting | Interest | Catalogue | UK | ₦47,202.83 | 4,287 | 75 | 2 | ₦231,541.44 | 4.91 | ₦23,601.42
+42: 2026-01 | Prospecting | Interest | Static | CA | ₦588,709.33 | 49,620 | 428 | 11 | ₦1,600,472.17 | 2.72 | ₦53,519.03
+43: 2026-01 | Prospecting | Interest | Static | NG | ₦631,750.90 | 164,758 | 1,369 | 86 | ₦9,801,241.18 | 15.51 | ₦7,345.94
+44: 2026-01 | Prospecting | Interest | Static | UK | ₦426,255.75 | 34,619 | 378 | 14 | ₦1,777,733.43 | 4.17 | ₦30,446.84
+45: 2026-01 | Prospecting | Interest | Video | CA | ₦3,805,769.51 | 314,699 | 3,331 | 79 | ₦9,663,368.30 | 2.54 | ₦48,174.30
+46: 2026-01 | Prospecting | Interest | Video | NG | ₦2,333,163.30 | 512,127 | 7,009 | 293 | ₦33,506,338.95 | 14.36 | ₦7,963.01
+47: 2026-01 | Prospecting | Interest | Video | UK | ₦2,415,431.00 | 152,046 | 2,884 | 96 | ₦13,779,143.31 | 5.70 | ₦25,160.74
+48: 2026-02 | Prospecting | Broad | Carousel | NG | ₦692,999.25 | 118,472 | 1,338 | 51 | ₦5,694,773.69 | 8.22 | ₦13,588.22
+49: 2026-02 | Prospecting | Broad | Carousel | UK | ₦164,779.26 | 10,717 | 84 | 9 | ₦933,831.44 | 5.67 | ₦18,308.81
+50: 2026-02 | Prospecting | Broad | Static | NG | ₦208,881.97 | 43,972 | 662 | 18 | ₦2,095,250.00 | 10.03 | ₦11,604.55
+51: 2026-02 | Prospecting | Broad | Static | UK | ₦15,719.07 | 7,295 | 36 | 0 | ₦0.00 | 0.00
+52: 2026-02 | Prospecting | Broad | Video | NG | ₦2,359,088.74 | 1,053,887 | 7,477 | 168 | ₦20,687,250.00 | 8.77 | ₦14,042.19
+53: 2026-02 | Prospecting | Broad | Video | UK | ₦962,208.29 | 73,308 | 559 | 27 | ₦3,518,001.76 | 3.66 | ₦35,637.34
+54: 2026-02 | Prospecting | Interest | Carousel | CA | ₦284,168.14 | 21,372 | 188 | 7 | ₦769,832.58 | 2.71 | ₦40,595.45
+55: 2026-02 | Prospecting | Interest | Carousel | NG | ₦339,286.58 | 75,791 | 551 | 18 | ₦2,539,500.00 | 7.48 | ₦18,849.25
+56: 2026-02 | Prospecting | Interest | Carousel | UK | ₦131,716.26 | 8,822 | 124 | 0 | ₦0.00 | 0.00
+57: 2026-02 | Prospecting | Interest | Catalogue | CA | ₦97,047.73 | 7,404 | 104 | 2 | ₦259,934.06 | 2.68 | ₦48,523.87
+58: 2026-02 | Prospecting | Interest | Catalogue | NG | ₦466,899.51 | 151,189 | 2,266 | 65 | ₦7,916,250.00 | 16.95 | ₦7,183.07
+59: 2026-02 | Prospecting | Interest | Static | CA | ₦590,268.62 | 43,071 | 406 | 18 | ₦2,256,042.36 | 3.82 | ₦32,792.70
+60: 2026-02 | Prospecting | Interest | Static | NG | ₦1,016,737.00 | 231,554 | 1,755 | 114 | ₦13,966,869.26 | 13.74 | ₦8,918.75
+61: 2026-02 | Prospecting | Interest | Static | UK | ₦533,581.11 | 41,437 | 378 | 21 | ₦2,836,798.81 | 5.32 | ₦25,408.62
+62: 2026-02 | Prospecting | Interest | Video | CA | ₦703,590.67 | 51,106 | 498 | 14 | ₦1,738,348.79 | 2.47 | ₦50,256.48
+63: 2026-02 | Prospecting | Interest | Video | NG | ₦4,613,516.02 | 945,355 | 15,016 | 382 | ₦47,013,668.92 | 10.19 | ₦12,077.27
+64: 2026-02 | Prospecting | Interest | Video | UK | ₦2,735,277.28 | 178,153 | 3,849 | 96 | ₦12,293,251.19 | 4.49 | ₦28,492.47
+65: 2026-02 | Prospecting | Interest | Video | UK+NG | ₦73,400.80 | 303,898 | 864 | 0 | ₦0.00 | 0.00
+66: 2026-02 | RTG | LAL | Static | NG | ₦25,745.90 | 22,882 | 1,072 | 0 | ₦0.00 | 0.00
+67: 2026-03 | Prospecting | Broad | Carousel | NG | ₦942,400.42 | 186,827 | 1,836 | 64 | ₦8,247,318.21 | 8.75 | ₦14,725.01
+68: 2026-03 | Prospecting | Broad | Carousel | UK | ₦466,644.62 | 27,097 | 301 | 16 | ₦2,473,913.26 | 5.30 | ₦29,165.29
+69: 2026-03 | Prospecting | Broad | Static | NG | ₦172,871.68 | 63,866 | 523 | 8 | ₦971,875.00 | 5.62 | ₦21,608.96
+70: 2026-03 | Prospecting | Broad | Static | UK | ₦2,943.91 | 408 | 6 | 0 | ₦0.00 | 0.00
+71: 2026-03 | Prospecting | Broad | Video | CA | ₦114,514.21 | 7,077 | 88 | 1 | ₦337,252.25 | 2.95 | ₦114,514.21
+72: 2026-03 | Prospecting | Broad | Video | NG | ₦1,485,528.27 | 270,124 | 4,870 | 82 | ₦10,000,747.84 | 6.73 | ₦18,116.20
+73: 2026-03 | Prospecting | Broad | Video | UK | ₦268,219.22 | 14,958 | 151 | 9 | ₦1,211,560.41 | 4.52 | ₦29,802.14
+74: 2026-03 | Prospecting | Interest | Carousel | CA | ₦238,276.23 | 13,673 | 201 | 4 | ₦626,323.33 | 2.63 | ₦59,569.06
+75: 2026-03 | Prospecting | Interest | Carousel | NG | ₦1,081,664.95 | 202,729 | 2,103 | 67 | ₦8,681,875.00 | 8.03 | ₦16,144.25
+76: 2026-03 | Prospecting | Interest | Carousel | UK | ₦216,508.98 | 11,207 | 198 | 5 | ₦745,548.18 | 3.44 | ₦43,301.80
+77: 2026-03 | Prospecting | Interest | Carousel | US | ₦150,051.78 | 3,796 | 99 | 1 | ₦135,677.00 | 0.90 | ₦150,051.78
+78: 2026-03 | Prospecting | Interest | Catalogue | CA | ₦0.00 | 0 | 0 | 0 | ₦0.00
+79: 2026-03 | Prospecting | Interest | Catalogue | NG | ₦942,784.24 | 292,532 | 3,266 | 71 | ₦8,614,500.00 | 9.14 | ₦13,278.65
+80: 2026-03 | Prospecting | Interest | Static | CA | ₦377,544.13 | 25,047 | 214 | 8 | ₦1,108,387.86 | 2.94 | ₦47,193.02
+81: 2026-03 | Prospecting | Interest | Static | NG | ₦1,546,347.96 | 284,385 | 2,425 | 79 | ₦10,345,824.10 | 6.69 | ₦19,574.02
+82: 2026-03 | Prospecting | Interest | Static | UK | ₦185,239.78 | 12,596 | 145 | 4 | ₦808,718.09 | 4.37 | ₦46,309.95
+83: 2026-03 | Prospecting | Interest | Video | CA | ₦2,574,535.60 | 144,559 | 2,294 | 60 | ₦9,018,546.84 | 3.50 | ₦42,908.93
+84: 2026-03 | Prospecting | Interest | Video | NG | ₦4,411,950.03 | 775,519 | 10,901 | 316 | ₦36,650,762.25 | 8.31 | ₦13,961.87
+85: 2026-03 | Prospecting | Interest | Video | UK | ₦1,977,476.26 | 109,389 | 3,143 | 61 | ₦9,611,839.15 | 4.86 | ₦32,417.64
+86: 2026-03 | Prospecting | Interest | Video | UK+NG | ₦0.00 | 0 | 0 | 0 | ₦0.00
+87: 2026-03 | Prospecting | Interest | Video | US | ₦190,845.31 | 4,687 | 110 | 2 | ₦269,501.90 | 1.41 | ₦95,422.66
+88: 2026-03 | RTG | LAL | Static | NG | ₦11,421.18 | 16,383 | 393 | 0 | ₦0.00 | 0.00
+89: 2026-04 | Prospecting | Broad | Carousel | NG | ₦1,097,499.29 | 201,360 | 2,391 | 67 | ₦7,797,550.00 | 7.10 | ₦16,380.59
+90: 2026-04 | Prospecting | Broad | Carousel | UK | ₦120,090.89 | 7,354 | 88 | 0 | ₦0.00 | 0.00
+91: 2026-04 | Prospecting | Broad | Static | NG | ₦440,655.95 | 69,048 | 1,001 | 25 | ₦2,649,800.00 | 6.01 | ₦17,626.24
+92: 2026-04 | Prospecting | Broad | Video | NG | ₦1,354,173.63 | 232,220 | 4,860 | 84 | ₦9,975,487.50 | 7.37 | ₦16,121.11
+93: 2026-04 | Prospecting | Broad | Video | UK | ₦73,044.89 | 3,287 | 44 | 1 | ₦327,363.13 | 4.48 | ₦73,044.89
+94: 2026-04 | Prospecting | Interest | Carousel | CA | ₦342,356.21 | 21,087 | 230 | 10 | ₦1,606,350.90 | 4.69 | ₦34,235.62
+95: 2026-04 | Prospecting | Interest | Carousel | NG | ₦1,402,512.79 | 219,602 | 2,444 | 79 | ₦9,126,716.79 | 6.51 | ₦17,753.33
+96: 2026-04 | Prospecting | Interest | Carousel | UK | ₦470,499.96 | 30,037 | 406 | 15 | ₦2,045,392.42 | 4.35 | ₦31,366.66
+97: 2026-04 | Prospecting | Interest | Carousel | US | ₦110,315.38 | 3,043 | 85 | 4 | ₦559,753.72 | 5.07 | ₦27,578.85
+98: 2026-04 | Prospecting | Interest | Catalogue | CA | ₦85,833.67 | 8,004 | 94 | 1 | ₦327,500.00 | 3.82 | ₦85,833.67
+99: 2026-04 | Prospecting | Interest | Catalogue | NG | ₦298,930.11 | 92,754 | 1,282 | 27 | ₦3,116,492.16 | 10.43 | ₦11,071.49
+100: 2026-04 | Prospecting | Interest | Catalogue | UK | ₦111,584.18 | 9,258 | 128 | 4 | ₦925,807.72 | 8.30 | ₦27,896.05
+101: 2026-04 | Prospecting | Interest | Static | CA | ₦52,516.97 | 3,688 | 19 | 0 | ₦0.00 | 0.00
+102: 2026-04 | Prospecting | Interest | Static | NG | ₦1,427,578.50 | 295,138 | 2,352 | 76 | ₦8,188,639.92 | 5.74 | ₦18,783.93
+103: 2026-04 | Prospecting | Interest | Static | UK | ₦53,446.47 | 3,289 | 54 | 0 | ₦0.00 | 0.00
+104: 2026-04 | Prospecting | Interest | Video | CA | ₦2,288,307.04 | 221,582 | 2,279 | 63 | ₦9,060,025.54 | 3.96 | ₦36,322.33
+105: 2026-04 | Prospecting | Interest | Video | NG | ₦6,394,710.48 | 1,157,196 | 19,446 | 450 | ₦51,892,021.87 | 8.11 | ₦14,210.47
+106: 2026-04 | Prospecting | Interest | Video | UK | ₦2,887,482.33 | 243,379 | 4,661 | 77 | ₦11,620,659.93 | 4.02 | ₦37,499.77
+107: 2026-04 | Prospecting | Interest | Video | US | ₦593,726.90 | 18,733 | 655 | 15 | ₦1,811,840.18 | 3.05 | ₦39,581.79
+108: 2026-04 | Prospecting | LAL | Video | US | ₦128,628.26 | 3,837 | 156 | 2 | ₦263,779.25 | 2.05 | ₦64,314.13
+109: 2026-05 | Prospecting | Broad | Carousel | CA | ₦26,765.85 | 1,414 | 24 | 0 | ₦0.00 | 0.00
+110: 2026-05 | Prospecting | Broad | Carousel | NG | ₦889,178.80 | 150,045 | 1,514 | 61 | ₦7,686,750.00 | 8.64 | ₦14,576.70
+111: 2026-05 | Prospecting | Broad | Static | NG | ₦43,150.57 | 7,963 | 117 | 2 | ₦312,500.00 | 7.24 | ₦21,575.29
+112: 2026-05 | Prospecting | Broad | Video | CA | ₦78,612.71 | 3,954 | 58 | 1 | ₦241,500.00 | 3.07 | ₦78,612.71
+113: 2026-05 | Prospecting | Broad | Video | NG | ₦2,072,081.86 | 384,587 | 7,547 | 129 | ₦16,041,634.92 | 7.74 | ₦16,062.65
+114: 2026-05 | Prospecting | Interest | Carousel | CA | ₦1,169,140.08 | 71,957 | 1,005 | 22 | ₦3,575,687.99 | 3.06 | ₦53,142.73
+115: 2026-05 | Prospecting | Interest | Carousel | NG | ₦995,750.47 | 151,263 | 1,688 | 63 | ₦7,523,217.78 | 7.56 | ₦15,805.56
+116: 2026-05 | Prospecting | Interest | Carousel | UK | ₦825,537.24 | 50,138 | 897 | 20 | ₦2,866,481.86 | 3.47 | ₦41,276.86
+117: 2026-05 | Prospecting | Interest | Carousel | US | ₦452,666.59 | 12,671 | 626 | 14 | ₦2,137,422.82 | 4.72 | ₦32,333.33
+118: 2026-05 | Prospecting | Interest | Catalogue | CA | ₦0.00 | 0 | 0 | 0 | ₦0.00
+119: 2026-05 | Prospecting | Interest | Catalogue | NG | ₦306,708.72 | 103,474 | 1,359 | 30 | ₦3,371,183.29 | 10.99 | ₦10,223.62
+120: 2026-05 | Prospecting | Interest | Catalogue | UK | ₦98,654.54 | 9,522 | 125 | 2 | ₦256,640.70 | 2.60 | ₦49,327.27
+121: 2026-05 | Prospecting | Interest | Static | CA | ₦35,245.54 | 2,138 | 20 | 1 | ₦214,989.84 | 6.10 | ₦35,245.54
+122: 2026-05 | Prospecting | Interest | Static | NG | ₦988,290.83 | 175,038 | 1,582 | 52 | ₦6,360,125.00 | 6.44 | ₦19,005.59
+123: 2026-05 | Prospecting | Interest | Static | UK | ₦102,139.56 | 6,143 | 63 | 2 | ₦288,889.62 | 2.83 | ₦51,069.78
+124: 2026-05 | Prospecting | Interest | Video | CA | ₦1,241,329.86 | 103,492 | 1,156 | 36 | ₦5,144,937.52 | 4.14 | ₦34,481.39
+125: 2026-05 | Prospecting | Interest | Video | NG | ₦5,992,239.00 | 1,083,010 | 16,924 | 417 | ₦51,615,755.35 | 8.61 | ₦14,369.88
+126: 2026-05 | Prospecting | Interest | Video | UK | ₦2,292,532.92 | 150,892 | 2,628 | 54 | ₦9,240,402.78 | 4.03 | ₦42,454.31
+127: 2026-05 | Prospecting | Interest | Video | US | ₦1,720,724.40 | 48,222 | 1,464 | 51 | ₦7,429,146.28 | 4.32 | ₦33,739.69
+128: 2026-06 | Prospecting | Broad | Carousel | CA | ₦35,523.60 | 1,836 | 26 | 0 | ₦0.00 | 0.00
+129: 2026-06 | Prospecting | Broad | Carousel | NG | ₦1,122,477.59 | 233,301 | 3,473 | 72 | ₦8,692,454.63 | 7.74 | ₦15,589.97
+130: 2026-06 | Prospecting | Broad | Carousel | UK | ₦245,581.34 | 15,813 | 155 | 9 | ₦1,517,533.77 | 6.18 | ₦27,286.82
+131: 2026-06 | Prospecting | Broad | Static | CA | ₦71,619.37 | 3,850 | 48 | 0 | ₦0.00 | 0.00
+132: 2026-06 | Prospecting | Broad | Static | NG | ₦45,993.18 | 172,047 | 382 | 2 | ₦176,625.00 | 3.84 | ₦22,996.59
+133: 2026-06 | Prospecting | Broad | Static | UK | ₦78,522.11 | 4,148 | 38 | 0 | ₦0.00 | 0.00
+134: 2026-06 | Prospecting | Broad | Static | US | ₦18,698.37 | 513 | 16 | 0 | ₦0.00 | 0.00
+135: 2026-06 | Prospecting | Broad | Video | CA | ₦690,841.74 | 36,485 | 590 | 16 | ₦2,571,906.11 | 3.72 | ₦43,177.61
+136: 2026-06 | Prospecting | Broad | Video | NG | ₦3,073,285.06 | 1,192,611 | 50,653 | 149 | ₦18,942,137.50 | 6.16 | ₦20,626.07
+137: 2026-06 | Prospecting | Broad | Video | UK | ₦446,432.09 | 24,128 | 437 | 9 | ₦1,416,591.06 | 3.17 | ₦49,603.57
+138: 2026-06 | Prospecting | Broad | Video | US | ₦171,270.71 | 4,814 | 114 | 2 | ₦242,213.06 | 1.41 | ₦85,635.36
+139: 2026-06 | Prospecting | Interest | Carousel | CA | ₦802,108.12 | 51,471 | 545 | 8 | ₦1,258,002.27 | 1.57 | ₦100,263.52
+140: 2026-06 | Prospecting | Interest | Carousel | NG | ₦963,680.22 | 189,328 | 1,856 | 52 | ₦6,620,375.00 | 6.87 | ₦18,532.31
+141: 2026-06 | Prospecting | Interest | Carousel | UK | ₦1,307,432.57 | 69,715 | 1,467 | 19 | ₦2,301,676.78 | 1.76 | ₦68,812.24
+142: 2026-06 | Prospecting | Interest | Carousel | US | ₦941,215.57 | 23,123 | 1,050 | 28 | ₦4,238,519.73 | 4.50 | ₦33,614.84
+143: 2026-06 | Prospecting | Interest | Catalogue | NG | ₦52,823.49 | 17,848 | 186 | 4 | ₦754,000.00 | 14.27 | ₦13,205.87
+144: 2026-06 | Prospecting | Interest | Static | CA | ₦389,054.01 | 26,003 | 233 | 4 | ₦470,544.74 | 1.21 | ₦97,263.50
+145: 2026-06 | Prospecting | Interest | Static | NG | ₦678,534.32 | 118,849 | 845 | 35 | ₦3,811,500.00 | 5.62 | ₦19,386.69
+146: 2026-06 | Prospecting | Interest | Static | UK | ₦390,576.48 | 24,387 | 272 | 4 | ₦417,568.94 | 1.07 | ₦97,644.12
+147: 2026-06 | Prospecting | Interest | Uncategorized | CA | ₦97,419.15 | 6,585 | 120 | 0 | ₦0.00 | 0.00
+148: 2026-06 | Prospecting | Interest | Video | CA | ₦2,803,874.15 | 164,186 | 2,298 | 40 | ₦6,258,416.94 | 2.23 | ₦70,096.85
+149: 2026-06 | Prospecting | Interest | Video | NG | ₦2,728,208.05 | 505,985 | 7,808 | 155 | ₦19,212,555.04 | 7.04 | ₦17,601.34
+150: 2026-06 | Prospecting | Interest | Video | UK | ₦3,557,814.35 | 188,589 | 5,361 | 44 | ₦5,910,794.23 | 1.66 | ₦80,859.42
+151: 2026-06 | Prospecting | Interest | Video | US | ₦2,348,373.99 | 56,163 | 2,210 | 56 | ₦9,215,235.20 | 3.92 | ₦41,935.25
+152: 2026-07 | Prospecting | Broad | Carousel | NG | ₦628,838.97 | 109,022 | 1,163 | 21 | ₦3,078,974.63 | 4.90 | ₦29,944.71
+153: 2026-07 | Prospecting | Broad | Carousel | UK | ₦124,844.70 | 5,923 | 60 | 2 | ₦351,590.65 | 2.82 | ₦62,422.35
+154: 2026-07 | Prospecting | Broad | Static | NG | ₦45,688.13 | 13,826 | 110 | 1 | ₦91,000.00 | 1.99 | ₦45,688.13
+155: 2026-07 | Prospecting | Broad | Video | CA | ₦59,324.69 | 2,899 | 35 | 1 | ₦155,500.00 | 2.62 | ₦59,324.69
+156: 2026-07 | Prospecting | Broad | Video | NG | ₦1,403,865.10 | 565,825 | 8,317 | 51 | ₦6,162,818.14 | 4.39 | ₦27,526.77
+157: 2026-07 | Prospecting | Broad | Video | UK | ₦340,345.90 | 17,727 | 253 | 3 | ₦384,988.85 | 1.13 | ₦113,448.63
+158: 2026-07 | Prospecting | Interest | Carousel | CA | ₦302,672.59 | 17,243 | 287 | 7 | ₦1,001,519.14 | 3.31 | ₦43,238.94
+159: 2026-07 | Prospecting | Interest | Carousel | NG | ₦877,725.02 | 157,207 | 1,775 | 38 | ₦4,515,950.00 | 5.15 | ₦23,098.03
+160: 2026-07 | Prospecting | Interest | Carousel | UK | ₦460,325.26 | 27,334 | 561 | 8 | ₦1,424,187.65 | 3.09 | ₦57,540.66
+161: 2026-07 | Prospecting | Interest | Carousel | US | ₦57,206.46 | 1,241 | 56 | 1 | ₦121,827.34 | 2.13 | ₦57,206.46
+162: 2026-07 | Prospecting | Interest | Static | CA | ₦133,491.41 | 9,685 | 80 | 0 | ₦0.00 | 0.00
+163: 2026-07 | Prospecting | Interest | Static | NG | ₦877,362.03 | 154,138 | 1,059 | 31 | ₦4,580,337.24 | 5.22 | ₦28,302.00
+164: 2026-07 | Prospecting | Interest | Static | UK | ₦167,227.73 | 10,919 | 172 | 1 | ₦122,021.61 | 0.73 | ₦167,227.73
+165: 2026-07 | Prospecting | Interest | Video | CA | ₦1,757,634.75 | 108,597 | 1,538 | 36 | ₦5,021,032.67 | 2.86 | ₦48,823.19
+166: 2026-07 | Prospecting | Interest | Video | NG | ₦2,427,767.25 | 458,248 | 4,984 | 100 | ₦12,698,827.35 | 5.23 | ₦24,277.67
+167: 2026-07 | Prospecting | Interest | Video | UK | ₦2,280,095.60 | 121,416 | 2,833 | 49 | ₦7,260,786.33 | 3.18 | ₦46,532.56
+168: 2026-07 | Prospecting | Interest | Video | US | ₦351,374.85 | 10,376 | 337 | 7 | ₦1,340,413.41 | 3.81 | ₦50,196.41
+169: 2026-07 | Prospecting | LAL | Static | CA | ₦77,969.59 | 4,402 | 77 | 0 | ₦0.00 | 0.00
+170: 2026-07 | Prospecting | LAL | Video | NG | ₦80,279.99 | 8,220 | 107 | 3 | ₦547,125.00 | 6.82 | ₦26,760.00
+171: 2026-08 | Prospecting | Broad | Carousel | NG | ₦1,098,466.28 | 263,123 | 6,121 | 69 | ₦9,574,479.75 | 8.72 | ₦15,919.80
+172: 2026-08 | Prospecting | Broad | Static | NG | ₦236,582.18 | 25,047 | 464 | 14 | ₦2,226,300.00 | 9.41 | ₦16,898.73
+173: 2026-08 | Prospecting | Broad | Video | NG | ₦805,466.68 | 142,066 | 2,204 | 40 | ₦5,574,098.57 | 6.92 | ₦20,136.67
+174: 2026-08 | Prospecting | Interest | Carousel | CA | ₦470,254.92 | 24,687 | 355 | 4 | ₦482,202.38 | 1.03 | ₦117,563.73
+175: 2026-08 | Prospecting | Interest | Carousel | NG | ₦1,171,785.38 | 152,909 | 2,403 | 73 | ₦10,941,881.40 | 9.34 | ₦16,051.85
+176: 2026-08 | Prospecting | Interest | Carousel | UK | ₦1,090,170.37 | 68,608 | 852 | 16 | ₦2,920,431.93 | 2.68 | ₦68,135.65
+177: 2026-08 | Prospecting | Interest | Carousel | US | ₦206,364.87 | 4,688 | 124 | 1 | ₦52,952.30 | 0.26 | ₦206,364.87
+178: 2026-08 | Prospecting | Interest | Static | CA | ₦339,087.27 | 23,426 | 250 | 12 | ₦1,597,491.68 | 4.71 | ₦28,257.27
+179: 2026-08 | Prospecting | Interest | Static | NG | ₦1,714,778.72 | 341,371 | 4,765 | 136 | ₦18,392,088.56 | 10.73 | ₦12,608.67
+180: 2026-08 | Prospecting | Interest | Static | UK | ₦123,165.98 | 5,779 | 100 | 2 | ₦205,985.30 | 1.67 | ₦61,582.99
+181: 2026-08 | Prospecting | Interest | Static | US | ₦23,717.12 | 941 | 16 | 0 | ₦0.00 | 0.00
+182: 2026-08 | Prospecting | Interest | Video | CA | ₦1,737,170.38 | 107,671 | 1,688 | 28 | ₦4,334,631.17 | 2.50 | ₦62,041.80
+183: 2026-08 | Prospecting | Interest | Video | NG | ₦2,828,552.13 | 485,012 | 7,987 | 166 | ₦22,158,822.65 | 7.83 | ₦17,039.47
+184: 2026-08 | Prospecting | Interest | Video | UK | ₦2,437,621.60 | 139,506 | 1,895 | 26 | ₦4,184,102.78 | 1.72 | ₦93,754.68
+185: 2026-08 | Prospecting | Interest | Video | US | ₦674,857.19 | 19,539 | 438 | 10 | ₦1,537,941.20 | 2.28 | ₦67,485.72
+186: 2026-08 | Prospecting | LAL | Static | CA | ₦55,542.10 | 4,072 | 70 | 1 | ₦222,093.47 | 4.00 | ₦55,542.10
+187: 2026-08 | Prospecting | LAL | Video | NG | ₦443,496.38 | 54,011 | 841 | 38 | ₦5,245,684.88 | 11.83 | ₦11,670.96
+188: 2026-08 | RTG | Engagers | Carousel | CA | ₦124,193.64 | 6,066 | 54 | 1 | ₦196,000.00 | 1.58 | ₦124,193.64
+189: 2026-09 | Prospecting | Broad | Carousel | CA | ₦63,862.59 | 3,800 | 25 | 0 | ₦0.00 | 0.00
+190: 2026-09 | Prospecting | Broad | Carousel | NG | ₦968,024.75 | 171,034 | 2,508 | 53 | ₦8,168,000.00 | 8.44 | ₦18,264.62
+191: 2026-09 | Prospecting | Broad | Carousel | UK | ₦64,391.16 | 3,479 | 30 | 1 | ₦46,501.81 | 0.72 | ₦64,391.16
+192: 2026-09 | Prospecting | Broad | Static | NG | ₦444,067.95 | 51,163 | 902 | 25 | ₦3,388,000.00 | 7.63 | ₦17,762.72
+193: 2026-09 | Prospecting | Broad | Video | NG | ₦1,103,741.89 | 142,257 | 1,556 | 34 | ₦3,916,000.00 | 3.55 | ₦32,463.00
+194: 2026-09 | Prospecting | Interest | Carousel | CA | ₦1,016,626.81 | 37,358 | 617 | 15 | ₦2,523,169.92 | 2.48 | ₦67,775.12
+195: 2026-09 | Prospecting | Interest | Carousel | NG | ₦1,811,478.32 | 228,079 | 2,622 | 78 | ₦9,994,700.00 | 5.52 | ₦23,224.08
+196: 2026-09 | Prospecting | Interest | Carousel | UK | ₦565,403.44 | 23,280 | 325 | 7 | ₦1,097,671.51 | 1.94 | ₦80,771.92
+197: 2026-09 | Prospecting | Interest | Carousel | US | ₦524,201.21 | 10,717 | 287 | 6 | ₦1,332,054.64 | 2.54 | ₦87,366.87
+198: 2026-09 | Prospecting | Interest | Static | CA | ₦261,785.91 | 14,756 | 150 | 5 | ₦477,654.30 | 1.82 | ₦52,357.18
+199: 2026-09 | Prospecting | Interest | Static | NG | ₦2,359,619.89 | 529,703 | 6,014 | 131 | ₦18,900,585.20 | 8.01 | ₦18,012.37
+200: 2026-09 | Prospecting | Interest | Static | UK | ₦134,794.05 | 5,368 | 84 | 1 | ₦250,100.00 | 1.86 | ₦134,794.05
+201: 2026-09 | Prospecting | Interest | Static | US | ₦83,225.48 | 1,762 | 35 | 0 | ₦0.00 | 0.00
+202: 2026-09 | Prospecting | Interest | Video | CA | ₦4,294,766.75 | 197,140 | 3,194 | 64 | ₦9,221,511.47 | 2.15 | ₦67,105.73
+203: 2026-09 | Prospecting | Interest | Video | NG | ₦6,344,233.29 | 914,188 | 13,856 | 336 | ₦45,314,926.57 | 7.14 | ₦18,881.65
+204: 2026-09 | Prospecting | Interest | Video | UK | ₦2,495,627.44 | 373,691 | 1,888 | 40 | ₦7,002,717.67 | 2.81 | ₦62,390.69
+205: 2026-09 | Prospecting | Interest | Video | US | ₦1,889,537.25 | 36,841 | 1,037 | 26 | ₦5,096,732.70 | 2.70 | ₦72,674.51
+206: 2026-09 | Prospecting | LAL | Video | NG | ₦1,015,873.69 | 104,512 | 1,903 | 39 | ₦4,717,000.00 | 4.64 | ₦26,048.04
+207: 2026-10 | Prospecting | Broad | Carousel | CA | ₦13,683.62 | 747 | 9 | 0 | ₦0.00 | 0.00
+208: 2026-10 | Prospecting | Broad | Carousel | NG | ₦214,062.15 | 40,005 | 434 | 9 | ₦1,086,000.00 | 5.07 | ₦23,784.68
+209: 2026-10 | Prospecting | Broad | Carousel | UK | ₦19,702.41 | 1,051 | 8 | 0 | ₦0.00 | 0.00
+210: 2026-10 | Prospecting | Broad | Static | NG | ₦93,358.12 | 14,455 | 156 | 4 | ₦411,000.00 | 4.40 | ₦23,339.53
+211: 2026-10 | Prospecting | Broad | Static | UK | ₦51,207.57 | 2,519 | 28 | 0 | ₦0.00 | 0.00
+212: 2026-10 | Prospecting | Broad | Video | NG | ₦201,078.71 | 32,317 | 431 | 6 | ₦778,000.00 | 3.87 | ₦33,513.12
+213: 2026-10 | Prospecting | Broad | Video | UK | ₦106,759.87 | 4,681 | 42 | 0 | ₦0.00 | 0.00
+214: 2026-10 | Prospecting | Interest | Carousel | CA | ₦145,027.93 | 8,003 | 79 | 0 | ₦0.00 | 0.00
+215: 2026-10 | Prospecting | Interest | Carousel | NG | ₦289,536.23 | 35,363 | 465 | 9 | ₦1,260,000.00 | 4.35 | ₦32,170.69
+216: 2026-10 | Prospecting | Interest | Carousel | UK | ₦32,752.19 | 1,600 | 15 | 1 | ₦96,000.00 | 2.93 | ₦32,752.19
+217: 2026-10 | Prospecting | Interest | Carousel | US | ₦61,676.76 | 1,266 | 20 | 0 | ₦0.00 | 0.00
+218: 2026-10 | Prospecting | Interest | Static | CA | ₦16,516.89 | 825 | 7 | 0 | ₦0.00 | 0.00
+219: 2026-10 | Prospecting | Interest | Static | NG | ₦257,454.05 | 81,724 | 786 | 10 | ₦1,186,000.00 | 4.61 | ₦25,745.41
+220: 2026-10 | Prospecting | Interest | Static | UK | ₦1,101.22 | 44 | 0 | 0 | ₦0.00 | 0.00
+221: 2026-10 | Prospecting | Interest | Static | US | ₦23,322.31 | 641 | 7 | 0 | ₦0.00 | 0.00
+222: 2026-10 | Prospecting | Interest | Video | CA | ₦659,616.70 | 37,525 | 512 | 5 | ₦684,144.34 | 1.04 | ₦131,923.34
+223: 2026-10 | Prospecting | Interest | Video | NG | ₦728,999.41 | 117,690 | 1,607 | 26 | ₦3,054,000.00 | 4.19 | ₦28,038.44
+224: 2026-10 | Prospecting | Interest | Video | UK | ₦561,125.67 | 105,385 | 347 | 7 | ₦1,023,933.58 | 1.82 | ₦80,160.81
+225: 2026-10 | Prospecting | Interest | Video | US | ₦391,693.22 | 8,688 | 214 | 4 | ₦633,742.63 | 1.62 | ₦97,923.31
+226: 2026-10 | Prospecting | LAL | Video | NG | ₦68,442.64 | 7,334 | 112 | 1 | ₦91,000.00 | 1.33 | ₦68,442.64
+
+### AOV by Country: 16 rows
+1: Orders shipped abroad are 18 to 34% larger than in Nigeria, but buying them through Meta costs 2 to 3 times more per naira of sales
+2: Average order value by shipping country, 2025-10-07 to 2026-10-06. Shopify columns are orders as recorded by the store; Meta columns are formulas over the Monthly tab (Meta-attributed, 7-day click, 1-day view).
+4: Shipping country | Market code | Orders (Shopify) | Revenue (Shopify) | Average order value (Shopify) | AOV vs Nigeria | Purchases (Meta) | Purchase value (Meta) | Value per purchase (Meta) | Meta purchases as % of Shopify orders | CPA (Meta) | Meta ad spend per ₦100 of order value
+5: Nigeria | NG | 9,598 | ₦1,128,957,184 | ₦117,624 | - | 7,226 | ₦855,986,315 | ₦118,459 | 75.3% | ₦13,364 | ₦11.4
+6: United Kingdom | UK | 1,489 | ₦214,666,837 | ₦144,168 | +22.6% | 1,061 | ₦151,198,821 | ₦142,506 | 71.3% | ₦36,690 | ₦25.4
+7: Canada | CA | 1,295 | ₦179,755,345 | ₦138,807 | +18.0% | 1,090 | ₦144,013,637 | ₦132,123 | 84.2% | ₦39,009 | ₦28.1
+8: United States | US | 299 | ₦47,215,747 | ₦157,912 | +34.3% | 230 | ₦36,418,753 | ₦158,342 | 76.9% | ₦48,320 | ₦30.6
+9: Not recorded |  | 1 | ₦4,878 | ₦4,878
+10: All orders |  | 12,682 | ₦1,570,599,991 | ₦123,845 |  | 9,607 | ₦1,187,617,526 | ₦123,620 | 75.8% | ₦19,695 | ₦15.9
+12: Notes
+13: Shopify revenue is each order's current total after refunds and returns, including shipping, tax and discounts. It is order value, not margin: international shipping and fulfilment costs are not in the data.
+14: Meta columns group by the market the ad set targeted, Shopify columns by where the order shipped. A diaspora ad can produce an order shipped to Nigeria, so the two do not match order for order.
+15: Meta ad spend per ₦100 of order value = Meta CPA ÷ Shopify average order value × 100. Meta-attributed purchases include view-through credit, so treat it as a lower bound on the true cost.
+16: The All orders row for the Meta columns covers the whole account, including spend with no single target country.
+
+### Zingers: 59 rows
+1: Zingers: summary
+2: Fixed thresholds from Part 5; none were changed. Account averages: CPA ₦19,694.64 · ROAS 6.28 (whole account, whole window).
+3: Scope | Zinger | Severity | Finding | Fired | Spend involved | What it means | What to do
+4: Live ads | Z1 | Highest | Spend producing no purchases | 21 | ₦1,357,606 | Ad sets that spent at least 1.5x the account CPA and bought nothing measurable. | Check objective first (Reach/Traffic ad sets are not meant to buy). For Sales ad sets, stop launching new ad sets abroad on ₦10-15k/day budgets; see recommendation 2.
+5: Live ads | Z12 | Highest | Underfunded winner | 6 | ₦3,360,311 | Ad sets returning 1.5x the account ROAS on under 5% of spend. | Live: give these budget inside the consolidated NG campaign. Paused: reuse their creative.
+6: Live ads | Z2 | High | Learning-limited ad sets | 1 | ₦2,548,699 | Active ad sets under 50 purchases in the last 7 days while spending more than one CPA. | Consolidate into fewer ad sets with enough budget to clear 50 a week (recommendation 1).
+7: Live ads | Z7 | Medium | Creative fatigue | 3 | ₦48,961 | Ads whose ROAS in their last 30 days is 40%+ below their first 30 days. | Refresh creative inside the same ad set rather than pausing it (recommendation 3).
+8: Live ads: did not fire: Z3, Z4, Z5, Z6, Z8, Z9, Z10, Z11
+9: Other ads (not live) | Z1 | Highest | Spend producing no purchases | 139 | ₦9,882,716 | Ad sets that spent at least 1.5x the account CPA and bought nothing measurable. | Check objective first (Reach/Traffic ad sets are not meant to buy). For Sales ad sets, stop launching new ad sets abroad on ₦10-15k/day budgets; see recommendation 2.
+10: Other ads (not live) | Z12 | Highest | Underfunded winner | 28 | ₦24,238,789 | Ad sets returning 1.5x the account ROAS on under 5% of spend. | Live: give these budget inside the consolidated NG campaign. Paused: reuse their creative.
+11: Other ads (not live) | Z2 | High | Learning-limited ad sets | 1 | ₦2,174,078 | Active ad sets under 50 purchases in the last 7 days while spending more than one CPA. | Consolidate into fewer ad sets with enough budget to clear 50 a week (recommendation 1).
+12: Other ads (not live) | Z5 | High | Fragmentation | 1 | ₦175,428,451 | Over 40% of ad sets below the 50-conversion line and the top 5 hold under 40% of spend. | Same root cause as Z2: too many small, short-lived ad sets. Consolidate.
+13: Other ads (not live) | Z7 | Medium | Creative fatigue | 64 | ₦10,841,028 | Ads whose ROAS in their last 30 days is 40%+ below their first 30 days. | Refresh creative inside the same ad set rather than pausing it (recommendation 3).
+14: Other ads (not live) | Z8 | Medium | Zombie ads | 1 | ₦178,827 | Ads active 30+ days with zero purchases. | All are already paused; no action beyond not repeating it.
+15: Other ads (not live) | Z10 | Watch | Audience overlap risk | 1 | ₦15,437,918 | Broad, Interest and Lookalike ad sets running on the same days on the same objective. | Hypothesis only: confirm with an audience-overlap check in Ads Manager before acting.
+16: Other ads (not live): did not fire: Z3, Z4, Z6, Z9, Z11
+17: All ads (12 months) | Z1 | Highest | Spend producing no purchases | 160 | ₦11,240,322 | Ad sets that spent at least 1.5x the account CPA and bought nothing measurable. | Check objective first (Reach/Traffic ad sets are not meant to buy). For Sales ad sets, stop launching new ad sets abroad on ₦10-15k/day budgets; see recommendation 2.
+18: All ads (12 months) | Z12 | Highest | Underfunded winner | 34 | ₦27,599,100 | Ad sets returning 1.5x the account ROAS on under 5% of spend. | Live: give these budget inside the consolidated NG campaign. Paused: reuse their creative.
+19: All ads (12 months) | Z2 | High | Learning-limited ad sets | 1 | ₦4,722,777 | Active ad sets under 50 purchases in the last 7 days while spending more than one CPA. | Consolidate into fewer ad sets with enough budget to clear 50 a week (recommendation 1).
+20: All ads (12 months) | Z5 | High | Fragmentation | 1 | ₦189,206,409 | Over 40% of ad sets below the 50-conversion line and the top 5 hold under 40% of spend. | Same root cause as Z2: too many small, short-lived ad sets. Consolidate.
+21: All ads (12 months) | Z7 | Medium | Creative fatigue | 67 | ₦10,889,989 | Ads whose ROAS in their last 30 days is 40%+ below their first 30 days. | Refresh creative inside the same ad set rather than pausing it (recommendation 3).
+22: All ads (12 months) | Z8 | Medium | Zombie ads | 1 | ₦178,827 | Ads active 30+ days with zero purchases. | All are already paused; no action beyond not repeating it.
+23: All ads (12 months) | Z10 | Watch | Audience overlap risk | 1 | ₦23,959,754 | Broad, Interest and Lookalike ad sets running on the same days on the same objective. | Hypothesis only: confirm with an audience-overlap check in Ads Manager before acting.
+24: All ads (12 months): did not fire: Z3, Z4, Z6, Z9, Z11
+26: Every fired instance: live ads
+27: The 235 instances for other (not live) ads and the 265 account-wide ones are on the Zingers tab of the .xlsx export.
+28: Scope | Zinger | Severity | Finding | Basis | Spend involved | Entity | Detail
+29: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦286,313.94 | New Awareness Ad Set [CA Awareness] (120251602221220070) | 28 days with spend, 0 purchases; 0.15% of account spend (threshold 1.5 x CPA = 29,541.96)
+30: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦285,370.42 | New Awareness Ad Set [UK Awareness] (120251601625110070) | 28 days with spend, 0 purchases; 0.15% of account spend (threshold 1.5 x CPA = 29,541.96)
+31: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦75,085.71 | New Sales Ad Set [Goddess | UK | 23-45 | Broad | Women] (120251949513070070) | 5 days with spend, 0 purchases; 0.04% of account spend (threshold 1.5 x CPA = 29,541.96)
+32: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦67,864.17 | New Sales Ad Set [Mini set | CA | 23-45 | DT | Both] (120251949333510070) | 5 days with spend, 0 purchases; 0.04% of account spend (threshold 1.5 x CPA = 29,541.96)
+33: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦51,207.57 | Carousel Ad Set [Golden Kiss | UK | 23-45 | Women | Broad] (120251949536990070) | 5 days with spend, 0 purchases; 0.03% of account spend (threshold 1.5 x CPA = 29,541.96)
+34: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦50,721.54 | Videos Ad Set [Golden Kiss | UK | 23-45 | Women | Broad] (120251949537040070) | 5 days with spend, 0 purchases; 0.03% of account spend (threshold 1.5 x CPA = 29,541.96)
+35: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦41,838.53 | CEO Ad Set [Mystique | CA | 10 | NID | CEO] (120251965036450070) | 4 days with spend, 0 purchases; 0.02% of account spend (threshold 1.5 x CPA = 29,541.96)
+36: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦41,600.52 | New Ad Set [Mystique | CA | 10 | NID | Woomi] (120251965070300070) | 4 days with spend, 0 purchases; 0.02% of account spend (threshold 1.5 x CPA = 29,541.96)
+37: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦40,724.63 | New Ad Set [Sweet OUD | CA | 10 | NID | UGC] (120251965200010070) | 4 days with spend, 0 purchases; 0.02% of account spend (threshold 1.5 x CPA = 29,541.96)
+38: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦39,860.05 | New Ad Set [Goddess | CA | 10 | NID | CEO] (120251965098650070) | 4 days with spend, 0 purchases; 0.02% of account spend (threshold 1.5 x CPA = 29,541.96)
+39: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦39,769.80 | New Ad Set [Goddess | CA | 10 | NID | Event] (120251965139970070) | 4 days with spend, 0 purchases; 0.02% of account spend (threshold 1.5 x CPA = 29,541.96)
+40: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦38,982.35 | New Ad Set [Sweet OUD | CA | 10 | NID | CEO] (120251965184540070) | 4 days with spend, 0 purchases; 0.02% of account spend (threshold 1.5 x CPA = 29,541.96)
+41: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦37,802.65 | New Ad Set [Goddess | CA | 10 | NID | UGC] (120251965128990070) | 4 days with spend, 0 purchases; 0.02% of account spend (threshold 1.5 x CPA = 29,541.96)
+42: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦36,664.69 | New Sales Ad Set [Goddess | 10 | USA | NID | CEO] (120251975191230070) | 3 days with spend, 0 purchases; 0.02% of account spend (threshold 1.5 x CPA = 29,541.96)
+43: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦33,136.75 | New Sales Ad Set [Goddess | 10 | USA | NID | UGC] (120251975204050070) | 3 days with spend, 0 purchases; 0.02% of account spend (threshold 1.5 x CPA = 29,541.96)
+44: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦32,707.31 | New Sales Ad Set [MGG | UK | DT | UGC [ Caucasian ]] (120251993035850070) | 2 days with spend, 0 purchases; 0.02% of account spend (threshold 1.5 x CPA = 29,541.96)
+45: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦32,667.33 | New Sales Ad Set [Mystique | UK | NID | Woomi] (120251975155900070) | 3 days with spend, 0 purchases; 0.02% of account spend (threshold 1.5 x CPA = 29,541.96)
+46: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦32,641.07 | New Ad Set [Mystique | USA | 10 | NID | Amy Okoli] (120251975125110070) | 3 days with spend, 0 purchases; 0.02% of account spend (threshold 1.5 x CPA = 29,541.96)
+47: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦31,727.18 | New Sales Ad Set [Mystique | UK | NID | Amy Okoli] (120251975137070070) | 3 days with spend, 0 purchases; 0.02% of account spend (threshold 1.5 x CPA = 29,541.96)
+48: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦30,626.18 | New Sales Ad Set [Mystique | UK | 10 | Women | Event] (120251975160360070) | 3 days with spend, 0 purchases; 0.02% of account spend (threshold 1.5 x CPA = 29,541.96)
+49: Live ads | Z1 | Highest | Spend producing no purchases | measured | ₦30,293.34 | New Ad Set [Mystique | USA | 10 | NID | UGC] (120251975074550070) | 3 days with spend, 0 purchases; 0.02% of account spend (threshold 1.5 x CPA = 29,541.96)
+50: Live ads | Z12 | Highest | Underfunded winner | measured | ₦1,362,540.01 | New Sales Ad Set [Goddess DT/NG] (120251035525460070) | ROAS 9.45 against account average 6.28 on 0.72% of spend (94 purchases); an extra 1,362,540 at the observed rate would return ~12,881,588 (upper bound: marginal ROAS falls as budget rises)
+51: Live ads | Z12 | Highest | Underfunded winner | measured | ₦1,234,550.62 | New Sales Ad Set [Mystique NG-DT] (120251293155100070) | ROAS 10.19 against account average 6.28 on 0.65% of spend (88 purchases); an extra 1,234,551 at the observed rate would return ~12,576,799 (upper bound: marginal ROAS falls as budget rises)
+52: Live ads | Z12 | Highest | Underfunded winner | measured | ₦674,956.77 | New Sales Ad Set [09 Mystique NG] (120251520513680070) | ROAS 9.77 against account average 6.28 on 0.36% of spend (41 purchases); an extra 674,957 at the observed rate would return ~6,597,400 (upper bound: marginal ROAS falls as budget rises)
+53: Live ads | Z12 | Highest | Underfunded winner | measured | ₦64,030.23 | New Sales Ad Set [Goddess DT/NG - [ Lagos & PH ]] (120251961430490070) | ROAS 13.98 against account average 6.28 on 0.03% of spend (7 purchases); an extra 64,030 at the observed rate would return ~895,000 (upper bound: marginal ROAS falls as budget rises)
+54: Live ads | Z12 | Highest | Underfunded winner | measured | ₦12,334.53 | New Sales Ad Set [Passion | NG | DT | Lagos] (120251997736730070) | ROAS 10.46 against account average 6.28 on 0.01% of spend (1 purchases); an extra 12,335 at the observed rate would return ~129,000 (upper bound: marginal ROAS falls as budget rises)
+55: Live ads | Z12 | Highest | Underfunded winner | measured | ₦11,899.22 | New Sales Ad Set [Oils | NG | Lagos] (120251997780920070) | ROAS 31.77 against account average 6.28 on 0.01% of spend (3 purchases); an extra 11,899 at the observed rate would return ~378,000 (upper bound: marginal ROAS falls as budget rises)
+56: Live ads | Z2 | High | Learning-limited ad sets | measured | ₦2,548,699.12 | 45 ad sets | 82% of 55 active ad sets are learning-limited in the last 7 days (2026-09-30 to 2026-10-06); 69 purchases between them
+57: Live ads | Z7 | Medium | Creative fatigue | measured | ₦29,968.81 | New Sales Ad [Golden Kiss image - NG] (120241104568320070) | ROAS fell from 14.12 to 0.00 (-100%) between first and last 30 days of its run; last-30-day spend 29,968.81
+58: Live ads | Z7 | Medium | Creative fatigue | measured | ₦12,164.73 | New Sales Ad [Golden Kiss image - NG] (120241108194230070) | ROAS fell from 13.12 to 0.00 (-100%) between first and last 30 days of its run; last-30-day spend 12,164.73
+59: Live ads | Z7 | Medium | Creative fatigue | measured | ₦6,827.25 | New Sales Ad [Golden Kiss image - NG] (120241108299040070) | ROAS fell from 7.93 to 0.00 (-100%) between first and last 30 days of its run; last-30-day spend 6,827.25
+
+### Tracking: 23 rows
+1: Item | Status | Consequence
+2: Pixel present and firing | Yes: pixel 1015068333591306 is the promoted object on 1,381 of 1,412 ads, and it records Purchase, AddToCart, InitiateCheckout and ViewContent | Optimisation signal is present
+3: Conversions API | Data not available (not exposed by the connector) | If CAPI is off, reported volume understates reality. Check in Events Manager
+4: Deduplication (event_id) | Data not available | If browser and server events aren't deduplicated, purchases are double-counted. The September over-count below makes this a priority check
+5: Standard event coverage | ViewContent 277,319 · AddToCart 39,422 · InitiateCheckout 44,233 · Purchase 9,607 (Meta-attributed, 12 months) | InitiateCheckout is higher than AddToCart (+12%). Either AddToCart misses some paths (such as Buy Now) or it fires inconsistently. That weakens any ATC retargeting audience
+6: Event Match Quality | Data not available | Check in Events Manager
+7: Optimisation event | PURCHASE on 1,376 ads (Value 840 · Conversions 541). Other goals: Reach 24 · Landing page views 3 · Link clicks 2 · ThruPlay 1 · Impressions 1 · Content view 3 · Lead 2 | Matches the business outcome
+8: Value parameter | Passed: ₦1.19B attributed, with an average value per purchase of ₦123,620 against a Shopify average order of ₦124,292 | Values look right, in NGN
+9: Test events | Data not available | —
+10: Attribution window | 7-day click, 1-day view (default). Whether it changed during the window: Data not available | Standard. Part of each month's purchases is view-through credit
+11: Meta vs shop purchase count | 12 months: Meta 9,607 against Shopify 12,682 orders across all channels (75.8%). September 2026: Meta 861 against Shopify 804 (107.1%) | In September Meta claimed more purchases than the store took from every source combined. For that month, Meta's efficiency figures are overstated by at least 7%. Over 12 months Meta claims 3 in 4 orders, while Google Ads also claims 716 conversions
+12: Blended return (Shopify revenue ÷ Meta spend) | 12 months: ₦1,576.3M ÷ ₦189.2M = 8.33. Monthly: 15.25 (October 2025) → 9.71 (February 2026) → 5.61 (June) → 4.46 (September) | Blended efficiency has fallen by about two-thirds while monthly spend more than doubled (₦10.6M → ₦25.4M)
+13: Cross-objective aggregation | Sales 98.7% of spend; Awareness, Traffic, Engagement and Leads 0.9%; objective missing 0.6% | Cost per result shown as N/A for non-Sales objectives. Account CPA uses purchases across all objectives
+14: Naming consistency | Not parseable: 0% default match on every level, with default Ads Manager names. A partial convention (Product | Market | Age | Audience | Gender) began on 2026-10-02 | Structural pivots depend on metadata, not names
+15: Status hygiene | 112 ads live. 111 ads spent in the last 7 days and are now paused. 4 live winners delivered under ₦45,000 in the week | Heavy weekly churn. Live winners are being starved
+16: Domain verification, AEM priority, consent, audience sizes | Data not available | Requires Business Manager or Events Manager access
+18: Effect on this audit
+19: • The structural findings hold regardless of measurement. These are fragmentation, churn, zero ad-set-weeks above 50, paused winners, and the market cost gap (CPM and CPA abroad are 3–8 times Nigeria's). They rest on spend, impressions and purchase counts.
+20: • All ROAS and CPA figures are Meta-attributed with view-through, so treat them as upper bounds.
+21:     – September 2026 is overstated by at least 7.1%.
+22:     – The 12-month share of 75.8% of all store orders looks high for an account that also runs Google Ads, with organic Instagram, direct and repeat buyers also contributing.
+23:     – A realistic error margin can't be set without order-level UTM or source data. Until then, use comparisons within Meta (market against market, format against format) for decisions, not the absolute ROAS.
+
+### Findings: 293 rows
+1: Meta Ads Audit: Beguile
+2: Account: Beguile · act 480225648142941
+3: Period: 2025-10-07 to 2026-10-06 · 12 months (365 days, last complete day; today excluded, so no partial period)
+4: Attribution window: 7-day click, 1-day view (account default, as returned by the connector)
+5: Data basis: Meta-attributed (Purchases and Purchase value as reported by Meta). Blended figures are labelled where Shopify revenue is used.
+6: Currency: NGN (₦). Account timezone Africa/Lagos. Shopify orders are also in NGN; no conversion applied.
+7: Prepared: 2026-10-07
+8: Order of this report: Part A covers the 112 live ads (effective status ACTIVE). Part B covers the 1,301 other ads (paused, archived or with issues) and the 12-month account view. Measurement and recommendations follow.
+9: Executive Summary
+10: Over 12 months the account spent ₦189.2M for 9,607 Meta-attributed purchases worth ₦1.19B (ROAS 6.28, CPA ₦19,695). The money is not the problem. The structure is.
+11: • The account never leaves the learning phase. 476 campaigns were launched in 12 months, with a median life of 8 days. Of 2,742 ad-set-weeks, none reached 50 purchases.
+12: • Proven winners get paused. 27 Sales ad sets that returned at least 9× are now paused. Examples: CEO Passion NG at 22.45, Passion & Seduction at 15.26, NG Catalogue at 12.05. Each was replaced by a fresh ad set that starts learning from zero.
+13: • International spend is the largest drag. The UK, Canada and the US took 48.9% of spend (₦92.6M) at ROAS 3.58 and CPA ₦38,875. Nigeria returned 8.86 at CPA ₦13,364. Of the 149 Sales-objective ad sets that spent past the threshold with zero purchases, 145 were international.
+14: Single primary bottleneck: fragmentation. Budget is spread across dozens of short-lived ad sets on ₦10,000–₦15,000 a day, none of which can gather the roughly 50 purchases a week that Meta needs.
+15: Most critical recommendation: consolidate Nigeria into one or two long-running Sales campaigns, with a budget that can clear 50 purchases a week (about ₦95,000 a day per ad set at Nigeria's observed CPA). Feed new creative in as ads inside those campaigns, not as new campaigns.
+16: Treat every efficiency figure below as an upper bound. In September 2026, Meta reported more purchases (861) than Shopify recorded in total (804).
+17: 1. Scope and data quality
+18: Item | Value
+19: Rows analysed | 26,584 (one row per ad per day)
+20: Date range | 2025-10-07 to 2026-10-06
+21: Days with data / days in range | 365 / 365
+22: Partial period? | No
+23: Total amount spent | ₦189,206,408.59 (reconciles to the account-level pull, ₦189,206,408.23, within ₦0.36 of daily rounding)
+24: Entities | 1,413 ads · 656 ad sets · 477 campaigns
+25: Duplicate rows removed | 0
+26: Rows dropped for unparseable dates | 0
+27: Rows with null spend | 0
+28: Rows with zero spend | 1,458 (kept in Data; excluded from efficiency pivots)
+29: Labels trimmed (whitespace) | 616
+30: Uncategorized — Funnel Stage | names: 97.7% of spend · final (metadata tier): 0.0%
+31: Uncategorized — Audience | names: 100.0% of spend · final: 0.0%
+32: Uncategorized — Ad Format | names: 99.3% of spend · final: 0.1%
+33: Naming match rate (default / extended), top-50 by spend | Campaign 0% / 2% · Ad set 0% / 0% · Ad 0% / 6%
+35: Limitations
+36: • The names can't be parsed. 79% of ad set spend sits under the default name "New Sales Ad Set", and 90% of ad spend under "New Sales Ad". The extended synonym set matched only false positives: "NEW" in "UK New Launch Campaign" read as Prospecting, and "Advantage+ shopping campaign" read as Catalogue. Funnel Stage, Audience and Ad Format were therefore taken from Meta's own metadata and marked tier = metadata on every row:
+37:     – Funnel Stage and Audience come from the ad set targeting (custom audiences, lookalikes, interests).
+38:     – Ad Format comes from the creative object type, carousel cards, and the product set.
+39:     – Market comes from the countries, cities and regions targeted.
+40: • The metadata describes each ad set as it is now. Targeting edited during the window is attributed to its current state.
+41: • "Interest" means interests were configured, not enforced. Advantage+ audience is switched on for 1,412 of 1,412 ads, so Meta treats those interests as suggestions and can deliver beyond them. Interest versus Broad is therefore a weak split.
+42: • "Carousel" includes multi-image flexible creatives, meaning any image creative with two or more media cards.
+43: • Null and zero can't be told apart for actions. The connector returns 0 rather than null when an action is missing.
+44: • Learning phase is only reported for currently delivering ad sets. Paused ad sets return no learning stage.
+46: PART A: LIVE ADS (112 ads · 55 ad sets · 54 campaigns)
+47: Live means the ad's effective status is ACTIVE, which also requires its ad set and campaign to be active. Over 12 months these ads spent ₦13,777,957 (7.3% of the total). In the last 7 days (2026-09-30 to 2026-10-06) they spent ₦2,671,219.
+48: Context that matters: 45 of the 55 live ad sets were launched between 2026-10-02 and 2026-10-06, so they are 1–5 days old. Together they have spent ₦1,676,905 for 32 purchases (ROAS 2.59). That is too early to judge. The other 10 live ad sets account for ₦12,101,052 of spend at ROAS 7.77.
+49: A2. Funnel stage: live
+50: Funnel Stage | Amount spent | Spend % | Purchases | ROAS
+51: Prospecting | ₦13,777,957 | 100% | 714 | 7.14
+52: Retargeting | ₦0 | 0% | 0 | Data not available
+53: Uncategorized | ₦0 | 0% | 0 | —
+55: Key findings
+56: • No live ad retargets anyone. Every live ad set targets cold audiences, with interests or broad targeting, and Advantage+ audience switched on. Meta's events show demand that has no dedicated follow-up: over 12 months they recorded 39,422 adds to cart and 44,233 checkouts initiated, against 9,607 purchases.
+57: A3. Audience: live
+58: Audience | Amount spent | Purchases | ROAS | CPA
+59: Interest | ₦9,924,368 | 480 | 6.69 | ₦20,676
+60: Broad | ₦3,853,589 | 234 | 8.32 | ₦16,468
+62: Key findings
+63: • Broad returns more than Interest on live spend (8.32 against 6.69). Most of the Broad figure comes from one ad set: Golden Kiss image - NG (₦3.53M, ROAS 8.78).
+64: • With Advantage+ audience on, the two are not cleanly separated, so read this as a direction rather than proof.
+65: A4. Ad format: live
+66: Ad Format | Amount spent | Purchases | ROAS | CPA
+67: Video | ₦6,846,166 | 289 | 5.98 | ₦23,689
+68: Carousel | ₦4,820,162 | 269 | 7.57 | ₦17,919
+69: Static | ₦2,111,629 | 156 | 9.94 | ₦13,536
+71: Key findings
+72: • Static is the most efficient live format, but it holds only 15.3% of live spend.
+73: • Video takes half of live spend and returns the least. Part of that is the market mix: most of the new UK, Canada and US launches are video.
+74: A4b. Market: live
+75: Market | Amount spent | Purchases | ROAS | CPA | CPM
+76: NG | ₦11,628,528 | 696 | 8.21 | ₦16,708 | ₦5,886
+77: UK | ₦1,130,963 | 7 | 0.91 | ₦161,566 | ₦2,925
+78: CA | ₦514,320 | 4 | 1.12 | ₦128,580 | ₦16,147
+79: US | ₦504,147 | 7 | 2.79 | ₦72,021 | ₦43,222
+81: Key findings
+82: • Check this: the "CA Awareness" campaign targets the UK, not Canada. All 5 of its live ads target GB, and it has spent ₦286,314 since 2026-09-09. Its sister campaign "UK Awareness" also targets the UK, so the two overlap and Canada gets no awareness at all. This looks like a setup error.
+83: • The two Awareness campaigns (₦571,684, Reach-optimised, live since 2026-09-09) produce no purchases. That is expected for the Reach objective, so they are not waste on their own terms. Note, though, that they push awareness into markets returning ROAS of about 3.4–3.9.
+84: A5. Learning phase and conversion volume: live
+85: Measure | Value
+86: Active ad sets (spend in the last 7 days) | 55
+87: Ad sets below 50 conversions per week | 55 (100%)
+88: Share of active ad sets learning-limited (Z2 definition) | 82% (45 of 55)
+89: Spend held by sub-50 ad sets, last 7 days | ₦2,671,219 (all live spend)
+90: Purchases across all live ad sets, last 7 days | 75 (highest single ad set: 19)
+91: Learning stage reported by Meta | LEARNING: 46 ad sets · SUCCESS: 4 · FAIL: 2 · not reported: 3
+93: Key findings
+94: • The October batch can't exit learning at its budget. 31 of the 55 live ad sets run on ₦10,000 a day and 13 on ₦15,000 a day. At Nigeria's 12-month CPA of ₦13,364, one ad set needs about ₦668,000 a week (₦95,000 a day) to buy 50 purchases. At the international CPA of ₦38,875 it needs about ₦1.94M a week (₦278,000 a day). A ₦10,000-a-day ad set buys roughly 5 purchases a week in Nigeria and about 2 abroad.
+95: • Live winners have almost stopped delivering. Mystique NG-DT (ROAS 10.19) spent ₦13,125 in the last 7 days. 09 Mystique NG (9.77) spent ₦6,924, Mystique NG- Broad (6.76) spent ₦2,087, and MGG NG-DT (7.63) spent ₦42,211. They are switched on but barely delivering, while the new batch takes the spend.
+96: A6. Spend concentration: live
+97: Measure | Value
+98: Top 5 live ad sets — share of live spend | 72.9%
+99: Top 10 live ad sets — share of live spend | 87.8%
+100: Live ad sets holding under 1% of live spend | 45
+101: Largest single live entity | Golden Kiss image - NG: ₦3,527,129 (25.6% of live; 1.9% of account)
+103: Key findings
+104: • Live spend is concentrated in a handful of Nigeria ad sets launched between February and September, with a long tail of new launches. No single entity crosses 50% of account spend, so Z9 does not fire.
+105: A7. Zingers: live ads
+106: # | Severity | Finding | Entity | Spend involved
+107: Z1 | Highest | Spend with no purchases (fired 21×) | 2 Awareness ad sets (CA Awareness, UK Awareness; Reach objective, so purchases are not the goal) plus 19 Sales ad sets. All 19 are 1–5-day-old October launches in the UK, Canada and the US (launched 2026-10-02 to 2026-10-05) | ₦1,357,606 (Awareness ₦571,684 · Sales ₦785,921)
+108: Z12 | Highest | Underfunded winner (6×) | Goddess DT/NG (9.45, ₦1.36M) · Mystique NG-DT (10.19, ₦1.23M) · 09 Mystique NG (9.77, ₦0.67M) · Goddess DT/NG - [Lagos & PH] (13.98, ₦64k) · Passion | NG | DT | Lagos (10.46, 1 purchase) · Oils | NG | Lagos (31.77, 3 purchases) | ₦3,360,311
+109: Z2 | High | Learning-limited | 45 of 55 active live ad sets (82%) | ₦2,548,699 (last 7 days)
+110: Z7 | Medium | Creative fatigue (3×) | Three "New Sales Ad" creatives in Golden Kiss image - NG: ROAS 14.12, 13.12 and 7.93 in their first 30 days, 0.00 in their last 30 | ₦48,961 (last 30 days)
+111: Total spend implicated |  |  |  | ₦7,315,577
+113: Zingers that did not fire on live ads: Z3, Z4, Z5, Z6, Z8, Z9, Z10 and Z11.
+114: • Z3 and Z4 have no retargeting to test against. Prospecting ROAS is 7.14, so the inefficiency trigger isn't met.
+115: • Z5: the top 5 live ad sets hold 72.9% of live spend, so the fragmentation trigger isn't met.
+116: • Z11: live spend rose from ₦1.35M to ₦11.68M between the prior and recent 90 days, so the stable-spend condition fails.
+117: The last two Z12 rows rest on 1 and 3 purchases. They are listed because the threshold fired, not as evidence.
+119: PART B: OTHER ADS (1,301 ads · 601 ad sets · 424 campaigns, not live) and the 12-month account
+120: These ads are no longer delivering, so they can't be paused. They matter because they show the pattern behind the live ads: what was tried, what worked, and what was switched off. The account totals below include the live ads.
+121: B2. Funnel stage: 12 months, all ads
+122: Funnel Stage | Amount spent | Spend % | Purchases | ROAS
+123: Prospecting | ₦189,045,048 | 99.9% | 9,606 | 6.28
+124: Retargeting | ₦161,361 | 0.1% | 1 | 1.21
+125: Uncategorized | ₦0 | 0.0% | 0 | —
+127: Key findings
+128: • Retargeting has effectively never been run. Two ad sets used warm custom audiences: "WEB 180Days" and "IG 365"/"IG AUDIENCE". Together they spent ₦161k for 1 purchase.
+129: • There is no evidence that retargeting works or fails here. Z3 can't fire meaningfully on ₦161k, so this is an untested opportunity rather than a finding.
+130: B3. Audience: 12 months
+131: Audience | Amount spent | Purchases | ROAS | CPA
+132: Interest | ₦157,134,850 | 7,904 | 6.21 | ₦19,880
+133: Broad | ₦30,039,965 | 1,618 | 6.70 | ₦18,566
+134: LAL | ₦1,907,400 | 84 | 5.81 | ₦22,707
+135: Engagers | ₦124,194 | 1 | 1.58 | ₦124,194
+137: Key findings
+138: • Interest, Broad and Lookalike return within about 0.9 ROAS of each other. With Advantage+ audience on everywhere, audience choice is not what drives performance in this account. Market is.
+139: • One Lookalike ad set, "lookalike Campaign" (Lookalike 5% of 180-day purchasers, Nigeria), returned 9.56 on ₦2.11M and is now paused.
+140: B4. Ad format: 12 months
+141: Ad Format | Amount spent | Purchases | ROAS | CPA
+142: Video | ₦130,697,626 | 6,672 | 6.27 | ₦19,589
+143: Carousel | ₦34,626,382 | 1,431 | 5.34 | ₦24,197
+144: Static | ₦21,054,375 | 1,267 | 7.30 | ₦16,618
+145: Catalogue | ₦2,730,605 | 237 | 10.69 | ₦11,522
+146: Uncategorized | ₦97,419 | 0 | 0.00 | —
+148: Key findings
+149: • Catalogue is the most efficient format and the least funded. It ran on 6 ads (1.4% of spend), including "NG Catalogue" at ROAS 12.05 on 225 purchases, which is now paused.
+150: • Static beats Video and Carousel on CPA. No format meets Z6 (at least 15% of spend at below half the account ROAS), so format alone isn't wasting money.
+151: B4b. Market: 12 months (the largest lever in the account)
+152: Market | Amount spent | Spend % | Purchases | ROAS | CPA | CPM
+153: NG | ₦96,570,647 | 51.0% | 7,226 | 8.86 | ₦13,364 | ₦4,827
+154: CA | ₦42,520,227 | 22.5% | 1,090 | 3.39 | ₦39,009 | ₦15,504
+155: UK | ₦38,928,440 | 20.6% | 1,061 | 3.88 | ₦36,690 | ₦14,276
+156: US | ₦11,113,694 | 5.9% | 230 | 3.28 | ₦48,320 | ₦40,223
+157: UK+NG | ₦73,401 | 0.0% | 0 | 0.00 | — | ₦242
+159: Key findings
+160: • International: ₦92.56M (48.9% of spend) → ₦331.6M attributed value, ROAS 3.58, CPA ₦38,875. Nigeria: ₦96.57M → ₦856.0M, ROAS 8.86.
+161:     – The observation: each international purchase costs 2.9 times a Nigerian one.
+162:     – The inference: international CPMs are 3–8 times higher. Unless international orders carry a much higher margin, which the data can't show, Nigeria returns more per naira.
+163: • International efficiency has eroded. UK ROAS fell from 10.18 in October 2025 to 2.58 in September 2026, and Canada's from 7.57 to 2.17. Nigeria also fell, from 12.86 to 6.72, but it still returns more than twice as much. In September 2026 a purchase cost ₦20,183 in Nigeria, against ₦66,535 in the UK, ₦67,108 in Canada and ₦78,030 in the US.
+164: • Wasted spend is almost entirely abroad. Of the 149 Sales-objective ad sets that hit Z1 (spend of at least ₦29,542 with zero purchases), 145 were in the UK, Canada or the US, totalling ₦9.80M. Nigeria had 4, totalling ₦176k.
+165: B5. Learning phase and conversion volume: 12 months
+166: Measure | Value
+167: Active ad sets (spend 2026-09-30 to 2026-10-06), all ads | 96 (55 live + 41 paused during the week)
+168: Ad sets below 50 conversions per week | 96 (100%)
+169: Share learning-limited (Z2 definition) | 83% (80 of 96)
+170: Spend held by sub-50 ad sets, last 7 days | ₦4,921,948
+171: Ad-set-weeks in the 12 months that reached 50 purchases | 0 of 2,742
+172: Campaigns launched in 12 months · median days with spend · under 14 days | 476 · 8 · 312
+174: Key findings
+175: • The account has never sustained a single ad set above the learning line. That isn't a creative problem; it comes from how the account is run. Each new creative or product launch gets its own campaign, a small budget, and about a week before it is switched off.
+176: • Across the whole account, 9,607 purchases over 52 weeks is about 185 a week. That volume could support 2–3 ad sets above 50 a week. It is currently split across 20–100 at a time.
+177: B6. Spend concentration: 12 months
+178: Measure | Value
+179: Top 5 ad sets — share of spend | 9.5%
+180: Top 10 ad sets — share of spend | 16.0%
+181: Ad sets holding under 1% of spend | 640 of 656
+182: Largest single entity — share of spend | Golden Kiss/NG/02 ad set: ₦5,726,245 (3.0%)
+184: Key findings
+185: • The spend tail is about as long as an account can have: 640 of 656 ad sets each hold less than 1% of spend. This is why Z5 fires.
+186: • There is no concentration risk. Z9 does not fire.
+187: B7. Zingers: other ads (not live) and the 12-month account
+188: # | Severity | Finding | Entity | Spend involved
+189: Z1 | Highest | Spend with no purchases (139 ad sets not live; 160 account-wide) | Not live: 130 Sales ad sets (₦9.19M, almost all in the UK, Canada or the US) plus 9 Awareness, Traffic or Engagement ad sets (₦0.69M, where purchases aren't the goal) | ₦9,882,716 not live · ₦11,240,322 account-wide
+190: Z12 | Highest | Underfunded winner (28 not live; 34 account-wide) | Paused winners, for example: CEO Passion NG (22.45, 284 purchases, ₦1.37M) · Passion & Seduction Campaign (15.26, 283, ₦1.93M) · Dimma Campaign (15.07, 177, ₦1.40M) · Amy okoli Campaign (12.30, 192, ₦1.71M) · ASC Nigeria (12.23, 149, ₦1.44M) · NG Catalogue (12.05, 225, ₦2.25M) · Mini set - Nigeria - Vid (10.95, 175, ₦1.55M) · lookalike Campaign (9.56, 187, ₦2.11M) | ₦24,238,789 not live · ₦27,599,100 account-wide
+191: Z2 | High | Learning-limited | 80 of 96 active ad sets (83%), last 7 days | ₦4,722,777
+192: Z5 | High | Fragmentation | 656 ad sets; 100% of active below 50 a week; top 5 hold 9.5% | ₦189,206,409 (whole account; structural)
+193: Z7 | Medium | Creative fatigue (64 not live; 67 account-wide) | For example: Lookalike NG - Goddess (14.37 → 4.16, −71%) · ISWIS NG (10.24 → 3.34) · Mothers Video Nigeria (9.89 → 4.69) · CEO Goddess NG (18.12 → 5.12) · Golden Kiss/NG/02 (15.46 → 4.04) | ₦10,889,989 (last-30-day spend on fatigued ads)
+194: Z8 | Medium | Zombie ads | 8 ads active 30+ days with zero purchases; oldest New Sales Ad [Goddess UK], 60 days | ₦178,827
+195: Z10 | Watch | Audience overlap risk (hypothesis) | Broad, Interest and LAL ran together in Nigeria on 68 days, across 52 ad sets. CPM was ₦6,186 against Nigeria's ₦4,827 (+28%) | ₦23,959,754
+196: Total spend implicated (account-wide, not de-duplicated) |  |  |  | Z1 + Z12 + Z2 + Z7 + Z8 + Z10 = ₦78.6M (excludes Z5, which covers the whole account)
+198: Zingers that did not fire: Z3, Z4, Z6, Z9 and Z11.
+199: • Z11 (near miss). Between the prior and recent 90 days, spend was stable (₦60.31M → ₦53.04M, −12%). CPM rose 17.6% (₦7,197 → ₦8,461) and CPA rose 20.1% (₦24,496 → ₦29,416). Both are below the 25% trigger. Costs are moving against the account, but not past the threshold.
+200: • No thresholds were changed.
+201: Assumptions and caveats
+202: • Z10 was tested within each market, because audiences in different countries can't overlap. The higher CPM is consistent with self-competition, but it is a hypothesis until an audience-overlap breakdown confirms it.
+203: • Z12's "extra spend at the observed rate" figures are upper bounds. Marginal ROAS falls as budget rises.
+204: 8. Tracking and measurement
+205: Item | Status | Consequence
+206: Pixel present and firing | Yes: pixel 1015068333591306 is the promoted object on 1,381 of 1,412 ads, and it records Purchase, AddToCart, InitiateCheckout and ViewContent | Optimisation signal is present
+207: Conversions API | Data not available (not exposed by the connector) | If CAPI is off, reported volume understates reality. Check in Events Manager
+208: Deduplication (event_id) | Data not available | If browser and server events aren't deduplicated, purchases are double-counted. The September over-count below makes this a priority check
+209: Standard event coverage | ViewContent 277,319 · AddToCart 39,422 · InitiateCheckout 44,233 · Purchase 9,607 (Meta-attributed, 12 months) | InitiateCheckout is higher than AddToCart (+12%). Either AddToCart misses some paths (such as Buy Now) or it fires inconsistently. That weakens any ATC retargeting audience
+210: Event Match Quality | Data not available | Check in Events Manager
+211: Optimisation event | PURCHASE on 1,376 ads (Value 840 · Conversions 541). Other goals: Reach 24 · Landing page views 3 · Link clicks 2 · ThruPlay 1 · Impressions 1 · Content view 3 · Lead 2 | Matches the business outcome
+212: Value parameter | Passed: ₦1.19B attributed, with an average value per purchase of ₦123,620 against a Shopify average order of ₦124,292 | Values look right, in NGN
+213: Test events | Data not available | —
+214: Attribution window | 7-day click, 1-day view (default). Whether it changed during the window: Data not available | Standard. Part of each month's purchases is view-through credit
+215: Meta vs shop purchase count | 12 months: Meta 9,607 against Shopify 12,682 orders across all channels (75.8%). September 2026: Meta 861 against Shopify 804 (107.1%) | In September Meta claimed more purchases than the store took from every source combined. For that month, Meta's efficiency figures are overstated by at least 7%. Over 12 months Meta claims 3 in 4 orders, while Google Ads also claims 716 conversions
+216: Blended return (Shopify revenue ÷ Meta spend) | 12 months: ₦1,576.3M ÷ ₦189.2M = 8.33. Monthly: 15.25 (October 2025) → 9.71 (February 2026) → 5.61 (June) → 4.46 (September) | Blended efficiency has fallen by about two-thirds while monthly spend more than doubled (₦10.6M → ₦25.4M)
+217: Cross-objective aggregation | Sales 98.7% of spend; Awareness, Traffic, Engagement and Leads 0.9%; objective missing 0.6% | Cost per result shown as N/A for non-Sales objectives. Account CPA uses purchases across all objectives
+218: Naming consistency | Not parseable: 0% default match on every level, with default Ads Manager names. A partial convention (Product | Market | Age | Audience | Gender) began on 2026-10-02 | Structural pivots depend on metadata, not names
+219: Status hygiene | 112 ads live. 111 ads spent in the last 7 days and are now paused. 4 live winners delivered under ₦45,000 in the week | Heavy weekly churn. Live winners are being starved
+220: Domain verification, AEM priority, consent, audience sizes | Data not available | Requires Business Manager or Events Manager access
+222: Effect on this audit
+223: • The structural findings hold regardless of measurement. These are fragmentation, churn, zero ad-set-weeks above 50, paused winners, and the market cost gap (CPM and CPA abroad are 3–8 times Nigeria's). They rest on spend, impressions and purchase counts.
+224: • All ROAS and CPA figures are Meta-attributed with view-through, so treat them as upper bounds.
+225:     – September 2026 is overstated by at least 7.1%.
+226:     – The 12-month share of 75.8% of all store orders looks high for an account that also runs Google Ads, with organic Instagram, direct and repeat buyers also contributing.
+227:     – A realistic error margin can't be set without order-level UTM or source data. Until then, use comparisons within Meta (market against market, format against format) for decisions, not the absolute ROAS.
+228: 9. Prioritised recommendations
+229: Ordered by size of opportunity. Every change below is a test to run. Nothing has been changed in the account.
+230: [High priority 1] Consolidate Nigeria into long-running campaigns that can exit learning
+231: • Hypothesis: Meta can't stabilise delivery on ad sets that get 5 purchases a week. Pooling Nigeria's budget into fewer ad sets, each with 50 or more purchases a week, will let delivery exit learning and lower CPA. In the live data, ad sets Meta marks SUCCESS returned ROAS 8.37 at CPA ₦16,405, against 2.83 and ₦51,941 for those still LEARNING. That comparison is confounded by age, so it is an indication rather than proof.
+232: • Action:
+233:     – Build one Nigeria Sales campaign (Advantage campaign budget, Purchase or Value optimisation) with 1–2 ad sets at about ₦95,000–₦100,000 a day each. That is well within what Nigeria already spends: ₦14.05M in September 2026 is about ₦468,000 a day.
+234:     – Seed it with the proven creative from the paused winners: CEO Passion NG, Passion & Seduction, Dimma, Amy okoli, NG Catalogue, Mini set Vid and Goddess DT/NG.
+235:     – Fold the live Nigeria ad sets into it: Golden Kiss image - NG, MGG NG-DT, Goddess DT/NG, Mystique NG-DT, 09 Mystique NG, Mystique NG- Broad and Golden kiss | NG | DT | Lagos.
+236:     – From then on, add new creative as ads in that campaign, not as new campaigns.
+237: • Expected effect: each ad set clears 50 purchases a week within 2–3 weeks and leaves learning. CPA falls from the September 2026 Nigeria level (₦20,183) toward the 12-month Nigeria level (₦13,364).
+238: • Measure: weekly purchases per ad set (target 50 or more), CPA and ROAS against the 4 weeks before the change, and Shopify orders against the same 4 weeks. Judge after 4 weeks.
+239: • Worth: at September's Nigeria spend (₦14.05M, 696 purchases), a 15% cut in CPA (₦20,183 → ₦17,156) would mean about 123 more purchases a month, roughly ₦15.2M of attributed value at ₦123,620 each. This is an illustrative estimate; the real effect is what the measure decides.
+240: [High priority 2] Re-test the market split with a measured shift from international to Nigeria
+241: • Hypothesis: international purchases cost 2.9 times Nigerian ones (CPA ₦38,875 against ₦13,364) because CPMs abroad are 3–8 times higher. Moving part of the international budget to Nigeria buys more purchases per naira, unless international orders carry a margin the data can't see.
+242: • Action:
+243:     – Move 20% of the international budget to Nigeria, about ₦2.28M of the ₦11.40M that the UK, Canada and the US took in September 2026.
+244:     – Take it first from the ad sets that hit Z1 and from the October launches still at zero purchases after 7 days. From the live list: Mini set | CA | 23-45 | DT | Both, the Mystique, Sweet OUD and Goddess | CA | 10 | NID ad sets with no purchases, and the Golden Kiss | UK | 23-45 | Women | Broad pair.
+245:     – Keep the international ad sets that are returning, so the diaspora channel isn't switched off.
+246: • Expected effect: at 12-month observed rates, ₦2.28M buys about 59 purchases abroad or about 171 in Nigeria. Nigeria's marginal ROAS is falling as its spend rises (December 2025: ₦1.41M at 34.05; September 2026: ₦14.05M at 6.72), so plan on the lower end.
+247: • Measure: account purchases, Shopify orders and blended revenue ÷ Meta spend, over 4 weeks against the prior 4.
+248: • Worth: up to about 112 more purchases a month at 12-month rates, roughly ₦13.8M of attributed value. Treat it as an upper bound.
+249: [High priority 3] Stop pausing winners; refresh their creative instead
+250: • Hypothesis: paused winners didn't stop working all at once; many fatigued gradually (Z7). Refreshing creative inside a winning ad set keeps its learning, whereas pausing it and relaunching restarts learning from zero.
+251: • Action:
+252:     – Set a rule. Before pausing an ad set with a 30-day ROAS of at least 1.5 times the account average (9.4 or more), add 2–3 new ads to it, and pause the fatigued ad only.
+253:     – Apply it now to the live Z12 ad sets: Goddess DT/NG, Mystique NG-DT and 09 Mystique NG, which are barely delivering at present.
+254:     – Apply it to Golden Kiss image - NG, where 3 ads fell to 0.00 ROAS in their last 30 days (Z7).
+255: • Expected effect: fewer ad sets restart learning, so cost per purchase rises less after each creative change.
+256: • Measure: count of ad sets kept past 30 days, and their ROAS in weeks 5–8 against weeks 1–4.
+257: • Worth: the 28 paused Z12 ad sets returned ₦24.2M of spend at 9.4–22.5 ROAS, which shows these structures could be kept running.
+258: [Medium priority] Fix the Awareness targeting and question the international Awareness spend
+259: • Hypothesis: the "CA Awareness" campaign targets the UK, so Canada gets no awareness and the UK gets two overlapping Reach campaigns.
+260: • Action: confirm the intended geography for CA Awareness (₦286,314 spent, ₦76,174 in the last 7 days, budget ₦10,000 a day). Then decide whether ₦20,000 a day of Reach in markets returning ROAS 3.4–3.9 earns its place.
+261: • Expected effect: correct reach in Canada, or about ₦600,000 a month freed for Nigeria.
+262: • Measure: CA reach and frequency; UK frequency. Judge over 2 weeks.
+263: • Worth: about ₦600,000 a month of Reach spend.
+264: [Medium priority] Launch a measured retargeting test
+265: • Hypothesis: the 39,422 add-to-cart and 44,233 checkout-initiated events over 12 months, against 9,607 purchases, are a warm pool the account never targets. Retargeting it should convert at a lower CPA than cold Nigeria traffic.
+266: • Action: one retargeting ad set per market cluster (Nigeria; UK, Canada and US), using website AddToCart and InitiateCheckout audiences from the last 30 days, excluding purchasers from the last 30 days, at about 10% of the market's budget. Fix the AddToCart event gap first (see Tracking).
+267: • Expected effect: retargeting CPA below Nigeria's ₦13,364. Audience size decides whether this can scale.
+268: • Measure: CPA and ROAS against prospecting, plus incremental Shopify orders, over 4 weeks.
+269: • Worth: unknown. Retargeting has never been tested here (₦161,000 in 12 months), so the size of the opportunity can't be estimated yet.
+270: [Creative or testing] Fund the formats that return: Catalogue and Static in Nigeria
+271: • Hypothesis: Catalogue (ROAS 10.69, CPA ₦11,522) and Static (7.30, ₦16,618) beat Video (6.27, ₦19,589). In this account, the product image sells.
+272: • Action: add a Nigeria catalogue (DPA) ad to the consolidated campaign, using the "NG Catalogue" product set, and run 2–3 static variants of the best-selling products.
+273: • Expected effect: Catalogue and Static take 20–30% of Nigeria spend at a CPA below the Nigeria average.
+274: • Measure: share of spend and CPA by format inside the consolidated campaign. Judge over 4 weeks.
+275: • Worth: NG Catalogue alone returned ₦27.1M on ₦2.25M.
+276: [Measurement before scaling anything] Reconcile Meta to Shopify
+277: • Hypothesis: in September, Meta claimed 107% of all Shopify orders, so ROAS is overstated and some purchases may be double-counted.
+278: • Action:
+279:     – In Events Manager, confirm that CAPI is on and that browser and server Purchase events share event_id.
+280:     – Tag every ad's URL with UTM parameters.
+281:     – Compare UTM-sourced Shopify orders with Meta purchases each month.
+282: • Expected effect: a stated margin by which Meta ROAS is overstated.
+283: • Measure: monthly gap between Meta and Shopify orders, as a percentage.
+284: • Worth: it determines whether the ₦189M budget is valued correctly.
+285: 10. What we could not establish
+286: • Conversions API, deduplication, Event Match Quality and test events. The connector doesn't expose them. Needs Events Manager access.
+287: • Whether the attribution setting changed during the window, and whether it is unified across ad sets. Needs the ad set attribution_spec or the Ads Manager change history.
+288: • Order-level attribution. Shopify order source shows "web" or an app ID, with no UTM or referrer, so Meta-driven orders can't be separated from Google, organic or direct. Needs UTM tagging, or the Shopify order referrer fields, which were not available to this audit.
+289: • Margin by market. International shipping and fulfilment costs aren't in the data, so the market comparison is on revenue, not profit.
+290: • Google Ads currency and spend in NGN. Google reports 4,976 in an unstated currency (likely not NGN) and 716 conversions, so blended return excludes Google spend.
+291: • Targeting history. Audience, funnel and market come from each ad set's current targeting. Earlier edits aren't visible.
+292: • Custom audience sizes and freshness, domain verification, AEM event priority, consent-banner signal loss. These need Business Manager access.
+293: • The meaning of Shopify source ID 7242029. It carried 2,706 orders in October–December 2025, then stopped as "web" orders began, so it is probably the storefront channel ID before a migration.
+
+### Live Ad Sets: 56 rows
+1: Verdict | Flags | Campaign Name | Ad Set Name | Ad Set ID | Market | Audience | Ad Format(s) | Objective | Optimisation goal | Learning phase | Daily budget (₦) | First spend date | Live ads | Amount spent (12m) | Purchases (12m) | ROAS (12m) | CPA (12m) | Amount spent (last 7d) | Purchases (last 7d)
+2: Check targeting: campaign named CA, targets UK |  | CA Awareness | New Awareness Ad Set | 120251602221220070 | UK | Interest | Video | OUTCOME_AWARENESS | REACH | Not reported | ₦10,000 | 2026-09-09 | 5 | ₦286,314 | 0 | 0.00 |  | ₦76,174 | 0
+3: Scale: winner (Z12); fold into NG consolidation |  | Goddess DT/NG | New Sales Ad Set | 120251035525460070 | NG | Interest | Static/Video | OUTCOME_SALES | OFFSITE_CONVERSIONS | SUCCESS | ₦25,000 | 2026-08-08 | 2 | ₦1,362,540 | 94 | 9.45 | ₦14,495 | ₦175,824 | 10
+4: Scale: winner (Z12); fold into NG consolidation | barely delivering: under ₦50,000 in the last 7 days | Mystique NG-DT | New Sales Ad Set | 120251293155100070 | NG | Interest | Static/Video | OUTCOME_SALES | VALUE | SUCCESS | ₦30,000 | 2026-08-18 | 2 | ₦1,234,551 | 88 | 10.19 | ₦14,029 | ₦13,125 | 1
+5: Scale: winner (Z12); fold into NG consolidation | barely delivering: under ₦50,000 in the last 7 days | 09 Mystique NG | New Sales Ad Set | 120251520513680070 | NG | Interest | Carousel/Video | OUTCOME_SALES | VALUE | FAIL | ₦20,000 | 2026-09-03 | 5 | ₦674,957 | 41 | 9.77 | ₦16,462 | ₦6,924 | 0
+6: Keep; fold into NG consolidation | 3 fatigued ad(s) (Z7): refresh creative | Golden Kiss image - NG | New Sales Ad Set | 120241104568340070 | NG | Broad | Carousel | OUTCOME_SALES | VALUE | SUCCESS | ₦25,000 | 2026-02-18 | 9 | ₦3,527,129 | 225 | 8.78 | ₦15,676 | ₦176,218 | 10
+7: Keep; fold into NG consolidation | barely delivering: under ₦50,000 in the last 7 days | MGG NG-DT | New Sales Ad Set | 120251293284270070 | NG | Interest | Video | OUTCOME_SALES | VALUE | Not reported | ₦67,692 | 2026-08-18 | 2 | ₦2,270,281 | 127 | 7.63 | ₦17,876 | ₦42,211 | 1
+8: Keep; fold into NG consolidation | barely delivering: under ₦50,000 in the last 7 days | Mystique NG- Broad | New Sales Ad Set | 120251293216850070 | NG | Interest | Carousel/Static | OUTCOME_SALES | VALUE | FAIL | ₦15,000 | 2026-08-18 | 2 | ₦615,278 | 36 | 6.76 | ₦17,091 | ₦2,087 | 0
+9: Watch: below account ROAS; fold into NG consolidation |  | Golden kiss | NG | DT | Lagos | New Sales Ad Set | 120251535637490070 | NG | Interest | Carousel/Video | OUTCOME_SALES | VALUE | SUCCESS | ₦50,000 | 2026-09-04 | 5 | ₦1,651,679 | 67 | 5.23 | ₦24,652 | ₦357,641 | 19
+10: Watch: below account ROAS |  | Mystique USA [ Cities ] | New Sales Ad Set | 120251875088160070 | US | Interest | Video | OUTCOME_SALES | VALUE | LEARNING | ₦10,000 | 2026-09-27 | 4 | ₦192,952 | 4 | 4.89 | ₦48,238 | ₦69,917 | 2
+11: Review: Reach objective, no purchase goal |  | UK Awareness | New Awareness Ad Set | 120251601625110070 | UK | Interest | Video | OUTCOME_AWARENESS | REACH | Not reported | ₦10,000 | 2026-09-09 | 5 | ₦285,370 | 0 | 0.00 |  | ₦74,193 | 0
+12: Too early: review on 2026-10-09 |  | Goddess | UK | 23-45 | Broad | Women | New Sales Ad Set | 120251949513070070 | UK | Broad | Carousel/Video | OUTCOME_SALES | VALUE | LEARNING | ₦15,000 | 2026-10-02 | 3 | ₦75,086 | 0 | 0.00 |  | ₦75,086 | 0
+13: Too early: review on 2026-10-09 |  | Goddess | NG | 23-45 | Broad | Women | New Sales Ad Set | 120251949253140070 | NG | Broad | Carousel/Video | OUTCOME_SALES | VALUE | LEARNING | ₦15,000 | 2026-10-02 | 3 | ₦74,037 | 3 | 5.40 | ₦24,679 | ₦74,037 | 3
+14: Too early: review on 2026-10-09 |  | Mystique | 10 | UK | NID | women | 25+ | New Sales Ad Set | 120251949357660070 | UK | Interest | Carousel/Video | OUTCOME_SALES | VALUE | LEARNING | ₦10,000 | 2026-10-02 | 3 | ₦72,590 | 2 | 4.43 | ₦36,295 | ₦72,590 | 2
+15: Too early: review on 2026-10-09 |  | Mystique | UK | DT | Both | 23 -45 | New Sales Ad Set | 120251949463780070 | UK | Interest | Carousel/Video | OUTCOME_SALES | VALUE | LEARNING | ₦10,000 | 2026-10-02 | 3 | ₦72,359 | 3 | 4.81 | ₦24,120 | ₦72,359 | 3
+16: Too early: review on 2026-10-09 |  | Mini set | CA | 23-45 | DT | Both | New Sales Ad Set | 120251949333510070 | CA | Interest | Carousel/Video | OUTCOME_SALES | VALUE | LEARNING | ₦15,000 | 2026-10-02 | 3 | ₦67,864 | 0 | 0.00 |  | ₦67,864 | 0
+17: Too early: review on 2026-10-09 |  | Goddess | USA | 23-45 | NID | Women | New Sales Ad Set | 120251962605230070 | US | Interest | Carousel/Video | OUTCOME_SALES | VALUE | LEARNING | ₦15,000 | 2026-10-02 | 3 | ₦67,293 | 1 | 2.16 | ₦67,293 | ₦67,293 | 1
+18: Too early: review on 2026-10-09 |  | Goddess DT/NG - [ Lagos & PH ] | New Sales Ad Set | 120251961430490070 | NG | Interest | Static/Video | OUTCOME_SALES | OFFSITE_CONVERSIONS | LEARNING | ₦15,000 | 2026-10-02 | 2 | ₦64,030 | 7 | 13.98 | ₦9,147 | ₦64,030 | 7
+19: Too early: review on 2026-10-09 |  | Golden Kiss | UK | 23-45 | Women | Broad | Carousel Ad Set | 120251949536990070 | UK | Broad | Static | OUTCOME_SALES | VALUE | LEARNING | ₦10,000 | 2026-10-02 | 3 | ₦51,208 | 0 | 0.00 |  | ₦51,208 | 0
+20: Too early: review on 2026-10-09 |  | Golden Kiss | UK | 23-45 | Women | Broad | Videos Ad Set | 120251949537040070 | UK | Broad | Carousel/Video | OUTCOME_SALES | VALUE | LEARNING | ₦10,000 | 2026-10-02 | 3 | ₦50,722 | 0 | 0.00 |  | ₦50,722 | 0
+21: Too early: review on 2026-10-09 |  | Golden Kiss | NG | 23-45 | Women | Broad | Carousel Ad Set | 120251948856720070 | NG | Broad | Static | OUTCOME_SALES | VALUE | LEARNING | ₦10,000 | 2026-10-02 | 3 | ₦49,728 | 3 | 6.37 | ₦16,576 | ₦49,728 | 3
+22: Too early: review on 2026-10-12 |  | MGG | UK | DT | New Sales Ad Set | 120251993008460070 | UK | Interest | Video | OUTCOME_SALES | VALUE | LEARNING | ₦30,000 | 2026-10-05 | 1 | ₦42,974 | 2 | 8.37 | ₦21,487 | ₦42,974 | 2
+23: Too early: review on 2026-10-10 |  | Mystique | CA | 10 | NID | CEO | CEO Ad Set | 120251965036450070 | CA | Interest | Video | OUTCOME_SALES | OFFSITE_CONVERSIONS | LEARNING | ₦10,000 | 2026-10-03 | 1 | ₦41,839 | 0 | 0.00 |  | ₦41,839 | 0
+24: Too early: review on 2026-10-10 |  | Mystique | CA | 10 | NID | Woomi | New Ad Set | 120251965070300070 | CA | Interest | Video | OUTCOME_SALES | OFFSITE_CONVERSIONS | LEARNING | ₦10,000 | 2026-10-03 | 1 | ₦41,601 | 0 | 0.00 |  | ₦41,601 | 0
+25: Too early: review on 2026-10-10 |  | Mystique | CA | 10 | NID | UGC | New Ad Set | 120251965061490070 | CA | Interest | Video | OUTCOME_SALES | OFFSITE_CONVERSIONS | LEARNING | ₦10,000 | 2026-10-03 | 1 | ₦41,381 | 1 | 2.91 | ₦41,381 | ₦41,381 | 1
+26: Too early: review on 2026-10-10 |  | Mystique | CA | 10 | NID | Amy Okoli | New Ad Set | 120251965082310070 | CA | Interest | Video | OUTCOME_SALES | OFFSITE_CONVERSIONS | LEARNING | ₦10,000 | 2026-10-03 | 1 | ₦41,124 | 1 | 5.28 | ₦41,124 | ₦41,124 | 1
+27: Too early: review on 2026-10-10 |  | Sweet OUD | CA | 10 | NID | UGC | New Ad Set | 120251965200010070 | CA | Interest | Video | OUTCOME_SALES | OFFSITE_CONVERSIONS | LEARNING | ₦10,000 | 2026-10-03 | 1 | ₦40,725 | 0 | 0.00 |  | ₦40,725 | 0
+28: Too early: review on 2026-10-10 |  | Goddess | CA | 10 | NID | Product | New Ad Set | 120251965156800070 | CA | Interest | Video | OUTCOME_SALES | OFFSITE_CONVERSIONS | LEARNING | ₦10,000 | 2026-10-03 | 1 | ₦40,201 | 1 | 3.79 | ₦40,201 | ₦40,201 | 1
+29: Too early: review on 2026-10-10 |  | Goddess | CA | 10 | NID | CEO | New Ad Set | 120251965098650070 | CA | Interest | Carousel | OUTCOME_SALES | OFFSITE_CONVERSIONS | LEARNING | ₦10,000 | 2026-10-03 | 1 | ₦39,860 | 0 | 0.00 |  | ₦39,860 | 0
+30: Too early: review on 2026-10-10 |  | Goddess | CA | 10 | NID | Event | New Ad Set | 120251965139970070 | CA | Interest | Video | OUTCOME_SALES | OFFSITE_CONVERSIONS | LEARNING | ₦10,000 | 2026-10-03 | 1 | ₦39,770 | 0 | 0.00 |  | ₦39,770 | 0
+31: Too early: review on 2026-10-10 |  | Sweet OUD | CA | 10 | NID | CEO | New Ad Set | 120251965184540070 | CA | Interest | Carousel | OUTCOME_SALES | OFFSITE_CONVERSIONS | LEARNING | ₦10,000 | 2026-10-03 | 1 | ₦38,982 | 0 | 0.00 |  | ₦38,982 | 0
+32: Too early: review on 2026-10-10 |  | Goddess | CA | 10 | NID | UGC | New Ad Set | 120251965128990070 | CA | Interest | Video | OUTCOME_SALES | OFFSITE_CONVERSIONS | LEARNING | ₦10,000 | 2026-10-03 | 1 | ₦37,803 | 0 | 0.00 |  | ₦37,803 | 0
+33: Too early: review on 2026-10-11 |  | Goddess | 10 | USA | NID | Ladies | New Sales Ad Set | 120251975180400070 | US | Interest | Video | OUTCOME_SALES | VALUE | LEARNING | ₦10,000 | 2026-10-04 | 1 | ₦37,535 | 1 | 4.58 | ₦37,535 | ₦37,535 | 1
+34: Too early: review on 2026-10-11 |  | Goddess | 10 | USA | NID | CEO | New Sales Ad Set | 120251975191230070 | US | Interest | Carousel | OUTCOME_SALES | VALUE | LEARNING | ₦10,000 | 2026-10-04 | 1 | ₦36,665 | 0 | 0.00 |  | ₦36,665 | 0
+35: Too early: review on 2026-10-11 |  | Mystique | USA | 10 | NID | Woomi | New Ad Set | 120251975089370070 | US | Interest | Video | OUTCOME_SALES | OFFSITE_CONVERSIONS | LEARNING | ₦10,000 | 2026-10-04 | 1 | ₦33,929 | 1 | 4.28 | ₦33,929 | ₦33,929 | 1
+36: Too early: review on 2026-10-11 |  | Goddess | 10 | USA | NID | UGC | New Sales Ad Set | 120251975204050070 | US | Interest | Video | OUTCOME_SALES | VALUE | LEARNING | ₦10,000 | 2026-10-04 | 1 | ₦33,137 | 0 | 0.00 |  | ₦33,137 | 0
+37: Too early: review on 2026-10-12 |  | MGG | UK | DT | UGC [ Caucasian ] | New Sales Ad Set | 120251993035850070 | UK | Interest | Video | OUTCOME_SALES | VALUE | LEARNING | ₦20,000 | 2026-10-05 | 1 | ₦32,707 | 0 | 0.00 |  | ₦32,707 | 0
+38: Too early: review on 2026-10-11 |  | Mystique | UK | NID | Woomi | New Sales Ad Set | 120251975155900070 | UK | Interest | Video | OUTCOME_SALES | VALUE | LEARNING | ₦10,000 | 2026-10-04 | 1 | ₦32,667 | 0 | 0.00 |  | ₦32,667 | 0
+39: Too early: review on 2026-10-11 |  | Mystique | USA | 10 | NID | Amy Okoli | New Ad Set | 120251975125110070 | US | Interest | Video | OUTCOME_SALES | OFFSITE_CONVERSIONS | LEARNING | ₦10,000 | 2026-10-04 | 1 | ₦32,641 | 0 | 0.00 |  | ₦32,641 | 0
+40: Too early: review on 2026-10-11 |  | Mystique | UK | NID | Amy Okoli | New Sales Ad Set | 120251975137070070 | UK | Interest | Video | OUTCOME_SALES | VALUE | LEARNING | ₦10,000 | 2026-10-04 | 1 | ₦31,727 | 0 | 0.00 |  | ₦31,727 | 0
+41: Too early: review on 2026-10-11 |  | Mystique | UK | 10 | Women | Event | New Sales Ad Set | 120251975160360070 | UK | Interest | Video | OUTCOME_SALES | VALUE | LEARNING | ₦10,000 | 2026-10-04 | 1 | ₦30,626 | 0 | 0.00 |  | ₦30,626 | 0
+42: Too early: review on 2026-10-11 |  | Mystique | USA | 10 | NID | UGC | New Ad Set | 120251975074550070 | US | Interest | Video | OUTCOME_SALES | OFFSITE_CONVERSIONS | LEARNING | ₦10,000 | 2026-10-04 | 1 | ₦30,293 | 0 | 0.00 |  | ₦30,293 | 0
+43: Too early: review on 2026-10-12 |  | MGG | UK | DT | New Sales Ad Set | 120251993179950070 | UK | Interest | Video | OUTCOME_SALES | VALUE | LEARNING | ₦15,000 | 2026-10-05 | 1 | ₦24,803 | 0 | 0.00 |  | ₦24,803 | 0
+44: Too early: review on 2026-10-12 |  | Mini set | NG | Lagos | New Sales Ad Set | 120251997479480070 | NG | Interest | Carousel/Video | OUTCOME_SALES | VALUE | LEARNING | ₦20,000 | 2026-10-05 | 2 | ₦22,685 | 0 | 0.00 |  | ₦22,685 | 0
+45: Too early: review on 2026-10-12 |  | Mystique | UK | Travel | Street Interview | New Sales Ad Set | 120251993098260070 | UK | Interest | Video | OUTCOME_SALES | VALUE | LEARNING | ₦15,000 | 2026-10-05 | 1 | ₦22,611 | 0 | 0.00 |  | ₦22,611 | 0
+46: Too early: review on 2026-10-12 |  | Sweet OUD | NG | Lagos | New Sales Ad Set | 120251997666890070 | NG | Interest | Carousel/Video | OUTCOME_SALES | VALUE | LEARNING | ₦20,000 | 2026-10-05 | 2 | ₦22,317 | 0 | 0.00 |  | ₦22,317 | 0
+47: Too early: review on 2026-10-12 |  | Goddess | NG | Broad | Carousel | New Sales Ad Set | 120251993132900070 | NG | Interest | Static | OUTCOME_SALES | VALUE | LEARNING | ₦15,000 | 2026-10-05 | 1 | ₦21,301 | 1 | 7.28 | ₦21,301 | ₦21,301 | 1
+48: Too early: review on 2026-10-12 |  | Mystique | USA | NID | CEO | New Sales Ad Set | 120251998038410070 | US | Interest | Video | OUTCOME_SALES | VALUE | LEARNING | ₦15,000 | 2026-10-05 | 2 | ₦19,851 | 0 | 0.00 |  | ₦19,851 | 0
+49: Too early: review on 2026-10-12 |  | Mini set | USA | NID | Carousel | New Sales Ad Set | 120251997820400070 | US | Interest | Video | OUTCOME_SALES | VALUE | LEARNING | ₦15,000 | 2026-10-05 | 2 | ₦19,850 | 0 | 0.00 |  | ₦19,850 | 0
+50: Too early: review on 2026-10-12 |  | Mystique | UK | NID | CEO | New Sales Ad Set | 120251997936720070 | UK | Interest | Video | OUTCOME_SALES | VALUE | LEARNING | ₦15,000 | 2026-10-05 | 2 | ₦19,199 | 0 | 0.00 |  | ₦19,199 | 0
+51: Too early: review on 2026-10-12 |  | Mystique | CA | NID | CEO | New Sales Ad Set | 120251998020680070 | CA | Interest | Video | OUTCOME_SALES | VALUE | LEARNING | ₦15,000 | 2026-10-05 | 2 | ₦17,019 | 0 | 0.00 |  | ₦17,019 | 0
+52: Too early: review on 2026-10-13 |  | MGG | CA | UGC | DT | New Sales Ad Set | 120251996164690070 | CA | Interest | Video | OUTCOME_SALES | VALUE | LEARNING | ₦20,000 | 2026-10-06 | 1 | ₦14,192 | 1 | 6.11 | ₦14,192 | ₦14,192 | 1
+53: Too early: review on 2026-10-12 |  | Golden Kiss | NG | Broad | Lagos | MGG | New Sales Ad Set | 120251992925190070 | NG | Broad | Video | OUTCOME_SALES | VALUE | LEARNING | ₦10,000 | 2026-10-05 | 1 | ₦13,781 | 0 | 0.00 |  | ₦13,781 | 0
+54: Too early: review on 2026-10-12 |  | Passion | NG | DT | Lagos | New Sales Ad Set | 120251997736730070 | NG | Interest | Video | OUTCOME_SALES | VALUE | LEARNING | ₦10,000 | 2026-10-05 | 1 | ₦12,335 | 1 | 10.46 | ₦12,335 | ₦12,335 | 1
+55: Too early: review on 2026-10-12 |  | Golden Kiss | CA | UGC | New Sales Ad Set | 120251996193900070 | CA | Interest | Video | OUTCOME_SALES | VALUE | LEARNING | ₦10,000 | 2026-10-05 | 1 | ₦11,959 | 0 | 0.00 |  | ₦11,959 | 0
+56: Too early: review on 2026-10-12 |  | Oils | NG | Lagos | New Sales Ad Set | 120251997780920070 | NG | Broad | Video | OUTCOME_SALES | VALUE | LEARNING | ₦10,000 | 2026-10-05 | 2 | ₦11,899 | 3 | 31.77 | ₦3,966 | ₦11,899 | 3

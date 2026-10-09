@@ -1,0 +1,150 @@
+{
+ "('PASSION', '100ML', 'BG-PASS100', 'ACTIVE', 45000, 'DENY', 'True')": {
+  "Lagos Warehouse": 387,
+  "Canada Warehouse": 0,
+  "UK Warehouse": 262,
+  "Warehance - 5 Logistics": 0
+ },
+ "('GODDESS', '100ML', 'BG-GDS100', 'ACTIVE', 70000, 'DENY', 'True')": {
+  "Lagos Warehouse": 532,
+  "Canada Warehouse": 455,
+  "UK Warehouse": 408,
+  "Warehance - 5 Logistics": 43
+ },
+ "('SEDUCTION', '100ML', 'BG-SED100', 'ACTIVE', 55000, 'DENY', 'True')": {
+  "Lagos Warehouse": 0,
+  "Canada Warehouse": 146,
+  "UK Warehouse": 255,
+  "Warehance - 5 Logistics": 0
+ },
+ "('MYSTIQUE', '100ML', 'BG-MYS100', 'ACTIVE', 75000, 'DENY', 'True')": {
+  "Lagos Warehouse": 1721,
+  "Canada Warehouse": 254,
+  "UK Warehouse": 115,
+  "Warehance - 5 Logistics": 122
+ },
+ "('BLUSH BLOOM', '100ML', 'BG-BBM100', 'ACTIVE', 75000, 'DENY', 'True')": {
+  "Lagos Warehouse": 0,
+  "Canada Warehouse": 50,
+  "UK Warehouse": 244,
+  "Warehance - 5 Logistics": 0
+ },
+ "('SWEET OUD', '100ML', 'BG-SWT100', 'ACTIVE', 75000, 'DENY', 'True')": {
+  "Lagos Warehouse": 513,
+  "Canada Warehouse": 2,
+  "UK Warehouse": 2,
+  "Warehance - 5 Logistics": 0
+ },
+ "('MINI SET', 'Default Title', 'BG-MNST100', 'ACTIVE', 75000, 'DENY', 'True')": {
+  "Lagos Warehouse": 464,
+  "Canada Warehouse": 125,
+  "UK Warehouse": 148,
+  "Warehance - 5 Logistics": 121
+ },
+ "('WHITE FLORALS', '20ML', 'BG-WF20', 'ACTIVE', 40000, 'DENY', 'True')": {
+  "Lagos Warehouse": 571,
+  "Canada Warehouse": 139,
+  "UK Warehouse": 292,
+  "Warehance - 5 Logistics": 0
+ },
+ "('VANILLA SUGAR', '20ML', 'BG-VS20', 'ACTIVE', 40000, 'DENY', 'True')": {
+  "Lagos Warehouse": 473,
+  "Canada Warehouse": 129,
+  "UK Warehouse": 272,
+  "Warehance - 5 Logistics": 0
+ },
+ "('CLEAN MUSK', '20ML', 'BG-CM20', 'ACTIVE', 40000, 'DENY', 'True')": {
+  "Lagos Warehouse": 623,
+  "Canada Warehouse": 141,
+  "UK Warehouse": 295,
+  "Warehance - 5 Logistics": 0
+ },
+ "('THE OIL TRIO', 'Default Title', 'BG-TR20', 'ACTIVE', 100000, 'DENY', 'True')": {
+  "Lagos Warehouse": 83,
+  "Canada Warehouse": 60,
+  "UK Warehouse": 120,
+  "Warehance - 5 Logistics": 0
+ },
+ "('GOLDEN KISS', '100ML', 'BG-GKS100', 'ACTIVE', 80000, 'DENY', 'True')": {
+  "Lagos Warehouse": 296,
+  "Canada Warehouse": 334,
+  "UK Warehouse": 401,
+  "Warehance - 5 Logistics": 120
+ },
+ "('[TEST] GIFTCARD - CANADA', 'CAD 10', None, 'UNLISTED', 10000, 'DENY', 'False')": {
+  "Lagos Warehouse": 0,
+  "Warehance - 5 Logistics": 0
+ },
+ "('[TEST] GIFTCARD - CANADA', 'CAD 20', None, 'UNLISTED', 25, 'DENY', 'False')": {
+  "Lagos Warehouse": 0,
+  "Warehance - 5 Logistics": 0
+ },
+ "('[TEST] GIFTCARD - CANADA', 'CAD 30', None, 'UNLISTED', 50, 'DENY', 'False')": {
+  "Lagos Warehouse": 0,
+  "Warehance - 5 Logistics": 0
+ },
+ "('[TEST] GIFTCARD - CANADA', 'CAD 50', None, 'UNLISTED', 100, 'DENY', 'False')": {
+  "Lagos Warehouse": 0,
+  "Warehance - 5 Logistics": 0
+ },
+ "('GOLDEN KISS - 10ML', '10ml', 'BG-GS1', 'ACTIVE', 15000, 'DENY', 'True')": {
+  "Canada Warehouse": 94,
+  "Lagos Warehouse": 7,
+  "UK Warehouse": 177,
+  "Warehance - 5 Logistics": 0
+ },
+ "('GOLDEN KISS - 3ML SAMPLE', 'Default Title', '323992', 'ACTIVE', 0, 'DENY', 'True')": {
+  "Canada Warehouse": 0,
+  "Lagos Warehouse": 0,
+  "UK Warehouse": 0,
+  "Warehance - 5 Logistics": 75
+ },
+ "('MYSTIQUE - 3ML SAMPLE', '3ml', '323993', 'ACTIVE', 0, 'DENY', 'True')": {
+  "Canada Warehouse": 5,
+  "Lagos Warehouse": -1,
+  "UK Warehouse": 0,
+  "Warehance - 5 Logistics": 190
+ },
+ "('GODDESS - 3ML SAMPLE', 'Default Title', '323994', 'ACTIVE', 0, 'DENY', 'True')": {
+  "Canada Warehouse": 0,
+  "Lagos Warehouse": 1,
+  "UK Warehouse": 0,
+  "Warehance - 5 Logistics": 82
+ },
+ "('THE BEGUILE TOTE', 'The \"What\\'s In My Bag\" Tote', None, 'ACTIVE', 30000, 'DENY', 'True')": {
+  "Canada Warehouse": 0,
+  "Lagos Warehouse": 12,
+  "UK Warehouse": 0,
+  "Warehance - 5 Logistics": 0
+ },
+ "('THE BEGUILE TOTE', 'The Collection Tote', None, 'ACTIVE', 30000, 'DENY', 'True')": {
+  "Canada Warehouse": 0,
+  "Lagos Warehouse": 15,
+  "UK Warehouse": 0,
+  "Warehance - 5 Logistics": 0
+ },
+ "('THE BEGUILE TOTE', 'The All-Over Logo Tote', None, 'ACTIVE', 32000, 'DENY', 'True')": {
+  "Canada Warehouse": 0,
+  "Lagos Warehouse": 14,
+  "UK Warehouse": 0,
+  "Warehance - 5 Logistics": 0
+ },
+ "('THE BEGUILE TOTE', 'The \"Paid In Fragrances\" Tote', None, 'ACTIVE', 30000, 'DENY', 'True')": {
+  "Canada Warehouse": 0,
+  "Lagos Warehouse": 15,
+  "UK Warehouse": 0,
+  "Warehance - 5 Logistics": 0
+ },
+ "('THE BEGUILE TOTE', 'The \"Fragrance Over Flowers\" Tote', None, 'ACTIVE', 30000, 'DENY', 'True')": {
+  "Canada Warehouse": 0,
+  "Lagos Warehouse": 13,
+  "UK Warehouse": 0,
+  "Warehance - 5 Logistics": 0
+ },
+ "('THE BEGUILE BOTTLE', 'Default Title', None, 'ACTIVE', 18000, 'DENY', 'True')": {
+  "Canada Warehouse": 0,
+  "Lagos Warehouse": 34,
+  "UK Warehouse": 0,
+  "Warehance - 5 Logistics": 0
+ }
+}

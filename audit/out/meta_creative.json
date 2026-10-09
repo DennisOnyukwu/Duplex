@@ -1,0 +1,322 @@
+{
+ "NG|Not stated in name": {
+  "spend": 47216188.43239998,
+  "purch": 2970.0,
+  "value": 367249847.2,
+  "cpp": 15897.706542895616,
+  "share": 0.5540043620592261,
+  "ok": "OK"
+ },
+ "NG|Video (unspecified)": {
+  "spend": 8399853.53,
+  "purch": 496.0,
+  "value": 60480106.91,
+  "cpp": 16935.188568548387,
+  "share": 0.09855847434489853,
+  "ok": "OK"
+ },
+ "NG|DT/Dynamic": {
+  "spend": 7638361.04,
+  "purch": 458.0,
+  "value": 63788891.76,
+  "cpp": 16677.644192139738,
+  "share": 0.08962361163908444,
+  "ok": "OK"
+ },
+ "NG|Image": {
+  "spend": 6277662.739999999,
+  "purch": 409.0,
+  "value": 52740268.910000004,
+  "cpp": 15348.808655256722,
+  "share": 0.0736580536668257,
+  "ok": "OK"
+ },
+ "NG|CEO": {
+  "spend": 4779709.3599,
+  "purch": 343.0,
+  "value": 39470260.75,
+  "cpp": 13935.012711078716,
+  "share": 0.056082032935611856,
+  "ok": "OK"
+ },
+ "NG|Named creators": {
+  "spend": 3175707.1841999996,
+  "purch": 301.0,
+  "value": 35597144.8,
+  "cpp": 10550.522206644517,
+  "share": 0.03726170390031618,
+  "ok": "OK"
+ },
+ "NG|Catalogue": {
+  "spend": 2249035.9400000004,
+  "purch": 225.0,
+  "value": 27102925.45,
+  "cpp": 9995.71528888889,
+  "share": 0.026388740018094672,
+  "ok": "OK"
+ },
+ "NG|Podcast (ISWIS)": {
+  "spend": 2218829.2301000003,
+  "purch": 131.0,
+  "value": 16068885.94,
+  "cpp": 16937.627710687026,
+  "share": 0.026034313928152728,
+  "ok": "OK"
+ },
+ "NG|UGC": {
+  "spend": 1973412.73,
+  "purch": 89.0,
+  "value": 12082462.95,
+  "cpp": 22173.176741573032,
+  "share": 0.02315475469030008,
+  "ok": "OK"
+ },
+ "NG|Street Interview": {
+  "spend": 1298345.7100000002,
+  "purch": 72.0,
+  "value": 8683121.42,
+  "cpp": 18032.57930555556,
+  "share": 0.015233952817489675,
+  "ok": "OK"
+ },
+ "UK|Not stated in name": {
+  "spend": 22059323.731400024,
+  "purch": 500.0,
+  "value": 73653257.62000002,
+  "cpp": 44118.64746280005,
+  "share": 0.6491017207678715,
+  "ok": "OK"
+ },
+ "UK|Video (unspecified)": {
+  "spend": 3434280.7443999997,
+  "purch": 82.0,
+  "value": 12202094.100000001,
+  "cpp": 41881.47249268292,
+  "share": 0.101054663684766,
+  "ok": "OK"
+ },
+ "UK|Named creators": {
+  "spend": 1747334.6700000002,
+  "purch": 44.0,
+  "value": 6018961.220000001,
+  "cpp": 39712.151590909096,
+  "share": 0.051415807432024924,
+  "ok": "OK"
+ },
+ "UK|CEO": {
+  "spend": 1598952.4700000002,
+  "purch": 34.0,
+  "value": 4517956.73,
+  "cpp": 47028.013823529414,
+  "share": 0.047049620030993035,
+  "ok": "OK"
+ },
+ "UK|Image": {
+  "spend": 1439038.47,
+  "purch": 40.0,
+  "value": 5787357.159999999,
+  "cpp": 35975.96175,
+  "share": 0.04234410621566604,
+  "ok": "OK"
+ },
+ "UK|Podcast (ISWIS)": {
+  "spend": 1125658.7357,
+  "purch": 38.0,
+  "value": 5856830.39,
+  "cpp": 29622.59830789474,
+  "share": 0.03312282059219247,
+  "ok": "OK"
+ },
+ "UK|DT/Dynamic": {
+  "spend": 773823.46,
+  "purch": 4.0,
+  "value": 777479.8300000001,
+  "cpp": 193455.865,
+  "share": 0.02276996999421023,
+  "ok": "insufficient data"
+ },
+ "UK|UGC": {
+  "spend": 624043.44,
+  "purch": 8.0,
+  "value": 1678038.64,
+  "cpp": 78005.43,
+  "share": 0.018362651351877767,
+  "ok": "insufficient data"
+ },
+ "UK|Carousel": {
+  "spend": 477724.3,
+  "purch": 14.0,
+  "value": 1684615.77,
+  "cpp": 34123.16428571429,
+  "share": 0.014057170063705599,
+  "ok": "insufficient data"
+ },
+ "UK|Street Interview": {
+  "spend": 446764.89,
+  "purch": 6.0,
+  "value": 1233953.31,
+  "cpp": 74460.815,
+  "share": 0.013146180835311758,
+  "ok": "insufficient data"
+ },
+ "UK|Catalogue": {
+  "spend": 257441.55,
+  "purch": 8.0,
+  "value": 1413989.8599999999,
+  "cpp": 32180.19375,
+  "share": 0.007575289031380585,
+  "ok": "insufficient data"
+ },
+ "CA|Not stated in name": {
+  "spend": 22788053.709799994,
+  "purch": 432.0,
+  "value": 63347695.53000003,
+  "cpp": 52750.12432824072,
+  "share": 0.7275845303189303,
+  "ok": "OK"
+ },
+ "CA|Named creators": {
+  "spend": 2660230.7103999997,
+  "purch": 50.0,
+  "value": 6636863.300000001,
+  "cpp": 53204.61420799999,
+  "share": 0.08493672766507475,
+  "ok": "OK"
+ },
+ "CA|DT/Dynamic": {
+  "spend": 1965020.58,
+  "purch": 40.0,
+  "value": 5501660.18,
+  "cpp": 49125.514500000005,
+  "share": 0.06273982824393126,
+  "ok": "OK"
+ },
+ "CA|CEO": {
+  "spend": 901987.9400000001,
+  "purch": 15.0,
+  "value": 2049012.3800000001,
+  "cpp": 60132.52933333334,
+  "share": 0.028798969847785197,
+  "ok": "insufficient data"
+ },
+ "CA|Image": {
+  "spend": 883057.45,
+  "purch": 18.0,
+  "value": 2001648.18,
+  "cpp": 49058.74722222222,
+  "share": 0.028194550889906668,
+  "ok": "insufficient data"
+ },
+ "CA|Podcast (ISWIS)": {
+  "spend": 541614.98,
+  "purch": 17.0,
+  "value": 2230005.82,
+  "cpp": 31859.704705882352,
+  "share": 0.017292862561032445,
+  "ok": "insufficient data"
+ },
+ "CA|Street Interview": {
+  "spend": 440470.84,
+  "purch": 5.0,
+  "value": 807793.3300000001,
+  "cpp": 88094.168,
+  "share": 0.014063498942112927,
+  "ok": "insufficient data"
+ },
+ "CA|Carousel": {
+  "spend": 382424.92,
+  "purch": 9.0,
+  "value": 955949.6499999999,
+  "cpp": 42491.65777777778,
+  "share": 0.012210189573179509,
+  "ok": "insufficient data"
+ },
+ "CA|Video (unspecified)": {
+  "spend": 294387.92000000004,
+  "purch": 2.0,
+  "value": 548893.32,
+  "cpp": 147193.96000000002,
+  "share": 0.009399315063605175,
+  "ok": "insufficient data"
+ },
+ "CA|UGC": {
+  "spend": 238769.04,
+  "purch": 1.0,
+  "value": 194464.13,
+  "cpp": 238769.04,
+  "share": 0.00762349703206078,
+  "ok": "insufficient data"
+ },
+ "CA|Catalogue": {
+  "spend": 224127.89999999997,
+  "purch": 4.0,
+  "value": 681519.1699999999,
+  "cpp": 56031.97499999999,
+  "share": 0.007156029862380881,
+  "ok": "insufficient data"
+ },
+ "US|Not stated in name": {
+  "spend": 8122697.388800003,
+  "purch": 172.0,
+  "value": 28552056.759999994,
+  "cpp": 47224.984818604666,
+  "share": 0.7632690612943778,
+  "ok": "OK"
+ },
+ "US|CEO": {
+  "spend": 683557.97,
+  "purch": 17.0,
+  "value": 1964850.7999999998,
+  "cpp": 40209.29235294118,
+  "share": 0.06423219099871809,
+  "ok": "insufficient data"
+ },
+ "US|UGC": {
+  "spend": 548116.6000000001,
+  "purch": 11.0,
+  "value": 1658727.35,
+  "cpp": 49828.78181818183,
+  "share": 0.051505112493630885,
+  "ok": "insufficient data"
+ },
+ "US|Podcast (ISWIS)": {
+  "spend": 430429.0544,
+  "purch": 11.0,
+  "value": 1583619.43,
+  "cpp": 39129.91403636364,
+  "share": 0.04044631537778488,
+  "ok": "insufficient data"
+ },
+ "US|Video (unspecified)": {
+  "spend": 392538.68000000005,
+  "purch": 5.0,
+  "value": 629393.56,
+  "cpp": 78507.736,
+  "share": 0.0368858539797944,
+  "ok": "insufficient data"
+ },
+ "US|DT/Dynamic": {
+  "spend": 206945.59,
+  "purch": 4.0,
+  "value": 678766.57,
+  "cpp": 51736.3975,
+  "share": 0.019446146847241653,
+  "ok": "insufficient data"
+ },
+ "US|Named creators": {
+  "spend": 179164.2154,
+  "purch": 6.0,
+  "value": 717596.27,
+  "cpp": 29860.702566666663,
+  "share": 0.016835602258734934,
+  "ok": "insufficient data"
+ },
+ "US|Image": {
+  "spend": 78534.83,
+  "purch": 0.0,
+  "value": 0.0,
+  "cpp": null,
+  "share": 0.007379716749717446,
+  "ok": "insufficient data"
+ }
+}

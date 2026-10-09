@@ -1,0 +1,460 @@
+{
+ "JanApr26": {
+  "XQrR6p|Email Welcome Series": [
+   6905,
+   3728,
+   205,
+   42,
+   5171712.44
+  ],
+  "Tiw2da|Browse Abandonment - Standard": [
+   131,
+   73,
+   13,
+   2,
+   290848.82
+  ],
+  "VWjhfu|Abandoned Checkout": [
+   4127,
+   2123,
+   196,
+   60,
+   7533537.82
+  ]
+ },
+ "2026-06": {
+  "VkbRYF|Beguile Post Purchase": [
+   972,
+   673,
+   21,
+   2,
+   422525.63
+  ],
+  "V2jTA3|Beguile Welcome Series": [
+   2418,
+   1050,
+   60,
+   6,
+   686837.34
+  ],
+  "UmZyLw|2026 Abandoned Checkout": [
+   1732,
+   801,
+   49,
+   19,
+   2671163.12
+  ],
+  "TeDkGz|2026 Review request (email + SMS) - Klaviyo Reviews": [
+   1175,
+   478,
+   10,
+   0,
+   0
+  ],
+  "ULGAdZ|2026 Browse Abandonment": [
+   186,
+   80,
+   15,
+   5,
+   501000
+  ],
+  "W7wXwa|Beguile MiniSet Cross-Sell": [
+   971,
+   497,
+   15,
+   2,
+   271000
+  ]
+ },
+ "2026-08": {
+  "RUFSdf|2026 Customer Winback - Standard": [
+   1561,
+   671,
+   9,
+   0,
+   0
+  ],
+  "VkbRYF|Beguile Post Purchase": [
+   723,
+   473,
+   17,
+   1,
+   307000
+  ],
+  "V2jTA3|Beguile Welcome Series": [
+   2323,
+   846,
+   34,
+   6,
+   691394.84
+  ],
+  "UmZyLw|2026 Abandoned Checkout": [
+   1332,
+   569,
+   22,
+   11,
+   1391856.59
+  ],
+  "TeDkGz|2026 Review request (email + SMS) - Klaviyo Reviews": [
+   540,
+   222,
+   7,
+   0,
+   0
+  ],
+  "ULGAdZ|2026 Browse Abandonment": [
+   307,
+   137,
+   17,
+   1,
+   180000
+  ],
+  "W7wXwa|Beguile MiniSet Cross-Sell": [
+   466,
+   203,
+   7,
+   0,
+   0
+  ]
+ },
+ "2026-09": {
+  "RUFSdf|2026 Customer Winback - Standard": [
+   1092,
+   405,
+   3,
+   2,
+   508048.84
+  ],
+  "TeDkGz|2026 Review request (email + SMS) - Klaviyo Reviews": [
+   2007,
+   793,
+   15,
+   2,
+   256647.73
+  ],
+  "VkbRYF|Beguile Post Purchase": [
+   703,
+   428,
+   8,
+   0,
+   0
+  ],
+  "V2jTA3|Beguile Welcome Series": [
+   3825,
+   1330,
+   52,
+   2,
+   185000
+  ],
+  "UmZyLw|2026 Abandoned Checkout": [
+   1446,
+   556,
+   24,
+   5,
+   1014618.59
+  ],
+  "ULGAdZ|2026 Browse Abandonment": [
+   304,
+   113,
+   7,
+   0,
+   0
+  ],
+  "W7wXwa|Beguile MiniSet Cross-Sell": [
+   560,
+   212,
+   2,
+   0,
+   0
+  ]
+ },
+ "JanSep26_single_pull": {
+  "VkbRYF|Beguile Post Purchase": [
+   1779,
+   1266,
+   51,
+   3,
+   640150.63
+  ],
+  "V2jTA3|Beguile Welcome Series": [
+   4774,
+   2112,
+   118,
+   13,
+   1607413.87
+  ],
+  "XQrR6p|Email Welcome Series": [
+   4496,
+   2305,
+   111,
+   21,
+   2735910.8
+  ],
+  "Tiw2da|Browse Abandonment - Standard": [
+   96,
+   55,
+   7,
+   1,
+   125598.82
+  ],
+  "S9kUz8|2026 Welcome Series": [
+   3,
+   2,
+   2,
+   0,
+   0
+  ],
+  "UmZyLw|2026 Abandoned Checkout": [
+   3361,
+   1492,
+   90,
+   33,
+   4945511.56
+  ],
+  "VWjhfu|Abandoned Checkout": [
+   1375,
+   770,
+   50,
+   21,
+   2341214.71
+  ],
+  "TeDkGz|2026 Review request (email + SMS) - Klaviyo Reviews": [
+   1251,
+   508,
+   11,
+   0,
+   0
+  ],
+  "ULGAdZ|2026 Browse Abandonment": [
+   409,
+   183,
+   30,
+   6,
+   683000
+  ],
+  "W7wXwa|Beguile MiniSet Cross-Sell": [
+   1150,
+   574,
+   16,
+   2,
+   271000
+  ]
+ },
+ "JanSep25_single_pull": {
+  "VWjhfu|Abandoned Checkout": [
+   996,
+   436,
+   38,
+   16,
+   1832331.55
+  ]
+ },
+ "_note": "Single 9-month pulls return FEWER recipients than Jan-Apr alone (e.g. XQrR6p 4496 vs 6905) so they are not trusted; totals are rebuilt from monthly pulls.",
+ "2026-02": {
+  "VWjhfu|Abandoned Checkout": [
+   1083,
+   585,
+   50,
+   12,
+   1322304.95
+  ],
+  "XQrR6p|Email Welcome Series": [
+   1171,
+   666,
+   28,
+   7,
+   813082.46
+  ]
+ },
+ "2026-03": {
+  "XQrR6p|Email Welcome Series": [
+   2030,
+   1171,
+   85,
+   16,
+   2022719.18
+  ],
+  "Tiw2da|Browse Abandonment - Standard": [
+   54,
+   29,
+   9,
+   1,
+   165250
+  ],
+  "VWjhfu|Abandoned Checkout": [
+   851,
+   472,
+   55,
+   15,
+   2031681.19
+  ]
+ },
+ "2026-04": {
+  "XQrR6p|Email Welcome Series": [
+   3704,
+   1891,
+   92,
+   19,
+   2335910.8
+  ],
+  "Tiw2da|Browse Abandonment - Standard": [
+   77,
+   44,
+   4,
+   1,
+   125598.82
+  ],
+  "VWjhfu|Abandoned Checkout": [
+   1125,
+   629,
+   43,
+   18,
+   2023214.71
+  ]
+ },
+ "2025Q1": {},
+ "_note2": "2025 Q1 (Jan-Mar 2025) flow report returned no flows. Feb+Mar+Apr 2026 XQrR6p recipients = 6905 = Jan-Apr pull, confirming monthly pulls reconcile.",
+ "2026-01": {
+  "VWjhfu|Abandoned Checkout": [
+   1068,
+   516,
+   48,
+   15,
+   2156336.98
+  ]
+ },
+ "2026-05": {
+  "VkbRYF|Beguile Post Purchase": [
+   807,
+   600,
+   30,
+   1,
+   217625
+  ],
+  "V2jTA3|Beguile Welcome Series": [
+   2356,
+   1062,
+   58,
+   7,
+   920576.53
+  ],
+  "XQrR6p|Email Welcome Series": [
+   792,
+   414,
+   19,
+   2,
+   400000
+  ],
+  "Tiw2da|Browse Abandonment - Standard": [
+   19,
+   11,
+   3,
+   0,
+   0
+  ],
+  "S9kUz8|2026 Welcome Series": [
+   3,
+   2,
+   2,
+   0,
+   0
+  ],
+  "UmZyLw|2026 Abandoned Checkout": [
+   1629,
+   711,
+   41,
+   14,
+   2274348.45
+  ],
+  "VWjhfu|Abandoned Checkout": [
+   250,
+   141,
+   7,
+   3,
+   318000
+  ],
+  "TeDkGz|2026 Review request (email + SMS) - Klaviyo Reviews": [
+   76,
+   31,
+   1,
+   0,
+   0
+  ],
+  "ULGAdZ|2026 Browse Abandonment": [
+   223,
+   107,
+   15,
+   1,
+   182000
+  ],
+  "W7wXwa|Beguile MiniSet Cross-Sell": [
+   179,
+   81,
+   1,
+   0,
+   0
+  ]
+ },
+ "2025Q2": {},
+ "2025Q3": {
+  "VWjhfu|Abandoned Checkout": [
+   996,
+   436,
+   38,
+   16,
+   1832331.55
+  ]
+ },
+ "_note3": "2025 Q1 and Q2 returned no flows; 2025 Q3 equals the Jan-Sep 2025 single pull. Jan 2026 VWjhfu 1068 = Jan-Apr pull (4127) minus Feb-Apr (3059).",
+ "2026-07": {
+  "VkbRYF|Beguile Post Purchase": [
+   522,
+   374,
+   11,
+   0,
+   0
+  ],
+  "V2jTA3|Beguile Welcome Series": [
+   1139,
+   488,
+   33,
+   4,
+   437128.95
+  ],
+  "RUFSdf|2026 Customer Winback - Standard": [
+   335,
+   151,
+   3,
+   0,
+   0
+  ],
+  "UmZyLw|2026 Abandoned Checkout": [
+   1118,
+   497,
+   31,
+   6,
+   805127.45
+  ],
+  "TeDkGz|2026 Review request (email + SMS) - Klaviyo Reviews": [
+   789,
+   311,
+   7,
+   0,
+   0
+  ],
+  "ULGAdZ|2026 Browse Abandonment": [
+   360,
+   149,
+   32,
+   1,
+   126412.51
+  ],
+  "W7wXwa|Beguile MiniSet Cross-Sell": [
+   840,
+   376,
+   10,
+   0,
+   0
+  ]
+ }
+}

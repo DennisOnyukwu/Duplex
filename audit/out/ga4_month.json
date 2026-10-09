@@ -1,0 +1,302 @@
+{
+ "2026-04|NG": {
+  "sessions": 39571.0,
+  "checkouts": 4558.0,
+  "ecommerce_purchases": 877.0
+ },
+ "2026-04|ALL": {
+  "sessions": 57510.0,
+  "checkouts": 6542.0,
+  "ecommerce_purchases": 1190.0
+ },
+ "2026-05|NG": {
+  "sessions": 33665.0,
+  "checkouts": 4395.0,
+  "ecommerce_purchases": 796.0
+ },
+ "2026-05|ALL": {
+  "sessions": 47527.0,
+  "checkouts": 5949.0,
+  "ecommerce_purchases": 1102.0
+ },
+ "2026-02|NG": {
+  "sessions": 36218.0,
+  "checkouts": 3603.0,
+  "ecommerce_purchases": 829.0
+ },
+ "2026-02|ALL": {
+  "sessions": 49250.0,
+  "checkouts": 5215.0,
+  "ecommerce_purchases": 1121.0
+ },
+ "2026-03|NG": {
+  "sessions": 29856.0,
+  "checkouts": 3126.0,
+  "ecommerce_purchases": 741.0
+ },
+ "2026-03|ALL": {
+  "sessions": 42423.0,
+  "checkouts": 4606.0,
+  "ecommerce_purchases": 1002.0
+ },
+ "2026-06|NG": {
+  "sessions": 34300.0,
+  "checkouts": 2982.0,
+  "ecommerce_purchases": 537.0
+ },
+ "2026-06|ALL": {
+  "sessions": 56381.0,
+  "checkouts": 4748.0,
+  "ecommerce_purchases": 864.0
+ },
+ "2026-08|NG": {
+  "sessions": 29580.0,
+  "checkouts": 2827.0,
+  "ecommerce_purchases": 572.0
+ },
+ "2026-08|ALL": {
+  "sessions": 41889.0,
+  "checkouts": 3862.0,
+  "ecommerce_purchases": 747.0
+ },
+ "2026-09|NG": {
+  "sessions": 32690.0,
+  "checkouts": 2304.0,
+  "ecommerce_purchases": 551.0
+ },
+ "2026-09|ALL": {
+  "sessions": 46572.0,
+  "checkouts": 3403.0,
+  "ecommerce_purchases": 748.0
+ },
+ "2026-01|NG": {
+  "sessions": 11811.0,
+  "checkouts": 2225.0,
+  "ecommerce_purchases": 496.0
+ },
+ "2026-01|ALL": {
+  "sessions": 21246.0,
+  "checkouts": 3897.0,
+  "ecommerce_purchases": 759.0
+ },
+ "2026-07|NG": {
+  "sessions": 23299.0,
+  "checkouts": 1614.0,
+  "ecommerce_purchases": 304.0
+ },
+ "2026-07|ALL": {
+  "sessions": 35361.0,
+  "checkouts": 2651.0,
+  "ecommerce_purchases": 497.0
+ },
+ "2026-02|UK": {
+  "sessions": 7142.0,
+  "checkouts": 938.0,
+  "ecommerce_purchases": 195.0
+ },
+ "2026-04|UK": {
+  "sessions": 7943.0,
+  "checkouts": 846.0,
+  "ecommerce_purchases": 130.0
+ },
+ "2026-01|CA": {
+  "sessions": 4395.0,
+  "checkouts": 787.0,
+  "ecommerce_purchases": 97.0
+ },
+ "2026-06|UK": {
+  "sessions": 10233.0,
+  "checkouts": 778.0,
+  "ecommerce_purchases": 123.0
+ },
+ "2026-01|UK": {
+  "sessions": 3735.0,
+  "checkouts": 737.0,
+  "ecommerce_purchases": 150.0
+ },
+ "2026-03|UK": {
+  "sessions": 5333.0,
+  "checkouts": 672.0,
+  "ecommerce_purchases": 131.0
+ },
+ "2026-05|UK": {
+  "sessions": 5441.0,
+  "checkouts": 631.0,
+  "ecommerce_purchases": 120.0
+ },
+ "2026-04|CA": {
+  "sessions": 5007.0,
+  "checkouts": 625.0,
+  "ecommerce_purchases": 98.0
+ },
+ "2026-07|UK": {
+  "sessions": 6149.0,
+  "checkouts": 565.0,
+  "ecommerce_purchases": 109.0
+ },
+ "2026-03|CA": {
+  "sessions": 4556.0,
+  "checkouts": 564.0,
+  "ecommerce_purchases": 97.0
+ },
+ "2026-09|CA": {
+  "sessions": 5917.0,
+  "checkouts": 496.0,
+  "ecommerce_purchases": 85.0
+ },
+ "2026-06|CA": {
+  "sessions": 5633.0,
+  "checkouts": 482.0,
+  "ecommerce_purchases": 78.0
+ },
+ "2026-02|CA": {
+  "sessions": 3076.0,
+  "checkouts": 468.0,
+  "ecommerce_purchases": 70.0
+ },
+ "2026-05|CA": {
+  "sessions": 3880.0,
+  "checkouts": 452.0,
+  "ecommerce_purchases": 79.0
+ },
+ "2026-08|UK": {
+  "sessions": 5107.0,
+  "checkouts": 421.0,
+  "ecommerce_purchases": 69.0
+ },
+ "2026-06|US": {
+  "sessions": 5039.0,
+  "checkouts": 400.0,
+  "ecommerce_purchases": 105.0
+ },
+ "2026-08|CA": {
+  "sessions": 3889.0,
+  "checkouts": 383.0,
+  "ecommerce_purchases": 71.0
+ },
+ "2026-05|US": {
+  "sessions": 3469.0,
+  "checkouts": 337.0,
+  "ecommerce_purchases": 84.0
+ },
+ "2026-04|US": {
+  "sessions": 3192.0,
+  "checkouts": 322.0,
+  "ecommerce_purchases": 56.0
+ },
+ "2026-09|UK": {
+  "sessions": 3857.0,
+  "checkouts": 319.0,
+  "ecommerce_purchases": 53.0
+ },
+ "2026-07|CA": {
+  "sessions": 3544.0,
+  "checkouts": 313.0,
+  "ecommerce_purchases": 60.0
+ },
+ "2026-09|US": {
+  "sessions": 2742.0,
+  "checkouts": 236.0,
+  "ecommerce_purchases": 48.0
+ },
+ "2026-08|US": {
+  "sessions": 2027.0,
+  "checkouts": 178.0,
+  "ecommerce_purchases": 30.0
+ },
+ "2026-03|US": {
+  "sessions": 1255.0,
+  "checkouts": 146.0,
+  "ecommerce_purchases": 17.0
+ },
+ "2026-07|US": {
+  "sessions": 1396.0,
+  "checkouts": 119.0,
+  "ecommerce_purchases": 21.0
+ },
+ "2026-02|US": {
+  "sessions": 1054.0,
+  "checkouts": 103.0,
+  "ecommerce_purchases": 14.0
+ },
+ "2026-01|US": {
+  "sessions": 552.0,
+  "checkouts": 81.0,
+  "ecommerce_purchases": 9.0
+ },
+ "2026-04|Other": {
+  "sessions": 1797.0,
+  "checkouts": 191.0,
+  "ecommerce_purchases": 29.0
+ },
+ "2026-06|Other": {
+  "sessions": 1176.0,
+  "checkouts": 106.0,
+  "ecommerce_purchases": 21.0
+ },
+ "2026-02|Other": {
+  "sessions": 1760.0,
+  "checkouts": 103.0,
+  "ecommerce_purchases": 13.0
+ },
+ "2026-03|Other": {
+  "sessions": 1423.0,
+  "checkouts": 98.0,
+  "ecommerce_purchases": 16.0
+ },
+ "2026-01|Other": {
+  "sessions": 753.0,
+  "checkouts": 67.0,
+  "ecommerce_purchases": 7.0
+ },
+ "2026-05|Other": {
+  "sessions": 1072.0,
+  "checkouts": 134.0,
+  "ecommerce_purchases": 23.0
+ },
+ "2026-08|Other": {
+  "sessions": 1286.0,
+  "checkouts": 53.0,
+  "ecommerce_purchases": 5.0
+ },
+ "2025-12|NG": {
+  "sessions": 32.0,
+  "checkouts": 6.0,
+  "ecommerce_purchases": 4.0
+ },
+ "2025-12|ALL": {
+  "sessions": 64.0,
+  "checkouts": 12.0,
+  "ecommerce_purchases": 4.0
+ },
+ "2026-09|Other": {
+  "sessions": 1366.0,
+  "checkouts": 48.0,
+  "ecommerce_purchases": 11.0
+ },
+ "2025-12|UK": {
+  "sessions": 15.0,
+  "checkouts": 5.0,
+  "ecommerce_purchases": 0.0
+ },
+ "2026-07|Other": {
+  "sessions": 973.0,
+  "checkouts": 40.0,
+  "ecommerce_purchases": 3.0
+ },
+ "2025-12|CA": {
+  "sessions": 7.0,
+  "checkouts": 1.0,
+  "ecommerce_purchases": 0.0
+ },
+ "2025-12|Other": {
+  "sessions": 3.0,
+  "checkouts": 0.0,
+  "ecommerce_purchases": 0.0
+ },
+ "2025-12|US": {
+  "sessions": 7.0,
+  "checkouts": 0.0,
+  "ecommerce_purchases": 0.0
+ }
+}
