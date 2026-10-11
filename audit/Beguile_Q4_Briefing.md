@@ -2,10 +2,10 @@
 
 BEGUILE
 Q4 2026 growth plan
-Our target is ₦582M in net sales this quarter, 60% more than the same quarter last year. We will spend ₦236M on marketing to get there and expect about ₦118M of profit after marketing.
+Our target is ₦582M in net sales this quarter, 60% more than the same quarter last year. We will spend ₦236M on marketing to get there and expect about ₦120M of profit after marketing.
 
 Net sales target | vs Q4 2025 | Marketing budget | Profit after marketing | New customers | Orders a day
-₦582M | +60% | ₦236M | ₦118M | 3,073 | 52
+₦582M | +60% | ₦236M | ₦120M | 3,073 | 52
 Net sales means what customers paid for products after discounts and returns, without shipping and tax. Q4 2025 on the same basis was ₦365M.
 
 1. WHAT WE FOUND
