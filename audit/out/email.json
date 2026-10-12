@@ -1,0 +1,424 @@
+{
+ "JanSep26|UmZyLw|2026 Abandoned Checkout": [
+  7257,
+  3134,
+  167,
+  55,
+  8157114.2
+ ],
+ "JanSep26|VWjhfu|Abandoned Checkout": [
+  4377,
+  2343,
+  203,
+  63,
+  7851537.829999999
+ ],
+ "JanSep26|XQrR6p|Email Welcome Series": [
+  7697,
+  4142,
+  224,
+  44,
+  5571712.4399999995
+ ],
+ "JanSep26|V2jTA3|Beguile Welcome Series": [
+  12061,
+  4776,
+  237,
+  25,
+  2920937.66
+ ],
+ "JanSep26|ULGAdZ|2026 Browse Abandonment": [
+  1380,
+  586,
+  86,
+  8,
+  989412.51
+ ],
+ "JanSep26|VkbRYF|Beguile Post Purchase": [
+  3727,
+  2548,
+  87,
+  4,
+  947150.63
+ ],
+ "JanSep26|RUFSdf|2026 Customer Winback - Standard": [
+  2988,
+  1227,
+  15,
+  2,
+  508048.84
+ ],
+ "JanSep26|Tiw2da|Browse Abandonment - Standard": [
+  150,
+  84,
+  16,
+  2,
+  290848.82
+ ],
+ "JanSep26|W7wXwa|Beguile MiniSet Cross-Sell": [
+  3016,
+  1369,
+  35,
+  2,
+  271000.0
+ ],
+ "JanSep26|TeDkGz|2026 Review request (email + SMS) - Klaviyo Reviews": [
+  4587,
+  1835,
+  40,
+  2,
+  256647.73
+ ],
+ "JanSep26|S9kUz8|2026 Welcome Series": [
+  3,
+  2,
+  2,
+  0,
+  0.0
+ ],
+ "JanSep26|TOTAL": [
+  47243,
+  22046,
+  1112,
+  207,
+  27764410.66
+ ],
+ "AprJun26|UmZyLw|2026 Abandoned Checkout": [
+  3361,
+  1512,
+  90,
+  33,
+  4945511.57
+ ],
+ "AprJun26|XQrR6p|Email Welcome Series": [
+  4496,
+  2305,
+  111,
+  21,
+  2735910.8
+ ],
+ "AprJun26|VWjhfu|Abandoned Checkout": [
+  1375,
+  770,
+  50,
+  21,
+  2341214.71
+ ],
+ "AprJun26|V2jTA3|Beguile Welcome Series": [
+  4774,
+  2112,
+  118,
+  13,
+  1607413.87
+ ],
+ "AprJun26|ULGAdZ|2026 Browse Abandonment": [
+  409,
+  187,
+  30,
+  6,
+  683000.0
+ ],
+ "AprJun26|VkbRYF|Beguile Post Purchase": [
+  1779,
+  1273,
+  51,
+  3,
+  640150.63
+ ],
+ "AprJun26|W7wXwa|Beguile MiniSet Cross-Sell": [
+  1150,
+  578,
+  16,
+  2,
+  271000.0
+ ],
+ "AprJun26|Tiw2da|Browse Abandonment - Standard": [
+  96,
+  55,
+  7,
+  1,
+  125598.82
+ ],
+ "AprJun26|S9kUz8|2026 Welcome Series": [
+  3,
+  2,
+  2,
+  0,
+  0.0
+ ],
+ "AprJun26|TeDkGz|2026 Review request (email + SMS) - Klaviyo Reviews": [
+  1251,
+  509,
+  11,
+  0,
+  0.0
+ ],
+ "AprJun26|TOTAL": [
+  18694,
+  9303,
+  486,
+  100,
+  13349800.4
+ ],
+ "JulSep26|UmZyLw|2026 Abandoned Checkout": [
+  3896,
+  1622,
+  77,
+  22,
+  3211602.63
+ ],
+ "JulSep26|V2jTA3|Beguile Welcome Series": [
+  7287,
+  2664,
+  119,
+  12,
+  1313523.79
+ ],
+ "JulSep26|RUFSdf|2026 Customer Winback - Standard": [
+  2988,
+  1227,
+  15,
+  2,
+  508048.84
+ ],
+ "JulSep26|VkbRYF|Beguile Post Purchase": [
+  1948,
+  1275,
+  36,
+  1,
+  307000.0
+ ],
+ "JulSep26|ULGAdZ|2026 Browse Abandonment": [
+  971,
+  399,
+  56,
+  2,
+  306412.51
+ ],
+ "JulSep26|TeDkGz|2026 Review request (email + SMS) - Klaviyo Reviews": [
+  3336,
+  1326,
+  29,
+  2,
+  256647.73
+ ],
+ "JulSep26|W7wXwa|Beguile MiniSet Cross-Sell": [
+  1866,
+  791,
+  19,
+  0,
+  0.0
+ ],
+ "JulSep26|TOTAL": [
+  22292,
+  9304,
+  351,
+  41,
+  5903235.5
+ ],
+ "JanSep25|VWjhfu|Abandoned Checkout": [
+  996,
+  436,
+  38,
+  16,
+  1832331.55
+ ],
+ "JanSep25|TOTAL": [
+  996,
+  436,
+  38,
+  16,
+  1832331.55
+ ],
+ "JanApr26 (old flows)|VWjhfu|Abandoned Checkout": [
+  4127,
+  2202,
+  196,
+  60,
+  7533537.829999999
+ ],
+ "JanApr26 (old flows)|XQrR6p|Email Welcome Series": [
+  6905,
+  3728,
+  205,
+  42,
+  5171712.4399999995
+ ],
+ "JanApr26 (old flows)|Tiw2da|Browse Abandonment - Standard": [
+  131,
+  73,
+  13,
+  2,
+  290848.82
+ ],
+ "JanApr26 (old flows)|TOTAL": [
+  11163,
+  6003,
+  414,
+  104,
+  12996099.09
+ ],
+ "MaySep26 (rebuilt flows)|UmZyLw|2026 Abandoned Checkout": [
+  7257,
+  3134,
+  167,
+  55,
+  8157114.2
+ ],
+ "MaySep26 (rebuilt flows)|V2jTA3|Beguile Welcome Series": [
+  12061,
+  4776,
+  237,
+  25,
+  2920937.66
+ ],
+ "MaySep26 (rebuilt flows)|ULGAdZ|2026 Browse Abandonment": [
+  1380,
+  586,
+  86,
+  8,
+  989412.51
+ ],
+ "MaySep26 (rebuilt flows)|VkbRYF|Beguile Post Purchase": [
+  3727,
+  2548,
+  87,
+  4,
+  947150.63
+ ],
+ "MaySep26 (rebuilt flows)|RUFSdf|2026 Customer Winback - Standard": [
+  2988,
+  1227,
+  15,
+  2,
+  508048.84
+ ],
+ "MaySep26 (rebuilt flows)|XQrR6p|Email Welcome Series": [
+  792,
+  414,
+  19,
+  2,
+  400000.0
+ ],
+ "MaySep26 (rebuilt flows)|VWjhfu|Abandoned Checkout": [
+  250,
+  141,
+  7,
+  3,
+  318000.0
+ ],
+ "MaySep26 (rebuilt flows)|W7wXwa|Beguile MiniSet Cross-Sell": [
+  3016,
+  1369,
+  35,
+  2,
+  271000.0
+ ],
+ "MaySep26 (rebuilt flows)|TeDkGz|2026 Review request (email + SMS) - Klaviyo Reviews": [
+  4587,
+  1835,
+  40,
+  2,
+  256647.73
+ ],
+ "MaySep26 (rebuilt flows)|Tiw2da|Browse Abandonment - Standard": [
+  19,
+  11,
+  3,
+  0,
+  0.0
+ ],
+ "MaySep26 (rebuilt flows)|S9kUz8|2026 Welcome Series": [
+  3,
+  2,
+  2,
+  0,
+  0.0
+ ],
+ "MaySep26 (rebuilt flows)|TOTAL": [
+  36080,
+  16043,
+  698,
+  103,
+  14768311.57
+ ],
+ "coverage": {
+  "2026-01": [
+   1068,
+   3897.0,
+   0.27405696689761355
+  ],
+  "2026-02": [
+   1083,
+   5215.0,
+   0.20767018216682645
+  ],
+  "2026-03": [
+   851,
+   4606.0,
+   0.1847590099869735
+  ],
+  "2026-04": [
+   1125,
+   6542.0,
+   0.17196575970651176
+  ],
+  "2026-05": [
+   1879,
+   5949.0,
+   0.31585140359724323
+  ],
+  "2026-06": [
+   1732,
+   4748.0,
+   0.36478517270429656
+  ],
+  "2026-07": [
+   1118,
+   2651.0,
+   0.4217276499434176
+  ],
+  "2026-08": [
+   1332,
+   3862.0,
+   0.3448990160538581
+  ],
+  "2026-09": [
+   1446,
+   3403.0,
+   0.4249191889509257
+  ]
+ },
+ "campaigns|JanSep26": [
+  57,
+  410289,
+  176311,
+  2467,
+  78,
+  11164119.031259997
+ ],
+ "campaigns|JanSep25": [
+  51,
+  175118,
+  75624,
+  1288,
+  68,
+  6821465.66405
+ ],
+ "campaigns|AprJun26": [
+  8,
+  29745,
+  14995,
+  416,
+  7,
+  1115320.35937
+ ],
+ "campaigns|JulSep26": [
+  40,
+  319519,
+  134289,
+  1475,
+  51,
+  7130840.40627
+ ]
+}

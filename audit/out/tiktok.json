@@ -1,0 +1,244 @@
+{
+ "month": {
+  "2025-01": {
+   "videos": 4.0,
+   "video_views_count": 152562.0,
+   "video_reach": 114446.0,
+   "video_likes": 3453.0,
+   "video_shares": 83.0,
+   "video_comments": 46.0,
+   "video_new_followers": 1048.0,
+   "video_profile_views": 463.0,
+   "video_website_clicks": 0.0
+  },
+  "2025-02": {
+   "videos": 2.0,
+   "video_views_count": 429191.0,
+   "video_reach": 256890.0,
+   "video_likes": 5244.0,
+   "video_shares": 266.0,
+   "video_comments": 79.0,
+   "video_new_followers": 235.0,
+   "video_profile_views": 2586.0,
+   "video_website_clicks": 0.0
+  },
+  "2025-03": {
+   "videos": 2.0,
+   "video_views_count": 717.0,
+   "video_reach": 499.0,
+   "video_likes": 15.0,
+   "video_shares": 4.0,
+   "video_comments": 3.0,
+   "video_new_followers": 1.0,
+   "video_profile_views": 0.0,
+   "video_website_clicks": 0.0
+  },
+  "2025-04": {
+   "videos": 20.0,
+   "video_views_count": 222020.0,
+   "video_reach": 143904.0,
+   "video_likes": 3248.0,
+   "video_shares": 188.0,
+   "video_comments": 62.0,
+   "video_new_followers": 174.0,
+   "video_profile_views": 1539.0,
+   "video_website_clicks": 0.0
+  },
+  "2025-05": {
+   "videos": 3.0,
+   "video_views_count": 5953.0,
+   "video_reach": 4659.0,
+   "video_likes": 164.0,
+   "video_shares": 14.0,
+   "video_comments": 11.0,
+   "video_new_followers": 21.0,
+   "video_profile_views": 10.0,
+   "video_website_clicks": 0.0
+  },
+  "2025-06": {
+   "videos": 1.0,
+   "video_views_count": 96688.0,
+   "video_reach": 68778.0,
+   "video_likes": 1907.0,
+   "video_shares": 78.0,
+   "video_comments": 3.0,
+   "video_new_followers": 34.0,
+   "video_profile_views": 715.0,
+   "video_website_clicks": 0.0
+  },
+  "2025-07": {
+   "videos": 4.0,
+   "video_views_count": 6668.0,
+   "video_reach": 5115.0,
+   "video_likes": 236.0,
+   "video_shares": 15.0,
+   "video_comments": 11.0,
+   "video_new_followers": 26.0,
+   "video_profile_views": 82.0,
+   "video_website_clicks": 0.0
+  },
+  "2025-08": {
+   "videos": 2.0,
+   "video_views_count": 4116.0,
+   "video_reach": 3404.0,
+   "video_likes": 157.0,
+   "video_shares": 3.0,
+   "video_comments": 2.0,
+   "video_new_followers": 9.0,
+   "video_profile_views": 40.0,
+   "video_website_clicks": 0.0
+  },
+  "2025-10": {
+   "videos": 3.0,
+   "video_views_count": 3407.0,
+   "video_reach": 2606.0,
+   "video_likes": 137.0,
+   "video_shares": 3.0,
+   "video_comments": 13.0,
+   "video_new_followers": 5.0,
+   "video_profile_views": 38.0,
+   "video_website_clicks": 0.0
+  },
+  "2025-11": {
+   "videos": 13.0,
+   "video_views_count": 31996.0,
+   "video_reach": 27493.0,
+   "video_likes": 1817.0,
+   "video_shares": 62.0,
+   "video_comments": 27.0,
+   "video_new_followers": 26.0,
+   "video_profile_views": 27.0,
+   "video_website_clicks": 0.0
+  },
+  "2025-12": {
+   "videos": 8.0,
+   "video_views_count": 9163.0,
+   "video_reach": 7690.0,
+   "video_likes": 447.0,
+   "video_shares": 17.0,
+   "video_comments": 12.0,
+   "video_new_followers": 11.0,
+   "video_profile_views": 2.0,
+   "video_website_clicks": 0.0
+  },
+  "2026-01": {
+   "videos": 2.0,
+   "video_views_count": 2687.0,
+   "video_reach": 2221.0,
+   "video_likes": 149.0,
+   "video_shares": 5.0,
+   "video_comments": 0.0,
+   "video_new_followers": 6.0,
+   "video_profile_views": 6.0,
+   "video_website_clicks": 0.0
+  },
+  "2026-02": {
+   "videos": 7.0,
+   "video_views_count": 22039.0,
+   "video_reach": 19282.0,
+   "video_likes": 1155.0,
+   "video_shares": 36.0,
+   "video_comments": 18.0,
+   "video_new_followers": 24.0,
+   "video_profile_views": 255.0,
+   "video_website_clicks": 0.0
+  },
+  "2026-03": {
+   "videos": 1.0,
+   "video_views_count": 1119.0,
+   "video_reach": 931.0,
+   "video_likes": 23.0,
+   "video_shares": 2.0,
+   "video_comments": 0.0,
+   "video_new_followers": 0.0,
+   "video_profile_views": 7.0,
+   "video_website_clicks": 0.0
+  },
+  "2026-04": {
+   "videos": 1.0,
+   "video_views_count": 1219.0,
+   "video_reach": 1029.0,
+   "video_likes": 55.0,
+   "video_shares": 1.0,
+   "video_comments": 2.0,
+   "video_new_followers": 0.0,
+   "video_profile_views": 10.0,
+   "video_website_clicks": 0.0
+  },
+  "2026-05": {
+   "videos": 4.0,
+   "video_views_count": 3464.0,
+   "video_reach": 2960.0,
+   "video_likes": 173.0,
+   "video_shares": 2.0,
+   "video_comments": 3.0,
+   "video_new_followers": 3.0,
+   "video_profile_views": 25.0,
+   "video_website_clicks": 0.0
+  },
+  "2026-06": {
+   "videos": 4.0,
+   "video_views_count": 2394.0,
+   "video_reach": 1979.0,
+   "video_likes": 153.0,
+   "video_shares": 6.0,
+   "video_comments": 7.0,
+   "video_new_followers": 3.0,
+   "video_profile_views": 0.0,
+   "video_website_clicks": 0.0
+  },
+  "2026-07": {
+   "videos": 10.0,
+   "video_views_count": 3594.0,
+   "video_reach": 2932.0,
+   "video_likes": 211.0,
+   "video_shares": 6.0,
+   "video_comments": 8.0,
+   "video_new_followers": 4.0,
+   "video_profile_views": 0.0,
+   "video_website_clicks": 0.0
+  },
+  "2026-08": {
+   "videos": 3.0,
+   "video_views_count": 1433.0,
+   "video_reach": 1065.0,
+   "video_likes": 70.0,
+   "video_shares": 6.0,
+   "video_comments": 13.0,
+   "video_new_followers": 6.0,
+   "video_profile_views": 0.0,
+   "video_website_clicks": 0.0
+  },
+  "2026-09": {
+   "videos": 1.0,
+   "video_views_count": 845.0,
+   "video_reach": 741.0,
+   "video_likes": 22.0,
+   "video_shares": 4.0,
+   "video_comments": 2.0,
+   "video_new_followers": 1.0,
+   "video_profile_views": 0.0,
+   "video_website_clicks": 0.0
+  },
+  "2026-10": {
+   "videos": 5.0,
+   "video_views_count": 4413.0,
+   "video_reach": 3302.0,
+   "video_likes": 162.0,
+   "video_shares": 8.0,
+   "video_comments": 9.0,
+   "video_new_followers": 2.0,
+   "video_profile_views": 0.0,
+   "video_website_clicks": 0.0
+  }
+ },
+ "total": {
+  "video_views_count": 1005688,
+  "video_reach": 671926,
+  "video_likes": 18998,
+  "video_shares": 809,
+  "video_new_followers": 1639,
+  "video_profile_views": 5805,
+  "video_website_clicks": 0
+ }
+}

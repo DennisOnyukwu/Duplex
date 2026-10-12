@@ -1,0 +1,82 @@
+{
+ "JanSep25|NG": {
+  "clicks": 31.0,
+  "impr": 701.0
+ },
+ "JanSep25|UK": {
+  "clicks": 11.0,
+  "impr": 73.0
+ },
+ "JanSep25|CA": {
+  "clicks": 5.0,
+  "impr": 24.0
+ },
+ "JanSep25|US": {
+  "clicks": 2.0,
+  "impr": 215.0
+ },
+ "JanSep25|Other": {
+  "clicks": 7.0,
+  "impr": 110.0
+ },
+ "JanSep26|NG": {
+  "clicks": 5073.0,
+  "impr": 27100.0
+ },
+ "JanSep26|UK": {
+  "clicks": 2962.0,
+  "impr": 24761.0
+ },
+ "JanSep26|CA": {
+  "clicks": 1365.0,
+  "impr": 18655.0
+ },
+ "JanSep26|US": {
+  "clicks": 1638.0,
+  "impr": 86586.0
+ },
+ "JanSep26|Other": {
+  "clicks": 1559.0,
+  "impr": 120406.0
+ },
+ "AprJun26|NG": {
+  "clicks": 2034.0,
+  "impr": 10001.0
+ },
+ "AprJun26|UK": {
+  "clicks": 1271.0,
+  "impr": 9863.0
+ },
+ "AprJun26|US": {
+  "clicks": 763.0,
+  "impr": 48093.0
+ },
+ "AprJun26|CA": {
+  "clicks": 513.0,
+  "impr": 6828.0
+ },
+ "AprJun26|Other": {
+  "clicks": 586.0,
+  "impr": 47037.0
+ },
+ "JulSep26|NG": {
+  "clicks": 1230.0,
+  "impr": 9085.0
+ },
+ "JulSep26|UK": {
+  "clicks": 826.0,
+  "impr": 10646.0
+ },
+ "JulSep26|US": {
+  "clicks": 598.0,
+  "impr": 23455.0
+ },
+ "JulSep26|CA": {
+  "clicks": 322.0,
+  "impr": 7869.0
+ },
+ "JulSep26|Other": {
+  "clicks": 707.0,
+  "impr": 57150.0
+ }
+}

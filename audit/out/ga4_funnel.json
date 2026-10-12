@@ -1,0 +1,137 @@
+{
+ "JanSep26|ALL": {
+  "sessions": 398159.0,
+  "totalusers": 305424.0,
+  "items_viewed": 275247.0,
+  "add_to_carts": 44735.0,
+  "checkouts": 40873.0,
+  "ecommerce_purchases": 8030.0,
+  "purchase_revenue": 690612.4275
+ },
+ "AprJun26|ALL": {
+  "sessions": 161418.0,
+  "totalusers": 120945.0,
+  "items_viewed": 96877.0,
+  "add_to_carts": 18005.0,
+  "checkouts": 17239.0,
+  "ecommerce_purchases": 3156.0,
+  "purchase_revenue": 267153.5457000002
+ },
+ "JulSep26|ALL": {
+  "sessions": 123822.0,
+  "totalusers": 94426.0,
+  "items_viewed": 106868.0,
+  "add_to_carts": 10668.0,
+  "checkouts": 9916.0,
+  "ecommerce_purchases": 1992.0,
+  "purchase_revenue": 192161.0619
+ },
+ "JanSep26|NG": {
+  "sessions": 270990.0,
+  "totalusers": 208146.0,
+  "items_viewed": 182338.0,
+  "add_to_carts": 28346.0,
+  "checkouts": 27634.0,
+  "ecommerce_purchases": 5703.0,
+  "purchase_revenue": 464513.3472
+ },
+ "AprJun26|NG": {
+  "sessions": 107536.0,
+  "totalusers": 80018.0,
+  "items_viewed": 60160.0,
+  "add_to_carts": 11242.0,
+  "checkouts": 11935.0,
+  "ecommerce_purchases": 2210.0,
+  "purchase_revenue": 174733.6482
+ },
+ "JulSep26|NG": {
+  "sessions": 85569.0,
+  "totalusers": 65653.0,
+  "items_viewed": 75264.0,
+  "add_to_carts": 6762.0,
+  "checkouts": 6745.0,
+  "ecommerce_purchases": 1427.0,
+  "purchase_revenue": 130796.7276
+ },
+ "JanSep26|UK": {
+  "sessions": 54940.0,
+  "totalusers": 41462.0,
+  "items_viewed": 38764.0,
+  "add_to_carts": 7643.0,
+  "checkouts": 5907.0,
+  "ecommerce_purchases": 1080.0,
+  "purchase_revenue": 108505.60780000001
+ },
+ "AprJun26|UK": {
+  "sessions": 23617.0,
+  "totalusers": 17970.0,
+  "items_viewed": 15494.0,
+  "add_to_carts": 2903.0,
+  "checkouts": 2255.0,
+  "ecommerce_purchases": 373.0,
+  "purchase_revenue": 38299.0414
+ },
+ "JulSep26|UK": {
+  "sessions": 15113.0,
+  "totalusers": 11146.0,
+  "items_viewed": 11519.0,
+  "add_to_carts": 1680.0,
+  "checkouts": 1305.0,
+  "ecommerce_purchases": 231.0,
+  "purchase_revenue": 26530.6544
+ },
+ "JanSep26|CA": {
+  "sessions": 39897.0,
+  "totalusers": 29902.0,
+  "items_viewed": 31643.0,
+  "add_to_carts": 5236.0,
+  "checkouts": 4570.0,
+  "ecommerce_purchases": 735.0,
+  "purchase_revenue": 65318.0829
+ },
+ "AprJun26|CA": {
+  "sessions": 14520.0,
+  "totalusers": 10730.0,
+  "items_viewed": 10249.0,
+  "add_to_carts": 1875.0,
+  "checkouts": 1559.0,
+  "ecommerce_purchases": 255.0,
+  "purchase_revenue": 23145.2339
+ },
+ "JulSep26|CA": {
+  "sessions": 13350.0,
+  "totalusers": 9865.0,
+  "items_viewed": 12694.0,
+  "add_to_carts": 1405.0,
+  "checkouts": 1192.0,
+  "ecommerce_purchases": 216.0,
+  "purchase_revenue": 20334.429
+ },
+ "JanSep26|US": {
+  "sessions": 20726.0,
+  "totalusers": 15976.0,
+  "items_viewed": 15728.0,
+  "add_to_carts": 2571.0,
+  "checkouts": 1922.0,
+  "ecommerce_purchases": 384.0,
+  "purchase_revenue": 39672.840399999994
+ },
+ "AprJun26|US": {
+  "sessions": 11700.0,
+  "totalusers": 8935.0,
+  "items_viewed": 8708.0,
+  "add_to_carts": 1541.0,
+  "checkouts": 1059.0,
+  "ecommerce_purchases": 245.0,
+  "purchase_revenue": 23992.7348
+ },
+ "JulSep26|US": {
+  "sessions": 6165.0,
+  "totalusers": 4580.0,
+  "items_viewed": 5425.0,
+  "add_to_carts": 640.0,
+  "checkouts": 533.0,
+  "ecommerce_purchases": 99.0,
+  "purchase_revenue": 11915.1277
+ }
+}

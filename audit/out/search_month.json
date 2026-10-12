@@ -1,0 +1,93 @@
+{
+ "2025-09": {
+  "brand_clicks": 13.0,
+  "brand_impr": 85.0,
+  "nonbrand_clicks": 0.0,
+  "nonbrand_impr": 455.0,
+  "pos": 20.38333611111111
+ },
+ "2025-10": {
+  "brand_clicks": 891.0,
+  "brand_impr": 2470.0,
+  "nonbrand_clicks": 2.0,
+  "nonbrand_impr": 1672.0,
+  "pos": 12.112762795750845
+ },
+ "2025-11": {
+  "brand_clicks": 1039.0,
+  "brand_impr": 3187.0,
+  "nonbrand_clicks": 11.0,
+  "nonbrand_impr": 1984.0,
+  "pos": 14.758269735060919
+ },
+ "2025-12": {
+  "brand_clicks": 853.0,
+  "brand_impr": 2062.0,
+  "nonbrand_clicks": 4.0,
+  "nonbrand_impr": 1394.0,
+  "pos": 22.03009117476852
+ },
+ "2026-01": {
+  "brand_clicks": 791.0,
+  "brand_impr": 4541.0,
+  "nonbrand_clicks": 1.0,
+  "nonbrand_impr": 367.0,
+  "pos": 7.132624185004076
+ },
+ "2026-02": {
+  "brand_clicks": 1034.0,
+  "brand_impr": 10596.0,
+  "nonbrand_clicks": 2.0,
+  "nonbrand_impr": 738.0,
+  "pos": 7.991706334921473
+ },
+ "2026-03": {
+  "brand_clicks": 923.0,
+  "brand_impr": 16128.0,
+  "nonbrand_clicks": 2.0,
+  "nonbrand_impr": 1617.0,
+  "pos": 7.870180991828681
+ },
+ "2026-04": {
+  "brand_clicks": 2049.0,
+  "brand_impr": 32332.0,
+  "nonbrand_clicks": 4.0,
+  "nonbrand_impr": 2178.0,
+  "pos": 7.176904717473198
+ },
+ "2026-05": {
+  "brand_clicks": 923.0,
+  "brand_impr": 28148.0,
+  "nonbrand_clicks": 18.0,
+  "nonbrand_impr": 3066.0,
+  "pos": 8.276618754405074
+ },
+ "2026-06": {
+  "brand_clicks": 890.0,
+  "brand_impr": 20076.0,
+  "nonbrand_clicks": 5.0,
+  "nonbrand_impr": 2460.0,
+  "pos": 8.235942882499112
+ },
+ "2026-07": {
+  "brand_clicks": 771.0,
+  "brand_impr": 9438.0,
+  "nonbrand_clicks": 18.0,
+  "nonbrand_impr": 2535.0,
+  "pos": 8.897583036832874
+ },
+ "2026-08": {
+  "brand_clicks": 799.0,
+  "brand_impr": 9799.0,
+  "nonbrand_clicks": 18.0,
+  "nonbrand_impr": 5233.0,
+  "pos": 9.11027886508781
+ },
+ "2026-09": {
+  "brand_clicks": 557.0,
+  "brand_impr": 6291.0,
+  "nonbrand_clicks": 57.0,
+  "nonbrand_impr": 6438.0,
+  "pos": 10.159165401838317
+ }
+}

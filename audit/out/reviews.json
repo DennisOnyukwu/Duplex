@@ -1,0 +1,110 @@
+{
+ "2025-10": {
+  "all": 36,
+  "published": 33,
+  "unverified": 36,
+  "rating_sum": 156,
+  "rated": 36,
+  "rejected": 3
+ },
+ "2025-11": {
+  "all": 85,
+  "rejected": 19,
+  "unverified": 84,
+  "rating_sum": 358,
+  "rated": 85,
+  "published": 66,
+  "verified": 1
+ },
+ "2025-12": {
+  "all": 29,
+  "published": 25,
+  "verified": 3,
+  "rating_sum": 128,
+  "rated": 29,
+  "unverified": 26,
+  "rejected": 4
+ },
+ "2026-01": {
+  "all": 89,
+  "published": 74,
+  "verified": 88,
+  "rating_sum": 399,
+  "rated": 89,
+  "rejected": 15,
+  "unverified": 1
+ },
+ "2026-02": {
+  "all": 151,
+  "rejected": 14,
+  "verified": 147,
+  "rating_sum": 671,
+  "rated": 151,
+  "published": 137,
+  "unverified": 4
+ },
+ "2026-03": {
+  "all": 74,
+  "published": 65,
+  "verified": 73,
+  "rating_sum": 307,
+  "rated": 74,
+  "rejected": 9,
+  "unverified": 1
+ },
+ "2026-04": {
+  "all": 79,
+  "published": 69,
+  "verified": 79,
+  "rating_sum": 346,
+  "rated": 79,
+  "rejected": 10
+ },
+ "2026-05": {
+  "all": 14,
+  "published": 11,
+  "verified": 14,
+  "rating_sum": 60,
+  "rated": 14,
+  "rejected": 3
+ },
+ "2026-06": {
+  "all": 8,
+  "published": 8,
+  "verified": 8,
+  "rating_sum": 38,
+  "rated": 8
+ },
+ "2026-07": {
+  "all": 14,
+  "published": 9,
+  "verified": 11,
+  "rating_sum": 59,
+  "rated": 14,
+  "rejected": 5,
+  "unverified": 3
+ },
+ "2026-08": {
+  "all": 11,
+  "published": 11,
+  "verified": 10,
+  "rating_sum": 51,
+  "rated": 11,
+  "unverified": 1
+ },
+ "2026-09": {
+  "all": 8,
+  "published": 7,
+  "verified": 8,
+  "rating_sum": 35,
+  "rated": 8,
+  "rejected": 1
+ },
+ "2026-10": {
+  "all": 2,
+  "published": 2,
+  "verified": 2,
+  "rating_sum": 10,
+  "rated": 2
+ }
+}

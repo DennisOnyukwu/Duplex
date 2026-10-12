@@ -1,0 +1,60 @@
+
+### Overview: 26 rows
+1:  | BEGUILE
+3:  | How much can we afford to pay for a customer?
+4:  | This sheet answers that question for every country we sell in, every morning.
+6:  | WHAT IT DOES
+7:  | Every order carries costs: the product, the shipping, the packaging, the payment fee, the returns. What's left is the most we can spend to win that order.
+8:  | This sheet works out that figure for Nigeria, the UK, Canada and the US. It then compares it with what we actually paid in advertising for each order.
+9:  | Paid less than we can afford? The country is making money. Scale it.
+Paid more? Every order is losing money. Cut it.
+11:  | HOW TO USE IT
+12:  | 1.   Enter your costs. Fill in the yellow cells on the Unit Economics tab. Update them when supplier or courier prices change.
+13:  | 2.   Choose a period. Last 30 days, last 90 days, year to date, or the last 12 months.
+14:  | 3.   Read the verdict. Scale, Hold or Cut, one for each country.
+16:  | THE FOUR NUMBERS THAT MATTER
+17:  | Allowable CAC   The most we can pay for an order and still break even.
+18:  | Target CAC   The most we can pay and still hit our profit target.
+19:  | Actual CAC   What we really paid. Ad spend in the country ÷ orders shipped there.
+20:  | Profit per order after ads   What we keep. Green means profit. Red means we lose money on every order.
+22:  | WHERE THE NUMBERS COME FROM
+23:  | Ad spend from Meta. Orders and order values from Shopify. Both refresh every morning. Costs come from you.
+24:  | Actual CAC counts every order shipped to a country, including repeat customers and orders that did not come from an ad. Each order is judged on its own, with no repeat purchase assumed.
+26:  | Data up to 7 October 2026
+
+### Unit Economics: 30 rows
+1: BEGUILE
+2: Unit Economics
+3: What each order earns, what we can afford to pay Meta for it, and what we actually pay. Fill the yellow cells. The rest updates itself.
+5: Period | Last 90 days
+6: Dates covered | 10 Jul 2026 | to  7 Oct 2026
+8: Per order | Nigeria | United Kingdom | Canada | United States
+9: YOUR COSTS
+10: Product cost (₦)
+11: Shipping and fulfilment (₦)
+12: Packaging and other (₦)
+13: Payment fees (% of order)
+14: Returns and discounts (% of order)
+15: Target profit after ads (% of order)
+17: LIVE FROM SHOPIFY AND META
+18: Orders | 1,692 | 164 | 204 | 77
+19: Average order value (₦) | ₦133,939 | ₦166,491 | ₦157,334 | ₦172,635
+20: Meta ad spend (₦) | ₦28,662,983 | ₦9,656,705 | ₦10,742,579 | ₦4,288,708
+21: Actual CAC (₦) | ₦16,940 | ₦58,882 | ₦52,660 | ₦55,698
+23: THE ANSWER
+24: Allowable CAC (₦) | Enter costs | Enter costs | Enter costs | Enter costs
+25: Target CAC (₦)
+26: Profit per order after ads (₦)
+27: Profit after ads (% of order)
+28: Verdict
+30: SCALE  we pay less than target, spend more.     HOLD  profitable, below target.     CUT  every order loses money after ads.
+
+### Meta feed: 1279 rows (feed, first 3 rows)
+1: date | country | spend
+2: 2025-10-08 | Canada | 24204.47
+3: 2025-10-08 | Nigeria | 242755.53
+
+### Shopify feed: 1153 rows (feed, first 3 rows)
+1: date | order_shipping_address_country | order_count | order_total_price
+2: 2025-10-08 | Nigeria | 13 | 1533000
+3: 2025-10-08 | United Kingdom | 1 | 72535.88
