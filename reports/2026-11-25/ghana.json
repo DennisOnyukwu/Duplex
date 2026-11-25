@@ -1,0 +1,175 @@
+{
+  "market": "Ghana",
+  "date": "2026-11-25",
+  "competitors": [
+    {
+      "name": "Maison Yusif",
+      "website": "https://maisonyusif.com",
+      "origin": "Ghana (Accra)",
+      "why_competitor": "Best-known Ghanaian niche fragrance house; sells direct in GHS with stores in Accra and Kumasi and a long-lasting promise.",
+      "hero_product": {
+        "name": "Scent of a Queen (Extrait de Parfum)",
+        "size_ml": 100,
+        "price": 1350,
+        "currency": "GHS",
+        "source": "https://maisonyusif.com/shop/women/scent-of-a-queen/?wcpbc-manual-country=GH (range GHS 650-1,350 for 30-100ml; USD view shows 100ml at $135), seen 2026-11-25"
+      },
+      "socials": [
+        {"platform": "instagram", "handle": "maisonyusif", "url": "https://www.instagram.com/maisonyusif/", "followers": 108000, "source": "Instagram profile page, 2026-11-25"},
+        {"platform": "tiktok", "handle": "maisonyusiffragrance", "url": "https://www.tiktok.com/@maisonyusiffragrance", "followers": 51300, "source": "TikTok profile page, 2026-11-25"},
+        {"platform": "facebook", "handle": "maisonyusif", "url": "https://facebook.com/maisonyusif", "followers": null, "source": "login wall, 2026-11-25"},
+        {"platform": "x", "handle": "maisonyusif", "url": "https://twitter.com/maisonyusif", "followers": null, "source": "not checked beyond site link, 2026-11-25"}
+      ],
+      "ships_locally": true,
+      "current_offer": "Pre-order 'save $10' on Scent of a Queen, The Vatican and The Apex (stock due December 2026); 'Unlocked Complimentary Shipping' cart banner, no threshold stated.",
+      "strengths": [
+        "Largest social following of any Ghanaian fragrance house",
+        "Three stores (Kokomlemle and East Legon in Accra, Asokwa in Kumasi) and 48-hour delivery within Ghana",
+        "Steady national and international press",
+        "Scent finder quiz and verified-purchase reviews",
+        "Size ladder from 30ml to 100ml"
+      ],
+      "weaknesses": [
+        "Hero women's scent and other bestsellers out of stock on pre-order",
+        "Only three of 25 products are women's scents",
+        "Returns only within 48 hours, unopened",
+        "Awards and sales claims come mainly from the brand's own press releases",
+        "Discovery set sold out"
+      ]
+    },
+    {
+      "name": "Scent of Africa",
+      "website": "https://www.scentofafrica.com",
+      "origin": "Ghana (Accra); fragrances composed in France",
+      "why_competitor": "Premium made-in-Ghana fine fragrance house, widely stocked in Accra malls, perfumeries and airport duty-free.",
+      "hero_product": {
+        "name": "Nefee Eau de Parfum",
+        "size_ml": 50,
+        "price": 1280,
+        "currency": "GHS",
+        "source": "Retailer price at https://scentopia.com/products/soa-nefee-edp (100ml GHS 1,952), seen 2026-11-25; brand site shows no reliable price"
+      },
+      "socials": [
+        {"platform": "instagram", "handle": "scentofafrica", "url": "https://instagram.com/scentofafrica", "followers": 34000, "source": "Instagram profile page, 2026-11-25"},
+        {"platform": "tiktok", "handle": "scentofafrica", "url": "https://www.tiktok.com/@scentofafrica", "followers": 13600, "source": "TikTok profile page, 2026-11-25"},
+        {"platform": "facebook", "handle": "scentofafrica", "url": "https://www.facebook.com/scentofafrica", "followers": null, "source": "login wall, 2026-11-25"},
+        {"platform": "youtube", "handle": "Scent of Africa", "url": "https://youtube.com/channel/UCH6cdU3X5NVYngs6-lC29zA", "followers": null, "source": "count not shown, 2026-11-25"},
+        {"platform": "x", "handle": "scentofafrica", "url": "https://twitter.com/scentofafrica", "followers": null, "source": "not found, 2026-11-25"}
+      ],
+      "ships_locally": true,
+      "current_offer": "None on the brand site. Scentopia shows a sitewide 'promotions up to 50% off' banner; inclusion of Scent of Africa not confirmed.",
+      "strengths": [
+        "Distribution through Scentopia, luxury perfumeries and Kotoka airport, plus 16 countries",
+        "Polished packaging and African-legend storytelling with design awards",
+        "New vanilla women's scent (Assaye, June 2026)"
+      ],
+      "weaknesses": [
+        "Highest price per ml of the five",
+        "Dated brand site with no shipping information and an implausible GHC 75 price",
+        "No reviews, samples or quiz",
+        "Low posting volume for its age"
+      ]
+    },
+    {
+      "name": "Hareem Istanbul (Ghana)",
+      "website": "https://hareemistanbulgh.com",
+      "origin": "Turkey (Istanbul); Ghana site and store in Accra",
+      "why_competitor": "Single-brand house with a Ghana store, GHS pricing and the price point closest to Beguile; women's and oud lines.",
+      "hero_product": {
+        "name": "Enigma Women Perfume",
+        "size_ml": 100,
+        "price": 560,
+        "currency": "GHS",
+        "source": "https://hareemistanbulgh.com/product-category/womens-perfume/ (50ml GHS 370, 12ml GHS 90), seen 2026-11-25"
+      },
+      "socials": [
+        {"platform": "instagram", "handle": "hareemistanbul_gh", "url": "https://www.instagram.com/hareemistanbul_gh/", "followers": 2089, "source": "Instagram profile page, 2026-11-25"},
+        {"platform": "facebook", "handle": "Hareemscent", "url": "https://web.facebook.com/Hareemscent/", "followers": null, "source": "not found, 2026-11-25"},
+        {"platform": "x", "handle": "HareemIstanbul", "url": "https://twitter.com/HareemIstanbul", "followers": null, "source": "not found, 2026-11-25"},
+        {"platform": "youtube", "handle": "HareemIstanbul", "url": "https://www.youtube.com/@HareemIstanbul", "followers": null, "source": "not found, 2026-11-25"}
+      ],
+      "ships_locally": true,
+      "current_offer": "None running; newsletter promises private offers.",
+      "strengths": [
+        "Lowest 100ml price of the five",
+        "GHS pricing with card, Mobile Money and bank transfer",
+        "Walk-in store and free pickup at Marina Mall, Spintex",
+        "Scent finder quiz and wide gifting range"
+      ],
+      "weaknesses": [
+        "Small Ghana following",
+        "Catalogue led by home fragrance rather than fine fragrance",
+        "No customer reviews seen",
+        "Delivery fee unknown until paid to the rider"
+      ]
+    },
+    {
+      "name": "Sanhwe",
+      "website": "https://sanhwe.com",
+      "origin": "Ghana (Accra)",
+      "why_competitor": "Ghanaian perfume-oil brand with vanilla, musk and oud scents; the local alternative to Beguile's oils.",
+      "hero_product": {
+        "name": "ANIGYE",
+        "size_ml": 50,
+        "price": 780,
+        "currency": "GHS",
+        "source": "Store product feed https://sanhwe.com/wp-json/wc/store/v1/products (3ml GHS 120 to 50ml GHS 780), seen 2026-11-25; storefront itself under maintenance"
+      },
+      "socials": [
+        {"platform": "tiktok", "handle": "sanhwe_scentuary", "url": "https://www.tiktok.com/@sanhwe_scentuary", "followers": 1073, "source": "TikTok profile page, 2026-11-25"},
+        {"platform": "instagram", "handle": "sanhwe_scentuary", "url": "https://www.instagram.com/sanhwe_scentuary/", "followers": null, "source": "handle from sanhwe.com; login wall, 2026-11-25"}
+      ],
+      "ships_locally": true,
+      "current_offer": "5% off for newsletter sign-up; complimentary treats on orders above GHS 680; White Pulse pre-order from 1 December 2026.",
+      "strengths": [
+        "Twi naming and local story",
+        "Entry price from GHS 120 for 3ml",
+        "Oils in vanilla, musk and oud families",
+        "New Heartbeat Collection about to launch"
+      ],
+      "weaknesses": [
+        "Website under maintenance; orders by WhatsApp",
+        "Very small audience",
+        "High price per ml for a little-known name",
+        "Shipping terms not published",
+        "Some packs include designer perfume oils"
+      ]
+    },
+    {
+      "name": "Ambiance by Talata",
+      "website": "https://ambiancebytalata.com",
+      "origin": "Ghana (Accra) and UAE (Dubai)",
+      "why_competitor": "Woman-founded Ghanaian lifestyle and fragrance brand with vanilla and oud perfumes and free next-day Accra delivery.",
+      "hero_product": {
+        "name": "Be Mine - Vanilla & Shea Eau de Parfum (50ml + 10ml travel spray)",
+        "size_ml": 60,
+        "price": 135,
+        "currency": "USD",
+        "source": "https://ambiancebytalata.com/products.json, seen 2026-11-25; no GHS price offered"
+      },
+      "socials": [
+        {"platform": "instagram", "handle": "bytalata", "url": "https://www.instagram.com/bytalata", "followers": 41000, "source": "Instagram profile page (founder's account), 2026-11-25"},
+        {"platform": "instagram", "handle": "ambiancebytalata", "url": "https://instagram.com/ambiancebytalata", "followers": null, "source": "login wall, 2026-11-25"},
+        {"platform": "tiktok", "handle": "ambiancebytalata", "url": "https://www.tiktok.com/@ambiancebytalata", "followers": 747, "source": "TikTok profile page, 2026-11-25"},
+        {"platform": "facebook", "handle": "ambiancebytalata", "url": "https://www.facebook.com/ambiancebytalata", "followers": null, "source": "login wall, 2026-11-25"},
+        {"platform": "pinterest", "handle": "bytalata", "url": "https://www.pinterest.com/bytalata", "followers": null, "source": "not checked, 2026-11-25"}
+      ],
+      "ships_locally": true,
+      "current_offer": "Free sampler set with first purchase for email sign-up; free next-day delivery in Accra and Dubai.",
+      "strengths": [
+        "Founder with a 41K personal following",
+        "Gifting, corporate and bespoke perfume-making revenue",
+        "Free next-day Accra delivery",
+        "Vanilla and chocolate-oud scents",
+        "Four-scent discovery set"
+      ],
+      "weaknesses": [
+        "USD pricing only",
+        "One perfume size",
+        "Perfume is secondary to home and body care",
+        "Focus shifting to Dubai",
+        "Small brand-account audience"
+      ]
+    }
+  ]
+}

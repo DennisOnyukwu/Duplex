@@ -1,0 +1,104 @@
+{
+  "market": "United States",
+  "date": "2026-11-25",
+  "competitors": [
+    {
+      "name": "Influxious",
+      "website": "https://influxious.co",
+      "origin": "USA; founder Funmi Monet born in Nigeria, raised in the US",
+      "why_competitor": "Nigerian-heritage fine fragrance house with the same scent-as-identity positioning, sold direct and at Sephora",
+      "hero_product": {"name": "Gold Standard Eau de Parfum", "size_ml": 50, "price": 150, "currency": "USD", "source": "https://influxious.co/products/gold-standard"},
+      "socials": [
+        {"platform": "instagram", "handle": "influxious.co", "url": "https://www.instagram.com/influxious.co/", "followers": 20400, "source": "Profile page, 2026-11-25"},
+        {"platform": "tiktok", "handle": "influxious.co", "url": "https://www.tiktok.com/@influxious.co", "followers": 10800, "source": "Profile page, 2026-11-25"},
+        {"platform": "youtube", "handle": "Influxious", "url": "https://www.youtube.com/@Influxious", "followers": 191, "source": "Channel page, 2026-11-25"},
+        {"platform": "facebook", "handle": null, "url": "https://www.facebook.com/profile.php?id=61589793445196", "followers": null, "source": "Linked from site; count not found"}
+      ],
+      "ships_locally": true,
+      "current_offer": "Black Friday: 20% off all 50ml bottles ($120); 10% off for email sign-up; free shipping over $100",
+      "strengths": ["Sephora online and 11 stores", "Founder with existing fragrance audience and ISIPCA training", "Nigerian heritage story with strong launch press", "Discovery set with $25 voucher"],
+      "weaknesses": ["Highest price per ml of the set ($3.00)", "Only four scents, 50ml largest size", "Discovery set sold out during Black Friday week", "Small brand-owned social accounts", "US shipping only"]
+    },
+    {
+      "name": "Forvr Mood",
+      "website": "https://forvrmood.com",
+      "origin": "USA; founded by Nigerian-American creator Jackie Aina with Denis Asamoah",
+      "why_competitor": "Largest diaspora-led fragrance brand in the US; mood-named gourmand, vanilla and oud scents at the lowest ticket price",
+      "hero_product": {"name": "I Am Her Eau de Parfum", "size_ml": 50, "price": 79, "currency": "USD", "source": "https://forvrmood.com/products/i-am-her-edp-1-7oz"},
+      "socials": [
+        {"platform": "instagram", "handle": "forvrmood", "url": "https://www.instagram.com/forvrmood/", "followers": 262000, "source": "Profile page, 2026-11-25"},
+        {"platform": "tiktok", "handle": "forvrmood", "url": "https://www.tiktok.com/@forvrmood", "followers": 85100, "source": "Profile page, 2026-11-25"},
+        {"platform": "pinterest", "handle": "forvrmood", "url": "https://www.pinterest.com/forvrmood/", "followers": 1300, "source": "Profile page, 2026-11-25"},
+        {"platform": "x", "handle": "forvrmood", "url": "https://twitter.com/forvrmood", "followers": null, "source": "Linked from site; page blocked"}
+      ],
+      "ships_locally": true,
+      "current_offer": "7 Days, 7 Moods one-day deals; on 2026-11-25 the I Am Her set (50ml + 10ml) was $75, down from $107, with a free mirror; free US shipping over $70",
+      "strengths": ["Founder fame and large owned audience", "Lowest ticket price ($79 for 50ml)", "Sephora US and Canada, plus Beauty Hut Africa", "Loyalty, ambassador and referral programmes", "Daily-deal promotional calendar"],
+      "weaknesses": ["Lifestyle and candle brand rather than a pure fragrance house", "50ml only", "No scent quiz found", "Review counts not visible on pages read"]
+    },
+    {
+      "name": "Brown Girl Jane",
+      "website": "https://browngirljane.com",
+      "origin": "USA; Black-founded (Malaika Jones and Nia Jones)",
+      "why_competitor": "Established Black-founded fine fragrance house at Sephora with gourmand scents, a scent quiz and deep review counts",
+      "hero_product": {"name": "Casablanca Eau de Parfum", "size_ml": 50, "price": 102, "currency": "USD", "source": "https://browngirljane.com/products/casablanca"},
+      "socials": [
+        {"platform": "instagram", "handle": "itsbrowngirljane", "url": "https://www.instagram.com/itsbrowngirljane/", "followers": 115000, "source": "Profile page, 2026-11-25"},
+        {"platform": "tiktok", "handle": "browngirljane", "url": "https://www.tiktok.com/@browngirljane", "followers": 13100, "source": "Profile page, 2026-11-25"}
+      ],
+      "ships_locally": true,
+      "current_offer": "Black Friday, no code: 30% off all 50ml fragrances and mists ($71.40), 20% off Barbie scents ($81.60); free shipping over $100; 20% off first order for email sign-up",
+      "strengths": ["2,138 reviews on discovery set, 713 on Casablanca", "Scent quiz and rewards programme", "Sephora", "Barbie collaboration", "Sale price per ml ($1.43) close to Beguile"],
+      "weaknesses": ["No returns or exchanges", "Lost parcels not covered without paid protection", "50ml only", "Small TikTok relative to Instagram"]
+    },
+    {
+      "name": "Moodeaux",
+      "website": "https://moodeaux.com",
+      "origin": "USA (Atlanta); Black woman-owned, founded by Brianna Arps",
+      "why_competitor": "Mood-named scents with a longer-lasting claim and a perfume-oil format alongside the spray",
+      "hero_product": {"name": "INTENSCENUAL Collection: Worthy Eau de Parfum", "size_ml": 50, "price": 98, "currency": "USD", "source": "https://moodeaux.com/products/worthy-eau-de-parfum-50ml"},
+      "socials": [
+        {"platform": "instagram", "handle": "moodeauxofficial", "url": "https://www.instagram.com/moodeauxofficial/", "followers": 31100, "source": "Profile page, 2026-11-25"},
+        {"platform": "tiktok", "handle": "moodeauxofficial", "url": "https://www.tiktok.com/@moodeauxofficial", "followers": 3897, "source": "Profile page, 2026-11-25"},
+        {"platform": "youtube", "handle": "moodeauxofficial", "url": "https://www.youtube.com/channel/UCI89ohDVn8O-LHthkEoGoXw", "followers": 35, "source": "Channel page, 2026-11-25"},
+        {"platform": "facebook", "handle": "moodeauxofficial", "url": "https://www.facebook.com/moodeauxofficial", "followers": null, "source": "Linked from site; login wall"}
+      ],
+      "ships_locally": true,
+      "current_offer": "Free shipping on up to three EDP samples and on orders over $65; half-price and free travel-size add-ons in the catalogue (trigger not seen)",
+      "strengths": ["Mood-first concept", "Oil and spray versions of each scent", "Essence and Elle awards", "Boutique and clean-beauty stockists", "416 reviews on Worthy"],
+      "weaknesses": ["Worthy, PunkStar and Brand New 50ml all sold out on 2026-11-25", "3 to 5 business days processing", "Contiguous US only", "Social audience similar in size to Beguile's"]
+    },
+    {
+      "name": "Kimberly New York",
+      "website": "https://www.kimberlynewyork.com",
+      "origin": "USA (New York); Black-owned independent, founded by Kimberly Walker",
+      "why_competitor": "Small direct-only indie house and the only rival selling a 100ml bottle at Beguile's price point",
+      "hero_product": {"name": "Artsy Eau de Parfum", "size_ml": 100, "price": 129, "currency": "USD", "source": "https://www.kimberlynewyork.com/products.json"},
+      "socials": [
+        {"platform": "instagram", "handle": "kimberly_new_york", "url": "https://www.instagram.com/kimberly_new_york/", "followers": 4282, "source": "Profile page, 2026-11-25"},
+        {"platform": "youtube", "handle": "kimberlynewyork4442", "url": "https://www.youtube.com/@kimberlynewyork4442", "followers": 66, "source": "Channel page, 2026-11-25"},
+        {"platform": "facebook", "handle": null, "url": "https://www.facebook.com/profile.php?id=61571596297359", "followers": null, "source": "Linked from site; count not found"},
+        {"platform": "tiktok", "handle": null, "url": null, "followers": null, "source": "No TikTok linked from site"}
+      ],
+      "ships_locally": true,
+      "current_offer": "None on site; Instagram highlight titled '40% off!' could not be confirmed as current",
+      "strengths": ["$1.29 per ml at 100ml", "Three bottle sizes plus many gift sets", "Allure, Essence and Cosmopolitan mentions", "Men's scents"],
+      "weaknesses": ["Very small audience", "Dated Big Cartel storefront with no reviews or quiz", "All sales final", "No visible Black Friday activity"]
+    },
+    {
+      "name": "Kayali",
+      "website": "https://us.kayali.com",
+      "origin": "UAE (Dubai)",
+      "why_competitor": "Dominant vanilla, musk and oud gourmand brand in the US and the scale benchmark for Beguile's scent territory",
+      "hero_product": {"name": "Vanilla | 28 Eau de Parfum", "size_ml": 100, "price": 150, "currency": "USD", "source": "https://us.kayali.com/products/vanilla-28"},
+      "socials": [
+        {"platform": "instagram", "handle": "kayali", "url": "https://www.instagram.com/kayali/", "followers": 1700000, "source": "Profile page, 2026-11-25 (page summary line rounds to 2M)"},
+        {"platform": "tiktok", "handle": "kayali", "url": "https://www.tiktok.com/@kayali", "followers": 511400, "source": "Profile page, 2026-11-25"}
+      ],
+      "ships_locally": true,
+      "current_offer": "Scentsational Month: spend more, save more, up to 30% off; extra 10% for newsletter sign-up; free sample with every order; free shipping over $95",
+      "strengths": ["Owns vanilla and gourmand layering in the US", "Sizes from 1.5ml ($4) to 100ml", "Sephora", "Very large social reach", "Quiz and layering prompts on site"],
+      "weaknesses": ["25% dearer than Beguile at 100ml; oud line $140 for 50ml", "Very large range makes choosing hard", "No African or diaspora story"]
+    }
+  ]
+}

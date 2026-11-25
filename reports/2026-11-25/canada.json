@@ -1,0 +1,101 @@
+{
+  "market": "Canada",
+  "date": "2026-11-25",
+  "competitors": [
+    {
+      "name": "The 7 Virtues",
+      "website": "https://the7virtues.com",
+      "origin": "Halifax, Nova Scotia, Canada",
+      "why_competitor": "Canadian vanilla/gourmand house with a long-lasting promise, CAD pricing and Sephora Canada distribution",
+      "hero_product": {"name": "Vanilla Woods Eau de Parfum", "size_ml": 50, "price": 127, "currency": "CAD", "source": "https://the7virtues.com/products/vanilla-woods-perfume?country=CA"},
+      "socials": [
+        {"platform": "instagram", "handle": "the7virtues", "url": "https://www.instagram.com/the7virtues/", "followers": null, "source": "not found (login wall)"},
+        {"platform": "tiktok", "handle": "the7virtues", "url": "https://www.tiktok.com/@the7virtues", "followers": 64700, "source": "https://www.tiktok.com/@the7virtues (profile page, 2026-11-25)"},
+        {"platform": "facebook", "handle": "the7virtues", "url": "https://www.facebook.com/the7virtues/", "followers": null, "source": "not checked"},
+        {"platform": "x", "handle": "the7virtues", "url": "https://x.com/the7virtues", "followers": null, "source": "not checked"}
+      ],
+      "ships_locally": true,
+      "current_offer": "20% off sitewide until December 3 (Vanilla Woods 50ml CA$101.60); 10% off first order for email sign-up; free rollerball with CA$70+ after quiz",
+      "strengths": ["Sephora Canada distribution (per brand's TikTok bio)", "Canadian founder story, B Corp", "100-200 reviews per scent (Vanilla Woods 4.9/5 from 202)", "Full ladder: CA$7 sample, CA$43.50 10ml, discovery sets, 50ml", "Fragrance quiz and layering sets"],
+      "weaknesses": ["50ml only at CA$2.54/ml, over twice Beguile's per-ml price", "Clean/cause positioning rather than performance", "5-7 business days to dispatch", "Conflicting returns statements (policy: no returns; product page: 30-day returns)"]
+    },
+    {
+      "name": "Kayali",
+      "website": "https://kayali.com/en-ca",
+      "origin": "Dubai, UAE",
+      "why_competitor": "Dubai-made vanilla, musk and oud gourmands in Beguile's scent territory, with a CAD store and mass awareness",
+      "hero_product": {"name": "Vanilla | 28 Eau de Parfum", "size_ml": 100, "price": 203, "currency": "CAD", "source": "https://kayali.com/en-ca"},
+      "socials": [
+        {"platform": "instagram", "handle": "kayali", "url": "https://www.instagram.com/kayali/", "followers": null, "source": "not found"},
+        {"platform": "tiktok", "handle": "kayali", "url": "https://www.tiktok.com/@kayali", "followers": 511400, "source": "https://www.tiktok.com/@kayali (profile page, 2026-11-25)"}
+      ],
+      "ships_locally": true,
+      "current_offer": "Up to 30% off ('The more you spend, the more you save'); extra 10% for subscribing; free sample with all orders; free delivery from CA$142",
+      "strengths": ["Scale and awareness", "Size ladder from CA$5 sample to CA$203 100ml", "Layering culture drives multi-bottle baskets", "Local-currency store"],
+      "weaknesses": ["CA$2.03/ml at 100ml, nearly double Beguile", "Ubiquitous, not a discovery", "No African or diaspora story", "Canadian delivery times and returns not found"]
+    },
+    {
+      "name": "OUDIE",
+      "website": "https://www.oudie.ca",
+      "origin": "Mississauga, Ontario, Canada (Egyptian heritage)",
+      "why_competitor": "Canadian-made oud and musk house with perfume-oil formats and a 24h+ longevity claim",
+      "hero_product": {"name": "Oudie Brilliance Extrait de Parfum", "size_ml": null, "price": 150, "currency": "CAD", "source": "https://www.oudie.ca/products/oudie-eau-de-parfum (size not stated; URL slug implies 50ml, unconfirmed)"},
+      "socials": [
+        {"platform": "instagram", "handle": "oudiescents", "url": "https://instagram.com/oudiescents", "followers": null, "source": "not found"},
+        {"platform": "tiktok", "handle": "oudiescents", "url": "https://www.tiktok.com/@oudiescents", "followers": 176, "source": "https://www.tiktok.com/@oudiescents (profile page, 2026-11-25)"}
+      ],
+      "ships_locally": true,
+      "current_offer": "Free Canada and USA shipping on orders of $120+; no Black Friday promotion visible",
+      "strengths": ["Local production and GTA events, workshops and fragrance bars", "Oil rubs from CA$35", "40% concentration and 24h+ wear claims", "Oil Rub Blends 4.8/5 from 60 reviews"],
+      "weaknesses": ["Tiny social following", "Bottle sizes missing from product pages", "Founder not named on pages read", "Skews unisex/masculine"]
+    },
+    {
+      "name": "Paraphrase Perfume (formerly Libertine Fragrance)",
+      "website": "https://paraphraseperfume.ca",
+      "origin": "Edmonton, Alberta, Canada",
+      "why_competitor": "Best-known Canadian independent niche house; the local indie alternative at a premium",
+      "hero_product": {"name": "Vanilla Virtu", "size_ml": 50, "price": 197, "currency": "CAD", "source": "https://paraphraseperfume.ca/"},
+      "socials": [
+        {"platform": "instagram", "handle": null, "url": null, "followers": null, "source": "no link found on homepage"},
+        {"platform": "tiktok", "handle": "paraphraseperfume", "url": "https://www.tiktok.com/@paraphraseperfume", "followers": 20900, "source": "https://www.tiktok.com/@paraphraseperfume (profile page, 2026-11-25)"}
+      ],
+      "ships_locally": true,
+      "current_offer": "11.1% off first order for email sign-up; free shipping over $150; no Black Friday banner seen",
+      "strengths": ["Craft credibility and Canadian press", "CAD pricing, ships from Ontario in 2-3 business days", "Samples CA$11 and discovery sets CA$55-82.50", "Third-party retail presence"],
+      "weaknesses": ["Most expensive in set: CA$3.94/ml at 50ml", "Unisex, art-led positioning unlike Beguile's", "No returns except manufacturing faults"]
+    },
+    {
+      "name": "Foope",
+      "website": "https://foopefragrances.com",
+      "origin": "Founded in Toronto, Canada; now based in New Jersey, USA; Canadian-Nigerian co-founder",
+      "why_competitor": "Only fragrance brand found with Nigerian heritage and Toronto roots; Yoruba-named scents at a low ticket",
+      "hero_product": {"name": "Ife Eau de Parfum", "size_ml": 30, "price": 65, "currency": "USD", "source": "https://foopefragrances.com/products/ife"},
+      "socials": [
+        {"platform": "instagram", "handle": "foopefragrances", "url": "https://www.instagram.com/foopefragrances/", "followers": null, "source": "not found"},
+        {"platform": "tiktok", "handle": "foopefragrances", "url": "https://www.tiktok.com/@foopefragrances", "followers": 360, "source": "https://www.tiktok.com/@foopefragrances (profile page, 2026-11-25)"},
+        {"platform": "facebook", "handle": "FoopeFragrances", "url": "https://www.facebook.com/FoopeFragrances/", "followers": null, "source": "not checked"}
+      ],
+      "ships_locally": true,
+      "current_offer": "Free shipping over US$75 (not confirmed for Canada); build-your-own bundle US$117 for four; no Black Friday promotion visible",
+      "strengths": ["Distinctive Gen Z voice", "Diaspora founder story and Yoruba scent names", "Lowest full-bottle ticket", "Scent quiz and US$38 discovery set"],
+      "weaknesses": ["Operations moved to the US; ships from New Jersey", "USD only, buyer pays duties", "Very small social following, old reviews", "30ml only; final sale"]
+    },
+    {
+      "name": "Maison Yusif",
+      "website": "https://maisonyusif.com",
+      "origin": "Accra, Ghana",
+      "why_competitor": "Best-known West African luxury fragrance house shipping direct worldwide; closest like-for-like to Beguile for diaspora buyers",
+      "hero_product": {"name": "Scent of A Queen Extrait de Parfum", "size_ml": 100, "price": 135, "currency": "USD", "source": "https://maisonyusif.com/shop/women/scent-of-a-queen/"},
+      "socials": [
+        {"platform": "instagram", "handle": "maisonyusif", "url": "https://www.instagram.com/maisonyusif/", "followers": null, "source": "not found"},
+        {"platform": "tiktok", "handle": "maisonyusiffragrance", "url": "https://www.tiktok.com/@maisonyusiffragrance", "followers": 51300, "source": "https://www.tiktok.com/@maisonyusiffragrance (profile page, 2026-11-25)"},
+        {"platform": "facebook", "handle": "maisonyusif", "url": "https://facebook.com/maisonyusif", "followers": null, "source": "not checked"},
+        {"platform": "x", "handle": "maisonyusif", "url": "https://twitter.com/maisonyusif", "followers": null, "source": "not checked"}
+      ],
+      "ships_locally": null,
+      "current_offer": "US$10 off pre-orders for stock due December 2026; Parfum Shea Butter US$30 (was US$40)",
+      "strengths": ["Award credentials (Perfumista Awards 2023, per brand)", "Strong African-luxury identity", "Three bottle sizes (30/50/100ml)", "Specific longevity claims (32h fabric, 16h skin)", "51.3K TikTok followers"],
+      "weaknesses": ["No CAD pricing; Canada not named in shipping info", "7-20 business days rest-of-world, duties unstated", "48-hour returns window", "Hero scents on pre-order during peak season"]
+    }
+  ]
+}

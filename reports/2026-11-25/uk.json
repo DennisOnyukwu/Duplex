@@ -1,0 +1,107 @@
+{
+  "market": "United Kingdom",
+  "date": "2026-11-25",
+  "competitors": [
+    {
+      "name": "Maya Njie",
+      "website": "https://www.mayanjie.com",
+      "origin": "London, UK; founder of Swedish and Gambian heritage",
+      "why_competitor": "Diaspora-led London niche house sold at Liberty; the African-heritage perfume brand UK press cites first",
+      "hero_product": {"name": "Vanilj Eau de Parfum", "size_ml": 50, "price": 105, "currency": "GBP", "source": "https://www.mayanjie.com/products/vanilj-50ml"},
+      "socials": [
+        {"platform": "instagram", "handle": "maya.njie.perfumes", "url": "https://www.instagram.com/maya.njie.perfumes/", "followers": 32300, "source": "https://www.instagram.com/maya.njie.perfumes/ (profile page, 2026-11-25)"},
+        {"platform": "tiktok", "handle": "mayanjieperfumes", "url": "https://www.tiktok.com/@mayanjieperfumes", "followers": 4201, "source": "https://www.tiktok.com/@mayanjieperfumes (profile page, 2026-11-25)"},
+        {"platform": "facebook", "handle": "mayanjieperfumes", "url": "https://www.facebook.com/mayanjieperfumes/", "followers": null, "source": "login wall"},
+        {"platform": "x", "handle": "MayaNjiePerfume", "url": "https://twitter.com/MayaNjiePerfume", "followers": null, "source": "not checked successfully"}
+      ],
+      "ships_locally": true,
+      "current_offer": "No Black Friday offer seen; 10% off for newsletter sign-up; 10% off a bottle after buying the discovery set",
+      "strengths": ["Liberty stockist and major press (Vogue, FT, NYT)", "Clear founder story", "Perfume workshops at Shoreditch studio"],
+      "weaknesses": ["£2.10/ml, about 2.5x Beguile", "Discovery set sold out in gifting week", "No on-site reviews", "Small TikTok", "Not positioned on longevity"]
+    },
+    {
+      "name": "Sunnamusk London",
+      "website": "https://sunnamusk.com",
+      "origin": "East London, UK; British-Arabian",
+      "why_competitor": "Same amber/musk/oud and long-lasting territory in the same price band, with EDPs, perfume oils and UK stores",
+      "hero_product": {"name": "Golden Dust EDP", "size_ml": 100, "price": 90, "currency": "GBP", "source": "https://sunnamusk.com/ (Shopify catalogue)"},
+      "socials": [
+        {"platform": "instagram", "handle": "sunnamusk", "url": "https://www.instagram.com/sunnamusk/", "followers": 88500, "source": "https://www.instagram.com/sunnamusk/ (profile page, 2026-11-25)"},
+        {"platform": "tiktok", "handle": "sunnamusk", "url": "https://www.tiktok.com/@sunnamusk", "followers": 28800, "source": "https://www.tiktok.com/@sunnamusk (profile page, 2026-11-25)"},
+        {"platform": "youtube", "handle": "SunnamuskLondon", "url": "https://www.youtube.com/channel/UCtrAUVcaRKlmc6qH7RAzPiA", "followers": 1350, "source": "YouTube channel page, 2026-11-25"},
+        {"platform": "facebook", "handle": "SUNNAMUSK", "url": "https://www.facebook.com/SUNNAMUSK/", "followers": null, "source": "not found"},
+        {"platform": "x", "handle": "sunnamusk", "url": "https://twitter.com/sunnamusk", "followers": null, "source": "not found"},
+        {"platform": "snapchat", "handle": "sunnamusklondon", "url": "https://www.snapchat.com/add/sunnamusklondon", "followers": null, "source": "not found"}
+      ],
+      "ships_locally": true,
+      "current_offer": "20% off Exclusive Collection (25% for members); buy 2 get 3rd 50% off on perfume oils; selected lines 25% off; £5 off first order via loyalty sign-up",
+      "strengths": ["£0.90/ml for 100ml, close to Beguile", "UK stores", "Trustpilot 4.4 from 8,830 reviews", "Loyalty scheme", "Oils and EDPs in one range"],
+      "weaknesses": ["Masculine-leaning, not aimed at women", "Returns for sealed items only", "Conflicting free-delivery thresholds on site (£50 vs £60)", "Note-led naming"]
+    },
+    {
+      "name": "Shay & Blue",
+      "website": "https://www.shayandblue.com",
+      "origin": "London, UK",
+      "why_competitor": "British indie selling 100ml at Beguile's price point; heaviest discounter of the set",
+      "hero_product": {"name": "Black Tulip Perfume 100ml (regular £80, £56 on Black Friday offer)", "size_ml": 100, "price": 80, "currency": "GBP", "source": "https://www.shayandblue.com/products.json"},
+      "socials": [
+        {"platform": "instagram", "handle": "shayandblue", "url": "https://www.instagram.com/shayandblue", "followers": 38200, "source": "https://www.instagram.com/shayandblue/ (profile page, 2026-11-25)"},
+        {"platform": "tiktok", "handle": "shayandblue_uk", "url": "https://www.tiktok.com/@shayandblue_uk", "followers": 2239, "source": "https://www.tiktok.com/@shayandblue_uk (profile page, 2026-11-25)"}
+      ],
+      "ships_locally": true,
+      "current_offer": "Black Friday up to 60% off (100ml at £40-£56); free 100ml with £80+ spend; free samples over £25; first subscription 10ml for £1",
+      "strengths": ["Lowest price per ml of the set", "Free UK returns within 30 days", "Subscription club", "Trustpilot 4.7 from 3,221 reviews"],
+      "weaknesses": ["Constant discounting undermines list price", "Fresh and fruity rather than musk, oud, vanilla", "Weak TikTok", "No founder-led community"]
+    },
+    {
+      "name": "Kayali",
+      "website": "https://kayali.com",
+      "origin": "Dubai, UAE (founder Mona Kattan)",
+      "why_competitor": "Dominant vanilla/gourmand/musk brand for the same buyer; on shelf at Space NK, Boots, Sephora UK, Harrods, Selfridges",
+      "hero_product": {"name": "Vanilla 28 Eau de Parfum (regular £110 derived from Space NK 30%-off price of £77; matched by third-party tracker snippets)", "size_ml": 100, "price": 110, "currency": "GBP", "source": "https://www.spacenk.com/uk/brands/k/kayali"},
+      "socials": [
+        {"platform": "instagram", "handle": "kayali", "url": "https://www.instagram.com/kayali/", "followers": 2000000, "source": "https://www.instagram.com/kayali/ (profile meta, shown as 2M, 2026-11-25)"},
+        {"platform": "tiktok", "handle": "kayali", "url": "https://www.tiktok.com/@kayali", "followers": 511400, "source": "https://www.tiktok.com/@kayali (profile page, 2026-11-25)"}
+      ],
+      "ships_locally": true,
+      "current_offer": "30% off at Space NK (Vanilla 28 100ml £77, 10ml £19.60); kayali.com up to 30% off spend-and-save plus extra 10% for subscribing",
+      "strengths": ["2M Instagram and 511K TikTok", "Nationwide UK retail", "Four entry sizes from 1.5ml", "Layering concept drives multi-bottle baskets"],
+      "weaknesses": ["£1.10/ml regular, 29% above Beguile", "Mass, sugary image", "No diaspora connection", "No personal service"]
+    },
+    {
+      "name": "Scent of Africa",
+      "website": "https://www.scentofafrica.com",
+      "origin": "Ghana",
+      "why_competitor": "Only African-founded fine fragrance line found with UK retail stock (John Bell & Croyden, London)",
+      "hero_product": {"name": "Assaye Eau de Parfum", "size_ml": 100, "price": 128, "currency": "GBP", "source": "https://johnbellcroyden.co.uk/products/scent-of-africa-assaye-100ml-eau-de-parfum"},
+      "socials": [
+        {"platform": "instagram", "handle": "scentofafrica", "url": "https://instagram.com/scentofafrica", "followers": null, "source": "login wall on three attempts"},
+        {"platform": "tiktok", "handle": "scentofafrica", "url": "https://www.tiktok.com/@scentofafrica", "followers": 13600, "source": "https://www.tiktok.com/@scentofafrica (profile page, 2026-11-25)"},
+        {"platform": "facebook", "handle": "scentofafrica", "url": "https://www.facebook.com/scentofafrica", "followers": null, "source": "login wall"},
+        {"platform": "youtube", "handle": null, "url": "https://youtube.com/channel/UCH6cdU3X5NVYngs6-lC29zA", "followers": null, "source": "not checked"},
+        {"platform": "x", "handle": "scentofafrica", "url": "https://twitter.com/scentofafrica", "followers": null, "source": "not checked"}
+      ],
+      "ships_locally": true,
+      "current_offer": "None found on the brand; retailer offers free delivery over £35",
+      "strengths": ["Award-winning packaging (Pentawards 2022 bronze, per TikTok bio)", "Prestige African storytelling", "Marylebone retail listing"],
+      "weaknesses": ["£1.28/ml, 51% above Beguile", "No UK direct store, samples or reviews", "Dated brochure website", "One known UK stockist"]
+    },
+    {
+      "name": "Gallivant",
+      "website": "https://www.gallivant-perfumes.com",
+      "origin": "London, UK (Dalston)",
+      "why_competitor": "London indie with an Accra scent, perfume oils and a redeemable discovery set; competes for the niche-curious UK buyer",
+      "hero_product": {"name": "Istanbul Eau de Parfum", "size_ml": 100, "price": 150, "currency": "GBP", "source": "https://www.gallivant-perfumes.com/ (Shopify catalogue)"},
+      "socials": [
+        {"platform": "instagram", "handle": "gallivant.stories", "url": "https://www.instagram.com/gallivant.stories/", "followers": 13000, "source": "https://www.instagram.com/gallivant.stories/ (profile meta, shown as 13K, 2026-11-25)"},
+        {"platform": "tiktok", "handle": "gallivantperfumes", "url": "https://www.tiktok.com/@gallivantperfumes", "followers": 1148, "source": "https://www.tiktok.com/@gallivantperfumes (profile page, 2026-11-25)"},
+        {"platform": "facebook", "handle": "gallivant.stories", "url": "https://facebook.com/gallivant.stories", "followers": null, "source": "not found"},
+        {"platform": "x", "handle": "gallivantscents", "url": "https://x.com/gallivantscents", "followers": null, "source": "not found"}
+      ],
+      "ships_locally": true,
+      "current_offer": "Nomad discovery set 12 x 1.2ml for £35 with £30 voucher toward a bottle and free UK shipping; no Black Friday discount seen",
+      "strengths": ["Discovery set that pays for itself", "Local pickup in Dalston", "Strong press", "Perfume oils at £28/10ml"],
+      "weaknesses": ["£1.50/ml, 76% above Beguile", "Small social following", "Travel concept, not identity or sensuality", "Furthest from Beguile's customer"]
+    }
+  ]
+}
