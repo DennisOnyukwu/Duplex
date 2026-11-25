@@ -1,0 +1,95 @@
+{
+  "market": "Nigeria",
+  "date": "2026-11-25",
+  "competitors": [
+    {
+      "name": "Jan Deux",
+      "website": "https://jandeux.com",
+      "origin": "Nigeria (Lagos)",
+      "why_competitor": "New Lagos luxury house with oud, vanilla and gourmand scents priced in naira, aimed at the same female and gifting buyer.",
+      "hero_product": {"name": "Pomelle", "size_ml": 50, "price": 110000, "currency": "NGN", "source": "https://jandeux.com/products/pomelle"},
+      "socials": [
+        {"platform": "instagram", "handle": "jan.deux", "url": "https://www.instagram.com/jan.deux/", "followers": 19000, "source": "Instagram profile meta description, 2026-11-25 (shown as 19K; 175 posts)"},
+        {"platform": "tiktok", "handle": "jan.deux", "url": "https://www.tiktok.com/@jan.deux", "followers": 1786, "source": "TikTok profile page, 2026-11-25 (57.9K likes)"}
+      ],
+      "ships_locally": true,
+      "current_offer": "None visible; no Black Friday banner. Half the range sold out (Eclipse, Rivage, 3x10ml set).",
+      "strengths": ["19K Instagram followers about 14 months after launch", "Gifting add-ons: wrapping, note scroll, vanity bag, discovery box", "Physical shop at WestBrook Mall, Lekki", "Scent territory overlaps Beguile bestsellers"],
+      "weaknesses": ["N1,800-2,200 per ml, more than double Beguile", "Several products sold out", "No shipping or returns policy page", "Cheapest trial is a N100,000 4x10ml set", "Testimonials not verified"]
+    },
+    {
+      "name": "Perfumeology",
+      "website": "https://www.perfumeology.com.ng",
+      "origin": "Nigeria",
+      "why_competitor": "Nigerian-made 100ml perfumes at N80,000 sold direct, with a seduction theme that overlaps Beguile's naming and price.",
+      "hero_product": {"name": "Beyond Seduction", "size_ml": 100, "price": 80000, "currency": "NGN", "source": "https://www.perfumeology.com.ng/product/beyond-seduction-100ml/"},
+      "socials": [
+        {"platform": "instagram", "handle": null, "url": null, "followers": null, "source": "No social accounts linked from the site; official handle not found, 2026-11-25"}
+      ],
+      "ships_locally": true,
+      "current_offer": "Seductive Flame 100ml N120,000 (was N150,000, -20%); Royal Seduction N260,000 (was N350,000, -26%, sold out); free atomizer banner; Seduction Circle membership N5,000/month for 15% off.",
+      "strengths": ["Lowest per-ml price among original-fragrance brands (N800/ml)", "Paid membership drives repeat purchase", "Higher-priced tiers stretch the ladder to N260,000"],
+      "weaknesses": ["Dated site with a broken testimonial block and misspelled contact email", "No discoverable social presence", "No samples or discovery set", "Delivers within Nigeria only", "Small review counts"]
+    },
+    {
+      "name": "Yerwa Secrets",
+      "website": "https://www.yerwasecrets.com",
+      "origin": "Nigeria (Maiduguri; studio in Gombe)",
+      "why_competitor": "Nigerian artisan house with oud, vanilla and rose scents plus body oils and a strong heritage story, drawing the same niche-curious buyer at a higher price.",
+      "hero_product": {"name": "#40 Khumra", "size_ml": 100, "price": 180000, "currency": "NGN", "source": "https://www.yerwasecrets.com/products.json"},
+      "socials": [
+        {"platform": "instagram", "handle": "yerwasecrets", "url": "https://www.instagram.com/yerwasecrets/", "followers": null, "source": "Handle from BellaNaija photo credit (2026-08-27); not linked from site; follower count not found, 2026-11-25"}
+      ],
+      "ships_locally": true,
+      "current_offer": "None visible.",
+      "strengths": ["Distinctive Borno heritage story and khumra format", "Press beyond Nigeria (BellaNaija; Fragrantica interview reported)", "Creator collaborations as limited drops", "Oils and incense widen the basket", "DHL delivery to all states in 3-7 working days"],
+      "weaknesses": ["About twice Beguile's price per ml", "Discovery sets cost N40,000-80,000 for 2ml vials", "Numbered scent names", "Returns pages contradict each other", "No on-site reviews", "Most 50ml and 30ml sizes unavailable"]
+    },
+    {
+      "name": "Toke Makinwa Beauty",
+      "website": "https://tokemakinwabeauty.com.ng",
+      "origin": "Nigeria (Lagos)",
+      "why_competitor": "Celebrity-founded Nigerian fragrance line pitched at the same aspirational woman, with national reach through Seinde Signature stores.",
+      "hero_product": {"name": "Intense (Extrait de Parfum; out of stock)", "size_ml": 100, "price": 188500, "currency": "NGN", "source": "Price: https://tokemakinwabeauty.com.ng/shop/ ; size not stated on listing, 100ml per site stock notice and third-party review https://www.pulse.ng/story/toke-makinwa-perfume-review-2025092208573045473"},
+      "socials": [
+        {"platform": "instagram", "handle": "tokemakinwabeauty", "url": "https://instagram.com/tokemakinwabeauty", "followers": null, "source": "Linked from tokemakinwabeauty.com; follower count not found, 2026-11-25"},
+        {"platform": "x", "handle": "tmbeautyonline", "url": "https://x.com/tmbeautyonline", "followers": null, "source": "Linked from tokemakinwabeauty.com; not checked"}
+      ],
+      "ships_locally": true,
+      "current_offer": "None visible. Dive, Intense, Faya and Oud Rush full bottles out of stock on the Nigerian site; banner sends buyers to Seinde Signature for Intense 100ml.",
+      "strengths": ["Founder's personal fame and audience", "Stocked in Seinde Signature stores nationwide", "Strong third-party longevity review", "Premium pricing accepted"],
+      "weaknesses": ["Four of five full bottles out of stock in Nigeria", "About double Beguile's price per ml", "Cheapest trial is a N29,000 10ml", "Bottle sizes missing from listings; no reviews or quiz"]
+    },
+    {
+      "name": "Majestic Roobee",
+      "website": "https://majesticroobee.com",
+      "origin": "Nigeria (Abuja)",
+      "why_competitor": "Female-focused indigenous brand with the largest Nigerian Instagram following in this set and a much lower entry price. Part of the catalogue is designer-inspired oils.",
+      "hero_product": {"name": "Sweet Pepper", "size_ml": 30, "price": 30000, "currency": "NGN", "source": "https://majesticroobee.com/wp-json/wc/store/v1/products?per_page=100&orderby=popularity"},
+      "socials": [
+        {"platform": "instagram", "handle": "majesticroobee", "url": "https://www.instagram.com/majesticroobee/", "followers": 50700, "source": "Instagram profile, 2026-11-25 (shown as 50.7K; 3,628 posts)"}
+      ],
+      "ships_locally": true,
+      "current_offer": "\"Enjoy All Promos\" sign-up banner; no specific discount stated.",
+      "strengths": ["50.7K Instagram followers", "Testimonial and influencer video at scale", "Branches in several cities and an Abuja perfume studio", "Low ticket: N25,000-30,000 for 30ml", "Broad basket including feminine care and body mists"],
+      "weaknesses": ["Designer-inspired oils dilute brand credibility", "Small bottles and mass-market presentation", "Untidy catalogue", "No clear shipping terms"]
+    },
+    {
+      "name": "Maison Yusif",
+      "website": "https://maisonyusif.com",
+      "origin": "Ghana (Accra)",
+      "why_competitor": "Most followed West African niche house; ships worldwide and is the regional benchmark for a Nigerian niche buyer. Weakest fit of the six: no naira pricing or Nigerian stockist found.",
+      "hero_product": {"name": "Scent of A Queen (Extrait de Parfum; pre-order)", "size_ml": 100, "price": 135, "currency": "USD", "source": "https://maisonyusif.com/shop/women/scent-of-a-queen/ (page shows $65-$135 across 30/50/100ml; 100ml taken as top of range)"},
+      "socials": [
+        {"platform": "instagram", "handle": "maisonyusif", "url": "https://www.instagram.com/maisonyusif/", "followers": 108000, "source": "Instagram profile meta description, 2026-11-25 (shown as 108K; 2,293 posts)"},
+        {"platform": "tiktok", "handle": "maisonyusiffragrance", "url": "https://www.tiktok.com/@maisonyusiffragrance", "followers": null, "source": "Linked from maisonyusif.com; follower count not found"},
+        {"platform": "facebook", "handle": "maisonyusif", "url": "https://www.facebook.com/maisonyusif", "followers": null, "source": "Linked from maisonyusif.com; not checked"},
+        {"platform": "x", "handle": "maisonyusif", "url": "https://twitter.com/maisonyusif", "followers": null, "source": "Linked from maisonyusif.com; not checked"}
+      ],
+      "ships_locally": null,
+      "current_offer": "$10 off eligible pre-order sizes; complimentary shipping banner with no stated threshold. Several bestsellers pre-order only until December 2026.",
+      "strengths": ["108K Instagram followers", "Award credentials", "Full size ladder from 30ml", "Sample-first funnel"],
+      "weaknesses": ["No naira pricing or Nigerian stockist found", "7-20 business days cross-border with customs risk", "Key scents on pre-order", "Returns only for unopened items within 48 hours"]
+    }
+  ]
+}
